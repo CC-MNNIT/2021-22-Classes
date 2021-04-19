@@ -53,9 +53,6 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
 
 - For Academic Resources refer to [Shaurya Kumar's Guide](https://shauryashares.weebly.com/)
 
-- Class Recordings
-	- [Coming soon...]  
-
 ## Announcements
 [None]
 
@@ -72,6 +69,7 @@ Follow the [contribution guide](./CONTRIBUTING.md). Add the class folder link in
 ## Contributors
 
 * [Nishchal Siddharth Pandey](https://github.com/nisiddharth/)
+* Our beloved seniors.
 
 ## Contact
 
