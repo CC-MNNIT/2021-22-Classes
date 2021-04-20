@@ -26,7 +26,7 @@ April 20th, 2021
     *   #### Decentralized VCS:
         *   Clients don't just check out the latest snapshot of the files; rather, they fully mirror the repository, including its full history. Thus, if any server dies, and these systems were collaborating via that server, any of the client repositories can be copied back up to the server to restore it. Every clone is really a full backup of all the data.
 
-        ![types of VCS](img/types.png)
+        ![types of VCS](img/Types-of-VCS.png)
 
 * ### Basic Terminology:
 
