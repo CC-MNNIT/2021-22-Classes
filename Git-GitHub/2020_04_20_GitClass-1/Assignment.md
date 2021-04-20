@@ -36,11 +36,17 @@
 10. Modify contents of any file and check status again.
 
 11. Add *modified* files to staging area using:
- 	`git add <filename>` *or* `git add .`
+ 	```
+ 	git add <filename>git add .
+ 	```
+ 	*or*
+ 	```
+ 	git add .
+ 	```
 
 12. Commit the file using:
 	```
-	git commit -m "First Commit"
+	git commit -m "Modified <filename>"
 	```
 
 13. Check log of all your commits using:
