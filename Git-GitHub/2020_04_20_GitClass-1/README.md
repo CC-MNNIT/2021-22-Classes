@@ -64,8 +64,9 @@ April 20th, 2021
         *   **Staged:** Staged means that you have marked a modified file in its current version to go into your next commit snapshot. The staging area(Index) is a file, generally contained in your Git directory, that stores information about what will go into your next commit.
         *   **Committed:** Committed means that the data is safely stored in your local database.
 
-        ![Stages-1](img/stages-1.png) 
-        ![Stages-2](img/stages-2.png)
+        <img src="img/stages-1.png" alt="Stages-1" height="250"/> 
+
+        <img src="img/stages-2.png" alt="Stages-2" height="250"/>
 
     *   **Working Tree:** is a single checkout of one version of the project. These files are pulled out of the compressed database in the Git directory and placed on disk for you to use or modify.
     *   **Commit:** Commit holds the current state of the repository. A commit is also named by SHA1 hash. It is the snapshot of a repository at a particular instance.
@@ -76,8 +77,9 @@ April 20th, 2021
     2. You selectively stage just those changes you want to be part of your next commit, which adds only those changes to the staging area.
     3. You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
 
-    ![Flow-1](img/flow-1.png) 
-    ![Flow-2](img/flow-2.png)
+    <img src="img/flow-1.png" alt="Flow-1" height="300"/> 
+
+    <img src="img/flow-2.png" alt="Flow-2" height="300"/>
     
 
 *   ### Basic git configurations:
