@@ -37,7 +37,7 @@
 
 11. Add *modified* files to staging area using:
  	```
- 	git add <filename>git add .
+ 	git add <filename>
  	```
  	*or*
  	```
