@@ -4,12 +4,46 @@
 
 ## Perform the following steps in sequence and try to understand the output
 
-1. Create a git repository on your system using:
+1. Create a new folder *(working directory)* somewhere on your system.
+
+2. Open that folder. Then open *Git Bash/Terminal* in that folder.
+
+3. Initialise a git repository in that folder using:
     ```
     git init
     ```
-2. Check status:
+4. Check status using:
     ```
     git status
     ```
-...
+5. Copy any file in that folder and then check status again.
+
+6. Add the *untracked* files to staging area using:
+	`git add <filename>` *or* `git add .`
+
+7. Commit the file using:
+	```
+	git commit -m "First Commit"
+	```
+
+8. Check status again using:
+	```
+	git status
+	```
+
+9. Repeat Step 5 to Step 8 by copying a different file.
+
+10. Modify contents of any file and check status again.
+
+11. Add *modified* files to staging area using:
+ 	`git add <filename>` *or* `git add .`
+
+12. Commit the file using:
+	```
+	git commit -m "First Commit"
+	```
+
+13. Check log of all your commits using:
+	```
+	git log
+	```

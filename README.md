@@ -70,6 +70,7 @@ Follow the [contribution guide](./CONTRIBUTING.md). Add the class folder link in
 ## Contributors
 
 * [Nishchal Siddharth Pandey](https://github.com/nisiddharth/)
+* [Kshitiz Srivastava](https://github.com/pirateksh/)
 * Our beloved seniors.
 
 ## Contact
