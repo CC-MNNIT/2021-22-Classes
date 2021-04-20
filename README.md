@@ -44,6 +44,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
 
 - Git/GitHub classes
     - [Git Class-1](Git-GitHub/2020_04_20_GitClass-1)
+    - [Git Class-2](Git-GitHub/2020_04_21_GitClass-2)
 
 - Placements and Internships
 	- [Guide to Placement](Placements)

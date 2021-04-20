@@ -1,4 +1,7 @@
 # Git Class - I
+
+## Git Class - I recording: [Here](https://drive.google.com/file/d/1sWpcLD4B5I0Wo0XHEkr5zXXTdU3C6x3Y/view?usp=sharing)
+
 April 20th, 2021
 
 <div align="center"><img src="./img/Git-Logo-1788C.png" height="100"/></div>
@@ -180,3 +183,4 @@ April 20th, 2021
     *   [Class Presentation](Lecture-1.pdf)
     *   [Git Practice Resources](https://try.github.io/)
     *   [Git Cheat Sheet](https://training.github.com/downloads/github-git-cheat-sheet/)
+    *   [Git Assignment-1](./Assignment.md)
