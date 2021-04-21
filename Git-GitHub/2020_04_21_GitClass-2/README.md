@@ -225,6 +225,7 @@ April 21st, 2021
      *    [Progit Book](progit.pdf)
      *    [Udacity Course: How to Use Git and GitHub?](https://classroom.udacity.com/courses/ud775-india)
      *    [Git Internals](https://www.freecodecamp.org/news/git-internals-objects-branches-create-repo/)
+     *    [Git Visualised using animations](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1)
 
 *    ### A meme
 
