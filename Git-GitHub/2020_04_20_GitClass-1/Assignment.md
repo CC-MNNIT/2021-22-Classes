@@ -9,11 +9,11 @@
 2. Open that folder. Then open *Git Bash/Terminal* in that folder.
 
 3. Initialise a git repository in that folder using:
-    ```
+    ```bash
     git init
     ```
 4. Check status using:
-    ```
+    ```bash
     git status
     ```
 5. Copy any file in that folder and then check status again.
@@ -22,12 +22,12 @@
 	`git add <filename>` *or* `git add .`
 
 7. Commit the file using:
-	```
+	```bash
 	git commit -m "First Commit"
 	```
 
 8. Check status again using:
-	```
+	```bash
 	git status
 	```
 
@@ -36,20 +36,20 @@
 10. Modify contents of any file and check status again.
 
 11. Add *modified* files to staging area using:
- 	```
+ 	```bash
  	git add <filename>
  	```
  	*or*
- 	```
+ 	```bash
  	git add .
  	```
 
 12. Commit the file using:
-	```
+	```bash
 	git commit -m "Modified <filename>"
 	```
 
 13. Check log of all your commits using:
-	```
+	```bash
 	git log
 	```

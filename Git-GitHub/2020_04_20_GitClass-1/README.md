@@ -182,5 +182,5 @@ April 20th, 2021
 
     *   [Class Presentation](Lecture-1.pdf)
     *   [Git Practice Resources](https://try.github.io/)
-    *   [Git Cheat Sheet](https://training.github.com/downloads/github-git-cheat-sheet/)
+    *   [Git Cheat Sheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
     *   [Git Assignment-1](./Assignment.md)
