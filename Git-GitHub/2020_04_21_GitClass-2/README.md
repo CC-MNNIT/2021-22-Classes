@@ -1,5 +1,7 @@
 # Git Class - II
 
+## Git Class - II recording: [Here](https://drive.google.com/file/d/10KTk8KhKek4jACYvAzyljW0EjwsSt-8j/view?usp=sharing)
+
 April 21st, 2021
 
 <i>"No matter how many mistakes you make or how slow you progress, you are still way ahead of everyone who isn't trying."</i> - Tony Robbins
