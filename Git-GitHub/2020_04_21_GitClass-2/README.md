@@ -218,9 +218,14 @@ April 21st, 2021
      <br> [Know More](https://help.github.com/en/articles/about-issues)
 
 
-*    ### Resources for further study:
+*    ### Resources for further study
      *    [Class Presentation](Lecture-2.pdf)
      *    [Git Practice Resources](https://try.github.io/)
      *    [Git Cheat Sheet](git-cheat-sheet.pdf)
      *    [Progit Book](progit.pdf)
      *    [Udacity Course: How to Use Git and GitHub?](https://classroom.udacity.com/courses/ud775-india)
+     *    [Git Internals](https://www.freecodecamp.org/news/git-internals-objects-branches-create-repo/)
+
+*    ### A meme
+
+     <img src="img/meme.png" alt="Meme" height="500"/>
