@@ -2,6 +2,8 @@
 
 April 21st, 2021
 
+<i>"No matter how many mistakes you make or how slow you progress, you are still way ahead of everyone who isn't trying."</i> - Tony Robbins
+
 <div align="center"><img src="./img/Git-Logo-1788C.png" height="100"/></div>
 
 <hr>
@@ -187,41 +189,38 @@ April 21st, 2021
      For further discussion on _fetch, pull, push_ refer [this](https://www.atlassian.com/git/tutorials/syncing/git-fetch).
 
 
+*    ### Pull Requests
 
-*    ### Some More topics not covered in class.
+     *  Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
 
-     *    #### Pull Requests
+     *  Know More: [About pull requests](https://help.github.com/en/articles/about-pull-requests), [Creating Pull Requests](https://help.github.com/en/articles/creating-a-pull-request).
 
-          *  Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
+*    ### Stash
+     Think when you are in a branch and you have made lots and lots of changes but you are still not ready to commit them and you need to switch to another branch to do a quick bug fix or something else.
 
-          *  Know More: [About pull requests](https://help.github.com/en/articles/about-pull-requests), [Creating Pull Requests](https://help.github.com/en/articles/creating-a-pull-request).
+     When we are in a branch and make changes but don't commit them, then when we switch branch those changes are still present. This could be a big problem as these branches make the working directory unclean. Commands like `git status` will always record their existence but since you don't want them to commit what should you do?
 
-     *    #### Stash
-          Think when you are in a branch and you have made lots and lots of changes but you are still not ready to commit them and you need to switch to another branch to do a quick bug fix or something else.
+     Stash is the answer to all you questions.
 
-          When we are in a branch and make changes but don't commit them, then when we switch branch those changes are still present. This could be a big problem as these branches make the working directory unclean. Commands like `git status` will always record their existence but since you don't want them to commit what should you do?
+     Think of stash as a reverse bucket when you want to change branches while working on something in your current branch just put those changed files in the stash bucket and git won't dare to touch this bucket, when you are done on the other branch come back and empty the contents of the bucket back.
 
-          Stash is the answer to all you questions.
+     Command to put changes in the bucket: `git stash`
+     Command to empty the bucket i.e. take out the changes from the bucket: `git stash apply`
 
-          Think of stash as a reverse bucket when you want to change branches while working on something in your current branch just put those changed files in the stash bucket and git won't dare to touch this bucket, when you are done on the other branch come back and empty the contents of the bucket back.
+*    ### Reset
+     *  The git reset command is a complex and versatile tool for undoing changes.
+     *  Helps to reach a previous state, or helps to go back to previous checkpoints/versions.
+     <br> [Know More](https://www.atlassian.com/git/tutorials/undoing-changes/git-reset)
 
-          Command to put changes in the bucket: `git stash`
-          Command to empty the bucket i.e. take out the changes from the bucket: `git stash apply`
+*    ### Issues on Github
 
-     *    #### Reset
-          *  The git reset command is a complex and versatile tool for undoing changes.
-          *  Helps to reach a previous state, or helps to go back to previous checkpoints/versions.
-          <br> [Know More](https://www.atlassian.com/git/tutorials/undoing-changes/git-reset)
-
-     *    #### Issues on Github
-
-          *  Used to track ideas, enhancements, tasks, or bugs for work on GitHub.
-          <br> [Know More](https://help.github.com/en/articles/about-issues)
+     *  Used to track ideas, enhancements, tasks, or bugs for work on GitHub.
+     <br> [Know More](https://help.github.com/en/articles/about-issues)
 
 
 *    ### Resources for further study:
-     * [Class Presentation](Lecture-2.pdf)
-     * [Git Practice Resources](https://try.github.io/)
-     * [Git Cheat Sheet](git-cheat-sheet.pdf)
-     * [Progit Book](progit.pdf)
-     * [Udacity Course: How to Use Git and GitHub?](https://classroom.udacity.com/courses/ud775-india)
+     *    [Class Presentation](Lecture-2.pdf)
+     *    [Git Practice Resources](https://try.github.io/)
+     *    [Git Cheat Sheet](git-cheat-sheet.pdf)
+     *    [Progit Book](progit.pdf)
+     *    [Udacity Course: How to Use Git and GitHub?](https://classroom.udacity.com/courses/ud775-india)
