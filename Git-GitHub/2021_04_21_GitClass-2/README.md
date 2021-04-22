@@ -6,7 +6,7 @@ April 21st, 2021
 
 <i>"No matter how many mistakes you make or how slow you progress, you are still way ahead of everyone who isn't trying."</i> - Tony Robbins
 
-<div align="center"><img src="../Git-Logo-1788C.png" alt="git logo" style="max-height:100px;"/></div>
+<div align="center"><img src="../Git-Logo-1788C.png" alt="git logo" height=100/></div>
 
 <hr>
 
@@ -76,7 +76,7 @@ April 21st, 2021
 
      In a little advance yet relatively simple term they are labels to your commits.
 
-     <img src="img/01.svg" alt="Branches" style="max-height:400px;"/>
+     <img src="img/01.svg" alt="Branches" height=400/>
 
      *  Create a branch: `git branch "<branch-name>"`<br>
      Eg: `git branch "little-feature"`
@@ -124,4 +124,4 @@ April 21st, 2021
 
 *    ### A meme
 
-     <img src="img/meme.png" alt="Meme" style="max-height:400px;"/>
+     <img src="img/meme.png" alt="Meme" height=400/>

@@ -6,7 +6,7 @@
 # MNNIT Computer Coding Club
 
 <div align="center">
-    <img src="./cclogo.png" style="max-height:200px;"/>
+    <img src="./cclogo.png" alt="MNNIT CC Club logo" height=200/>
 </div>
 
 This repository contains the codes, support links and other relevant materials for every class under Computer Coding Club, MNNIT Allahabad, Prayagraj.

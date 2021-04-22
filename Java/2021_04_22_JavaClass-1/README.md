@@ -6,7 +6,7 @@
 
 #### April 22, 2021
 
-<div align="center"><img src="../Java.png" alt="Java logo" style="max-height:150px;"/></div>
+<div align="center"><img src="../Java.png" alt="Java logo" height=150/></div>
 
 <hr>
 
