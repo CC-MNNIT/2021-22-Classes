@@ -88,6 +88,31 @@ April 21st, 2021
 
      For a detailed discussion, refer [this](https://www.atlassian.com/git/tutorials/using-branches)
 
+     ### HEAD
+
+     * The branch name that we define for our branches is actually an alias of a pointer to the last commit in that branch.
+     * `HEAD` is a special pointer to a commit just like name of any branch. But it is special because it is the `"HEAD"` pointer (and **not** the currently checked out branch) which decides the state of your current Working Directory. 
+     Eg: You can make your `"HEAD"` pointer point to some previous commit in the same branch, so the state of your Working Directory will change to that commit which is pointed by `"HEAD"` and NOT to the commit to which `"branch name"` pointer is pointing i.e. the last commit in this branch.
+
+     * `git checkout <commit_hash>` is used to make your `"HEAD"` point to a specific commit.
+
+     ### DETACHED HEAD vs ATTACHED HEAD
+
+     * In simple terms whenever your `"HEAD"` is not linked with any Branch it is called **DETACHED HEAD** and vice-versa.
+     * `"HEAD"` being linked with a branch simply means whatever progess(commits) you make from your current state of project, `"HEAD"` as well as `"branch-name"` pointer will move to the latest commit together.
+     * When  `"HEAD"` is not linked to any of the branch (i.e. DETACHED HEAD State), then only the `"HEAD"` pointer will move to the latest commit not the `"branch-name"` pointer. Git will not make this change as part of any branch because there is no branch which is linked to `"HEAD"` pointer.
+     * In a nutshell, whenever we make a commit, it is the `"HEAD"` pointer that moves to this newly created commit and if `"HEAD"` is linked to a branch, then the `"branch-name"` pointer will also move along with `"HEAD"`.
+     <br>
+
+     ### 2 Ways of using git checkout <branch-name/commit-hash> command
+
+     * `git checkout <commit-hash>` is used to make your `"HEAD"` point to a specified commit. Using this way will always make your `"HEAD"` **DETACHED** regardless whether any branch starts from (or ends at) that commit. Also this will make your current working directory state to reach at that specified commit (version).
+     * `git checkout <branch-name>` is used to make your `"HEAD"` point to **last commit** in the branch `"branch-name"`. Using this will always make your `"HEAD"` **ATTACHED/LINKED** to branch `"branch-name"`
+     <br>
+
+     For a detailed discussion, refer [this](https://www.youtube.com/watch?v=FyAAIHHClqI)
+
+
 *    ### Resources for further study
      *    [Class Presentation](Lecture-2.pdf)
      *    [Git Practice Resources](https://try.github.io/)
