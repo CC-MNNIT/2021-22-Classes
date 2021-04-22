@@ -72,6 +72,7 @@ Follow the [contribution guide](./CONTRIBUTING.md). Add the class folder link in
 * [Nishchal Siddharth Pandey](https://github.com/nisiddharth/)
 * [Kshitiz Srivastava](https://github.com/pirateksh/)
 * [Ashutosh Chitranshi](https://github.com/ashu12chi)
+* [Ankit Sangwan](https://github.com/ankitsangwan1999)
 * Our beloved seniors.
 
 ## Contact
