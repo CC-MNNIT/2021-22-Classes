@@ -1,4 +1,8 @@
-# Java Class 1
+# Java Class - I
+
+## Get the Presentation used in class: [Here](Java_Class-1.pdf)
+
+## Get the Java Class - I recording: [Here](https://drive.google.com/file/d/1iVqzpW_bpTvXt7hc1P-_cDtWuAM-Uw3A/view?usp=sharing)
 
 #### April 22, 2021
 
@@ -145,6 +149,7 @@ Box(double width, double height, double depth) {
 }
 ```
 
+# Further readings (topics not covered in 1st class)
 
 ### Overloading
 
