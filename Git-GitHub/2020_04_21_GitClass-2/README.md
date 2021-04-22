@@ -6,7 +6,7 @@ April 21st, 2021
 
 <i>"No matter how many mistakes you make or how slow you progress, you are still way ahead of everyone who isn't trying."</i> - Tony Robbins
 
-<div align="center"><img src="./img/Git-Logo-1788C.png" height="100"/></div>
+<div align="center"><img src="../Git-Logo-1788C.png" height="100"/></div>
 
 <hr>
 
@@ -91,8 +91,8 @@ April 21st, 2021
 *    ### Resources for further study
      *    [Class Presentation](Lecture-2.pdf)
      *    [Git Practice Resources](https://try.github.io/)
-     *    [Git Cheat Sheet](git-cheat-sheet.pdf)
-     *    [Progit Book](progit.pdf)
+     *    [Git Cheat Sheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
+     *    [Progit Book](https://git-scm.com/book/en/v2)
      *    [Udacity Course: How to Use Git and GitHub?](https://classroom.udacity.com/courses/ud775-india)
      *    [Git Internals](https://www.freecodecamp.org/news/git-internals-objects-branches-create-repo/)
      *    [Git Visualised using animations](https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1)

@@ -4,7 +4,7 @@
 
 April 20th, 2021
 
-<div align="center"><img src="./img/Git-Logo-1788C.png" height="100"/></div>
+<div align="center"><img src="../Git-Logo-1788C.png" height="100"/></div>
 
 <hr>
 
