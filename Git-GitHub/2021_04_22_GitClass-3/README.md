@@ -116,7 +116,7 @@ April 22nd, 2021
      *    Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
      *    Need of forks and pull requests becomes clear with this diagram:
 
-     <img src="./img/pull-request.png" alt="Pull request need" height=350/>
+          <img src="./img/pull-request.png" alt="Pull request need" height=350/>
 
      *  Know More: [About pull requests](https://help.github.com/en/articles/about-pull-requests), [Creating Pull Requests](https://help.github.com/en/articles/creating-a-pull-request).
 
