@@ -410,7 +410,9 @@ class Override {
 - Dynamic method dispatch is the mechanism by which a call to an overridden method is resolved at run time, rather than compile time.
 - Dynamic method dispatch is important because this is how Java implements run-time polymorphism.
 - A superclass reference variable can refer to a subclass object.
-    ![Class Casting](1.png)
+
+    <img src="1.png" alt="Class Casting" height=350/>
+    
 - It is the type of the object being referred to (not the type of the reference variable) that determines which version of an overridden method will be executed. 
 - It allows a general class to specify methods that will be common to all of its derivatives, while allowing subclasses to define the specific implementation of some or all of those methods.
 
