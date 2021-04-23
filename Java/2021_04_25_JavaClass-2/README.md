@@ -1,8 +1,6 @@
 # Java Class - II
 
 
-## Get the Java Class - II recording: [Here]()
-
 #### April 25, 2021
 
 <div align="center"><img src="../Java.png" alt="Java logo" height=150/></div>

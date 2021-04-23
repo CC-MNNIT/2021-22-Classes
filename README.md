@@ -49,6 +49,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
 
 - Java classes
     - [Java Class-1](Java/2021_04_22_JavaClass-1)
+    - [Java Class-2](Java/2021_04_25_JavaClass-2)
 
 - Placements and Internships
 	- [Guide to Placement](Placements)
