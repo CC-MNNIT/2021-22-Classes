@@ -13,7 +13,7 @@
 
 ## Classes Held
 
-- [Class 1: held on 24 April, 2021](2021_04_20_WebClass-1)
+- [Class 1: held on 24 April, 2021](2021_04_24_WebClass-1)
 
 ## Getting Started
 Getting started with Web :-
