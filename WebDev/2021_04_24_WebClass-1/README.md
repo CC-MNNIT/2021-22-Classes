@@ -2,7 +2,7 @@
 
 #### April 24, 2021
 
-<div align="center"><img src="./frontend.jpg" alt="Frontend" height=150/></div>
+<div align="center"><img src="./images/frontend.jpg" alt="Frontend" height=150/></div>
 
 <hr>
 
@@ -300,14 +300,14 @@
 	</html>  
 	```
 
-*	#### HTML Div
+*	### HTML Div
 	* The HTML `<div>` tag is used to *group the large section of HTML elements together*.
 	* `<div>` tag is just like a **container** unit which is used to *encapsulate* other page elements and divides the HTML documents into sections.
 	* It is generally used by web developers to *group HTML elements together* and *apply CSS styles to many elements at once*.
 	* It is a **block-level** element.
 	* Read more about HTML div [here](https://www.javatpoint.com/html-div-tag).
 
-*	#### HTML Span
+*	### HTML Span
 	* HTML `<span>` tag is used as a generic container of inline elements.
 	* The `<span>` tag does not have any default meaning or rendering.
 	* The `<span>` tag can be useful for the following task:
@@ -317,7 +317,7 @@
 	* * It is an **inline** element.
 	* Read more about HTML span [here](https://www.javatpoint.com/html-span-tag).
 
-*	#### HTML Block and Inline Elements
+*	### HTML Block and Inline Elements
 	* Every HTML element has a default display value, depending on what type of element it is.
 	* There are two display values: **block** and **inline**.
 	*	##### Block-level Elements
@@ -331,19 +331,86 @@
 		* *Example*: `<span>`, `<a>`, `<button>`, `<input>`, etc.
 	* Read more about HTML Block and Inline Elements [here](https://www.w3schools.com/html/html_blocks.asp).
 
-*	#### HTML iframe
+*	### HTML iframe
 	* It stands for **Inline FRAME**.
 	* HTML Iframe is used to display a **nested webpage** (a webpage within a webpage).
 	* An HTML iframe embeds another document within the current HTML document in the *rectangular region*.
 	* Youtube video can be embedded using Iframe.
 	* Read more about HTML Iframe [here](https://www.javatpoint.com/html-iframes).
 
-*	#### HTML Marquee
+	#### [6.html](./6.html)
+	```html
+	<!DOCTYPE html>
+	<html>
+		<head>
+		    <title>iframe demo</title>
+		</head>
+		<body>
+		    <p>
+		        <h1>
+		            iframe tag:
+		        </h1>
+		        <ul>
+		            <li>
+		                Used to Show Nested WebPages.
+		            </li>
+		        </ul>
+		    </p>
+		    <h2 style="text-decoration:underline;">Example: </h2>
+		    <div>
+		        <h3>This is 4.html</h3>
+		        <iframe src="4.html"></iframe>
+		        <h3>This is WOC HomePage</h3>
+		        <iframe src="https://woc2k21.github.io/" width="800" height="600"></iframe>
+		        <h3>Google Calendar Example</h3>
+		        <iframe src="https://calendar.google.com/calendar/embed?title=Calendar_Title_Goes_Here" width="800" height="600" ></iframe>
+		    </div>
+		    <p>
+		        <h1>
+		           Other Example Usages:
+		        </h1>
+		        <ul>
+		            <li>
+		                <span>Embed Google Map for a location. </span>
+		            </li>
+		        </ul>
+		    </p>
+		</body>
+	</html>
+	```
+
+*	### HTML Marquee
 	* It is used to scroll a image or text horizontally or vertically.
 	* Explore various attributes of `<marquee>`.
 	* Read more about HTML marquee [here](https://www.javatpoint.com/marquee-html).
+	#### [7.html](./7.html)
+	```html
+	<!DOCTYPE html>
+	<html>
+		<head>
+		    <title>Marquee demo</title>
+		</head>
+		<body>
+		    <marquee>
+		        <span style="color: red">ATTENTION: Text Going Left</span>
+		    </marquee>
+		    <hr/>
+		    <marquee direction="up" width="200" height="100">
+		        Text Going Up
+		    </marquee>
+		    <hr/>
+		    <marquee direction="right">
+		        Text Going Right
+		    </marquee>
+		    <hr/>
+		    <marquee scrollamount="20">
+		        Text Going Left
+		     </marquee>
+		</body>
+	</html>
+	```
 
-*	#### HTML id attribute
+*	### HTML id attribute
 	* It is used to specify a **unique id** for an HTML element.
 	* The value of the *id* attribute must be unique within the HTML document.
 	* The *id* attribute is used by **CSS and JavaScript** to style/select a specific element.
@@ -352,7 +419,7 @@
 	* JavaScript can access an element with a specific id with the `getElementById()` method.
 	* Read more about *id* attribute [here](https://www.w3schools.com/html/html_id.asp).
 
-*	#### HTML class attribute
+*	### HTML class attribute
 	* The HTML *class* attribute specifies one or more class names for an element.
 	* Classes are used by CSS and JavaScript to select and access specific elements.
 	* The *class* attribute can be used on any HTML element.
@@ -373,7 +440,7 @@
 
 *	### CSS Syntax
 
-	<div align="center"><img src="./css_syntax.png" alt="CSS Syntax" height=100/></div>
+	<div align="center"><img src="./images/css_syntax.png" alt="CSS Syntax" height=100/></div>
 
 *	### Types of CSS
 	* External (create a file and use its path in the `<link>` element in the file).
@@ -439,7 +506,7 @@
 
 * 	### CSS Images Properties 
 
-	#### [6.html](./6.html)
+	#### [8.html](./8.html)
 	```html
 	<!DOCTYPE html>
 	<!-- Declaration represents document type.it appears at the top of page -->
@@ -577,5 +644,8 @@
 
 ### Material
 
+* [JavatPoint HTML Tutorial](https://www.javatpoint.com/html-tutorial).
+* [W3Schools HTML Tutorial](https://www.w3schools.com/html/).
+* [W3Schools CSS Tutorial](https://www.w3schools.com/css/).
 * See a full demo of HTML with external CSS [here](./html_css_demo_complete).
-* Facebook like frontend demo (incomplete) [here](./facebook_demo_html_css). 
+* Facebook Login/Signup Page like frontend demo (incomplete) [here](./facebook_demo_html_css). 
