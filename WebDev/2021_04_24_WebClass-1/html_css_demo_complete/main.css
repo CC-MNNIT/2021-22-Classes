@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Liu+Jian+Mao+Cao&display=swap');
+body {
+    background: #f0dcfc;
+    /* background: url("https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&auto=format&fit=crop&w=1078&q=80"); */
+    font-family: sans-serif, "Times New Roman";
+}
+
+#title {
+    color: #974dbf;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitle {
+    color: #d07aff;
+}
+.service-image {
+    width: 30vw;
+    height: 20vh;
+    margin-top: 10px;
+    border: 1px double black;
+    float: right;
+    /*  Gradient - 1. Radial 2. Linear
+        background: linear-gradient()
+    */
+    /* background: linear-gradient(to bottom right, rgb(94, 3, 148), rgba(94, 3, 148, 0)); */
+    /* background: linear-gradient(-215deg, rgb(94, 3, 148), rgba(94, 3, 148, 0)); */
+
+    background: radial-gradient(circle, rgb(94, 3, 148), rgba(94, 3, 148, 0))
+
+    /* background: url("./img/005.JPG"); */
+    /* background-size: cover; */
+    /* cover - cover whole div
+        contain- cover the div without compromising the aspect ratio of the image.
+    */
+    /* background-repeat: no-repeat; */
+}
+
+/* Fonts unit
+    pc = 12pt > pt > cm
+*/
+
+#about-me-img {
+    width: 30vw;
+    border: 2px double black;
+    padding: 10px;
+    float: right;
+    margin-left: 10px;
+    /* margin: 20px; */
+}
+
+.link {
+    text-decoration: line-through;
+    float: right;
+}
+
+.para-text {
+    /* Justify strecth font so that each line is of same length */
+    text-align: justify;
+}
+/* font weight is depend on the type of font some font suppourt 900 but some can't can some can go even higher */
+
+.italics {
+    font-style: italic;
+    font-weight: 800;
+}
+.form-input {
+    display: block;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    outline: none;
+}
+
+.form-textarea {
+    display: block;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    outline: none;
+}
+
+.container {
+    background-color: #fff;
+    margin: 10px;
+    height: 300px;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Flex
+    Grow - make sure that every element get proportional space
+    shrink - control the rate of shrinkage of the flex element. 0 means no shrinkage
+    basis - control the length of the flex elements.
+
+    flex: grow shrink basis
+
+
+    align-self - it will override the align-items property
+*/
+
+.container-item {
+    background-color: purple;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+
+    width: 50px;
+    line-height: 30px;
+    margin: 10px;
+}
+
+
+/* 
+
+    Flex VS Grid 
+
+    The final goal of both flex and grid is same but the main difference occur on the way of implementation of both
+
+    Flex is more focus on the width of the flex element whereas Grid focus on both i.e width and height
+
+*/
+
+
+.grid-container {
+    background-color: aliceblue;
+    margin: 10px;
+    height: 300px;
+
+    display: grid;
+    grid-template-columns: auto auto auto; /* 3 Columns*/
+    grid-column-gap: 10px;
+    grid-template-rows: auto auto; /* 2 Rows*/
+    /* grid-row-gap: 150px; */
+    /* Syntax of grid-gap: column row */
+    /* justify-content: space-around; */
+    /* align-content: space-evenly; */
+}
+/* syntax of grid-area: row starting point / column starting point / row end point / column end point  */
+
+.grid-item {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+
+
+    width: 70px;
+    line-height: 40px;
+    margin: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    /* align-items: center; */
+    margin-top: -4% ;
+}
+
+.submit-btn {
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    background-color: purple;
+    color: white;
+    outline: none;  
+
+    /* yntax transition: property duration "transition type" delay */
+    transition: background 0.5s ease-in-out;
+
+    /* Every browser does not support animation as older CSS version doesnot support it so to avoid that we have two solution 
+        1. Is Fallback support
+        2. Is use of browser specific prefix
+            for example, For Chrome and Safari we use -webkit-
+                         For Mozilla Firefox we use -moz-
+                         For Opera we use -o-
+    */
+
+    -webkit-transition: background 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out;
+}
+
+.submit-btn:hover {
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    /* transform: 10px; */
+    /* transform: translate(-10px, 20px); */
+    /* transform: scale(2.5); */
+    /* transform: rotateZ(275deg); */
+    /* transform: skewY(-45deg); */
+    transform: matrix(1, 0. 45, 0.45, 2.5, -10, 20);
+}
+
+#about-me {
+    /* animation-name: red-black;
+    animation-duration: 2s;
+    animation-timing-function: linear; */
+    /* Animation Delay can have both positive and negative value */
+    /* animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse; */
+
+    -moz-animation: red-black 2s linear 0s 2 alternate-reverse;
+
+    /* For browser support add prefix 
+    -ms- For microsoft
+    
+    */
+}
+
+@keyframes red-black {
+    /* example {background: red;} */
+
+    0% {
+        background: red;
+        transform: translate(0px, 0px);
+    }
+
+    50% {
+        background: yellow;
+        transform: translate(10px, 10px);
+
+    }
+    100% {background: black;
+        transform: translate(20px, 20px);
+    }
+}

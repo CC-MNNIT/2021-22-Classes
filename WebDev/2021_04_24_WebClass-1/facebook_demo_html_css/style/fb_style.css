@@ -1,0 +1,40 @@
+body{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	
+}
+#header{
+	
+	background-color: #4267b2;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-family: inherit;
+	height: 80px;
+}
+#p1{
+	width: 665px;
+	padding-left: 165px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	font-family: inherit;
+	color: white;
+	font-size: 40px;
+}
+#login{
+	height: 35px;
+}
+.para{
+	color: white;
+	display: inline-block;
+}
+#part1{
+	margin-bottom: 0px;
+	height: 60px;
+}
+#forgot{
+	margin-top: 0px;
+	padding-left: 997px;
+	font-size: 14px;
+
+}

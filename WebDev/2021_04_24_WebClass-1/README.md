@@ -396,6 +396,9 @@
 	* Comments are used to explain the code, and may help when you edit the source code at a later date.
 	* `/* ... */` is used for adding comments.
 
+*	### Viewport
+	* It is the area visible to user in a screen.
+
 *	### CSS Units
 	* 	#### Absolute Lengths
 		* cm(centimeters)
@@ -572,3 +575,7 @@
 	```
 
 
+### Material
+
+* See a full demo of HTML with external CSS [here](./html_css_demo_complete).
+* Facebook like frontend demo (incomplete) [here](./facebook_demo_html_css). 

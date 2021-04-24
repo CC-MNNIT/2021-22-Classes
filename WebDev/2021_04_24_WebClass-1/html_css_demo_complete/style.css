@@ -1,0 +1,87 @@
+h2:hover {
+    color: red;
+}
+
+.subtitle {
+    color: blue;
+}
+
+#services {
+    color: green;
+}
+/* We need to select the element */
+/* li:first-child {
+    color: steelblue;
+}
+
+li:last-child {
+    color: red;
+}
+
+li:nth-child(2) {
+    color: green;
+} */
+
+/* Works only when it have only one child */
+td:only-child {
+    color: purple;
+}
+
+/* #google-link:link {
+    color: red;
+}
+
+#google-link:visited {
+    color: steelblue;
+} */
+
+/* every a tag followed by h2 tag */
+h2 + a {
+    color: red;
+}
+
+/* every button followed by textarea having same parent */
+textarea ~ button {
+    color: purple;
+}
+
+/* Advanced selector but have specificity is less than pseudo selector 
+    direct child of ul.
+*/
+ul > li {
+    color: blue;
+}
+
+/* Decendent selector 
+    every li under ul wheater it is direct child or not.
+*/
+
+ul li {
+    color: green;
+}
+
+/* ! Attributes selector
+    h2[attr=value] {
+        css
+    }
+*/
+
+h2[class=subtitle] {
+    color: blue;
+}
+/* Use of Regular Expression
+    ^ - start with
+    $ - end with
+    * - anywhere within
+    ~ - separate by white spaces
+    | - start with given "value" of "value-"
+        for example: h2[class|=subtitle]
+                    when you want to select 
+                    subtitle-1
+                    subtitle-2
+*/
+img[src^="./img/"] {
+    width: 500px;
+    border-radius: 50%;
+}
+
