@@ -133,7 +133,7 @@
 	* HTML `<table>` tag is used to display data in *tabular form (row * column)*.
 	* 	#### HTML Table tags
 		* `<table>` - It defines a table.
-		* `<tr>` - It defnies a row in a table.
+		* `<tr>` - It defines a row in a table.
 		* `<th>` - It defines header cell in a table.
 		* `<td>` - It defines a cell in a table.
 		* Explore other table related tags like `<caption>`, `<colgroup>`, `<col>`, etc.
@@ -149,6 +149,73 @@
 	* `<li>` tag is used to specify list elements.
 	* Explore various attributes of `<ol>`, `<ul>` and `<dl>`.
 	* Read more about HTML Lists [here](https://www.javatpoint.com/html-lists).
+
+	#### [4.html](./4.html)
+	```html
+	<!DOCTYPE html>
+	<html>
+	<head>
+    	<title>Table and List demo</title>
+	</head>
+	<body>
+        <h1>HTML TABLES</h1>
+        <table border="1">
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+             </tr>
+             <tr>
+                <td>Row 1 Cell 1</td>
+                <td>Row 1 Cell 2</td>
+                <td>Row 1 Cell 3</td>
+             </tr>
+             <tr>
+                <td>Row 2 Cell 1</td>
+                <td>Row 2 Cell 2</td>
+                <td>Row 2 Cell 3</td>
+             </tr>
+             <tr>
+                <td>Row 3 Cell 1</td>
+                <td>Row 3 Cell 2</td>
+                <td>Row 3 Cell 3</td>
+             </tr>
+        </table>
+        <h1>HTML LISTS</h1>
+        <h3>Ordered List</h3>
+        <ol>
+            <li>Chapter One</li>
+            <li>Chapter Two
+              <ol>
+                <li>Section One</li>
+                <li>Section Two </li>
+                <li>Section Three </li>
+              </ol>
+            </li>
+            <li>Chapter Three</li>
+          </ol>
+        <h3>Unordered List</h3>
+        <ul>
+            <li>bread</li>
+            <li>coffee beans</li>
+            <li>milk</li>
+            <li>butter</li>
+        </ul>
+        <h3>Description List</h3>
+        <dl>
+            <dt>Name</dt>
+            <dd>Godzilla</dd>
+            <dt>Born</dt>
+            <dd>1952</dd>
+            <dt>Birthplace</dt>
+            <dd>Japan</dd>
+            <dt>Color</dt>
+            <dd>Green</dd>
+        </dl>
+	</body>
+	</html>
+	``` 
+	* [Here](./4_styled.html) is another example of Tables and List with some other attributes and styling.
 
 * ### HTML Form
 	* An HTML form facilitates the user to enter data that is to be sent to the server for processing such as name, email address, password, etc.
@@ -178,10 +245,66 @@
 			* reset - Clicking the button will reset the form.
 	* Read more about HTML form [here](https://www.javatpoint.com/html-form).
 
+	#### [5.html](./5.html)
+	```html
+	<!DOCTYPE html>  
+	<html>  
+	  <head>  
+	    <title>Form in HTML</title>  
+	  </head>  
+	  <body>  
+	      <h2>Registration form</h2>  
+	      <form action="#", method="POST">  
+	      <fieldset>  
+	          <legend>User personal information</legend>
+	          <label>Enter your full name</label><br>  
+	          <input type="text" name="name"><br>  
+	          <label>Enter your email</label><br>  
+	          <input type="email" name="email"><br>  
+	          <label>Enter your password</label><br>  
+	          <input type="password" name="pass"><br>  
+	          <label>confirm your password</label><br>  
+	          <input type="password" name="pass"><br>
+	          <br><label>Enter your gender</label><br>  
+	          <input type="radio" id="gender" name="gender" value="male"/>Male  <br>  
+	          <input type="radio" id="gender" name="gender" value="female"/>Female <br/>    
+	          <input type="radio" id="gender" name="gender" value="others"/>others <br/>
+	          <br><label>Hobbies</label><br>
+	          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+	          <label for="vehicle1">Hobby 1</label><br>
+	          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+	          <label for="vehicle2">Hobby 2</label><br>
+	          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+	          <label for="vehicle3">Hobby 3</label>
+	          <br>
+	          <br><label>Select Age Group</label><br>
+	          <select name = "dropdown">
+	              <option value = "0-10" selected>0-10 yrs</option>
+	              <option value = "10-20">10-20 yrs</option>
+	              <option value = "20-30">20-30 yrs</option>
+	              <option value = "30-40">30-40 yrs</option>
+	              <option value = "40-50">40-50 yrs</option>
+	              <option value = "50-60">50-60 yrs</option>
+	           </select>
+	           <br>
+	           <br><label>Upload Profile Picture</label><br>
+	           <input type = "file" name = "fileupload" accept = "image/*" />
+	           <br>
+	          <br>Enter your Address:<br>  
+	          <textarea></textarea><br>
+	          <input type="submit" value="SIGN-UP">  
+	          <input type = "reset" name = "reset"  value = "Reset" />
+	      </fieldset>  
+	    </form>  
+	  </body>  
+	</html>  
+	```
+
 *	#### HTML Div
 	* The HTML `<div>` tag is used to *group the large section of HTML elements together*.
 	* `<div>` tag is just like a **container** unit which is used to *encapsulate* other page elements and divides the HTML documents into sections.
 	* It is generally used by web developers to *group HTML elements together* and *apply CSS styles to many elements at once*.
+	* It is a **block-level** element.
 	* Read more about HTML div [here](https://www.javatpoint.com/html-div-tag).
 
 *	#### HTML Span
@@ -191,7 +314,52 @@
 		* To change the language of a **part of the text**.
 		* To change the color, font, background of a **part of text** using CSS.
 		* To apply the scripts to the particular **part of the text**.
+	* * It is an **inline** element.
 	* Read more about HTML span [here](https://www.javatpoint.com/html-span-tag).
+
+*	#### HTML Block and Inline Elements
+	* Every HTML element has a default display value, depending on what type of element it is.
+	* There are two display values: **block** and **inline**.
+	*	##### Block-level Elements
+		* A block-level element always starts on a new line.
+		* A block-level element always takes up the full width available (stretches out to the left and right as far as it can).
+		* A block level element has a top and a bottom margin, whereas an inline element does not.
+		* *Example*: `<div>`, `<h1>..<h6>`, `<p>`, etc.
+	*	##### Inline Elements
+		* An inline element does not start on a new line.
+		* An inline element only takes up as much width as necessary.
+		* *Example*: `<span>`, `<a>`, `<button>`, `<input>`, etc.
+	* Read more about HTML Block and Inline Elements [here](https://www.w3schools.com/html/html_blocks.asp).
+
+*	#### HTML iframe
+	* It stands for **Inline FRAME**.
+	* HTML Iframe is used to display a **nested webpage** (a webpage within a webpage).
+	* An HTML iframe embeds another document within the current HTML document in the *rectangular region*.
+	* Youtube video can be embedded using Iframe.
+	* Read more about HTML Iframe [here](https://www.javatpoint.com/html-iframes).
+
+*	#### HTML Marquee
+	* It is used to scroll a image or text horizontally or vertically.
+	* Explore various attributes of `<marquee>`.
+	* Read more about HTML marquee [here](https://www.javatpoint.com/marquee-html).
+
+*	#### HTML id attribute
+	* It is used to specify a **unique id** for an HTML element.
+	* The value of the *id* attribute must be unique within the HTML document.
+	* The *id* attribute is used by **CSS and JavaScript** to style/select a specific element.
+	* The value of the id attribute is **case sensitive**.
+	* The id attribute is also used to create **HTML bookmarks**.
+	* JavaScript can access an element with a specific id with the `getElementById()` method.
+	* Read more about *id* attribute [here](https://www.w3schools.com/html/html_id.asp).
+
+*	#### HTML class attribute
+	* The HTML *class* attribute specifies one or more class names for an element.
+	* Classes are used by CSS and JavaScript to select and access specific elements.
+	* The *class* attribute can be used on any HTML element.
+	* The class name is **case sensitive**.
+	* Different HTML elements can point to the same class name.
+	* JavaScript can access elements with a specific class name with the `getElementsByClassName()` method.
+	* Read more about HTML class attribute [here](https://www.w3schools.com/html/html_classes.asp).
 
 <br>
 <div align="center"><h2>CSS</h2></div>
@@ -268,7 +436,7 @@
 
 * 	### CSS Images Properties 
 
-	#### [4.html](./4.html)
+	#### [6.html](./6.html)
 	```html
 	<!DOCTYPE html>
 	<!-- Declaration represents document type.it appears at the top of page -->
