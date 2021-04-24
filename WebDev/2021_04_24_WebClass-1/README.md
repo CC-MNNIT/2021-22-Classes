@@ -91,6 +91,7 @@
 	* HTML **img** tag is used to display image on the web page.
 	*	#### src attribute
 		* Path of image file is specified here.
+		* Path can be either **relative** or **absolute**.
 	*	#### alt attribute
 		* Alternative Text to be displayed if image does not load.
 	* It is an *empty tag*.
@@ -335,7 +336,7 @@
 	* It stands for **Inline FRAME**.
 	* HTML Iframe is used to display a **nested webpage** (a webpage within a webpage).
 	* An HTML iframe embeds another document within the current HTML document in the *rectangular region*.
-	* Youtube video can be embedded using Iframe.
+	* Youtube video, Google Map, etc can be embedded into webpage using Iframe.
 	* Read more about HTML Iframe [here](https://www.javatpoint.com/html-iframes).
 
 	#### [6.html](./6.html)
@@ -429,6 +430,9 @@
 	* Read more about HTML class attribute [here](https://www.w3schools.com/html/html_classes.asp).
 
 <br>
+
+<div align="center"><img src="./images/htmlvscss.png" alt="CSS Syntax" height=300/></div>
+
 <div align="center"><h2>CSS</h2></div>
 
 *	### What is CSS?
@@ -514,9 +518,9 @@
 	<head>
 	    <meta charset="UTF-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <title>Document</title>
+	    <title>CSS tutorial</title>
 	    <style>
-	        /* cooment */
+	        /* comment */
 	        /* css syntax */
 	        /* selector {
 	            property:value;
@@ -526,36 +530,8 @@
 	           2) relative length ex:- em(relative to font-size),rem(relative to font-size of root element),
 	                                   vw(relative to 1% viewport width),vh(relative to 1% viewport height)
 	        */
-	        /* css text  */
-	        p {
-	            /* sets the colour of the text */
-	            color: darkcyan;
-	            /* aligns text with respect to its parent 
-	               text-align:center|left|right|
-	            */
-	            text-align: center;
-	            /* used to set or remove decoration from text
-	               text-decoration:none|underline|overline|line-through;
-	             */
-	            text-decoration: none;
-	            /* size of font */
-	            font-size: 20px;
-	            /* transform text to lowercase or uppercase or capitalize the first letter of each word
-	               text-transform:lowercase|uppercase|capitalize;
-	             */
-	            text-transform: capitalize;
-	            /* used to specify the indentation of the first line of a text */
-	            text-indent: 20px;
-	            /* used to specify the space between the characters in a text */
-	            letter-spacing: 2px;
-	            /* used to specify the space between the words in a text */
-	            word-spacing: 2px;
-	            /* used to specify the space between lines */
-	            line-height: 20px;
-	        }
-	        /* ..... */
 	        /* css box model */
-	        div {
+	        .box-model {
 	            /* to create space around elements(space with respect to parent)
 	               margin:top right down left;
 	               margin:50px; === margin:50px 50px 50px 50px;
@@ -571,9 +547,69 @@
 	            /* to set height of the element */
 	            height: 100px;
 	            /* to create border around an element
-	               border:border-width,border-style,border-colour
 	             */
-	            border: 2px solid blue;
+	            border-style: dotted solid dashed none;
+	            border-width: 10px 20px 5px 0px;
+	            border-color: blue green black white;
+	        }
+	        /* ..... */
+	        /* css background */
+	        .bg {
+	            width: 500px;
+	            height: 1000px;
+	        }
+	        .color {
+	            /* specifies the background color of an element */
+	            background-color: tomato;
+	        }
+	        .image {
+	            /* specifies an image to use as the background of an element. */
+	            background-image: url("./images/tree.jpg");
+	            /* repeats an image either horizontally(repeat-x) or vertically(repeat-y) or no-repeat . */
+	            background-repeat: no-repeat;
+	            /* specifies the position of image in the container */
+	            background-position: left top;
+	            /* specifies whether the background image should scroll or be fixed  */
+	            background-attachment: fixed;
+	        }
+	        /* ..... */
+	        /* css text  */
+	        .text {
+	            /* sets the colour of the text */
+	            color: darkcyan;
+	            /* aligns text with respect to its parent 
+	               text-align:center|left|right|
+	            */
+	            text-align: center;
+	            /* used to set or remove decoration from text
+	               text-decoration:none|underline|overline|line-through;
+	             */
+	            text-decoration: none;
+	            /* transform text to lowercase or uppercase or capitalize the first letter of each word
+	               text-transform:lowercase|uppercase|capitalize;
+	             */
+	            text-transform: capitalize;
+	            /* used to specify the indentation of the first line of a text */
+	            text-indent: 20px;
+	            /* used to specify the space between the characters in a text */
+	            letter-spacing: 2px;
+	            /* used to specify the space between the words in a text */
+	            word-spacing: 2px;
+	            /* used to specify the space between lines */
+	            line-height: 20px;
+	            /* In CSS there are five generic font families:
+	            1) Serif fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance.
+	            2) Sans-serif fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.
+	            3) Monospace fonts - here all the letters have the same fixed width. They create a mechanical look. 
+	            4) Cursive fonts imitate human handwriting.
+	            5) Fantasy fonts are decorative/playful fonts. */
+	            font-family: 'Courier New', Courier, monospace;
+	            /* how thick or thin characters in text should be displayed. */
+	            font-weight: bold;
+	            /* size of font */
+	            font-size: 20px;
+	            /* font-style:oblique|normal|italic; */
+	            font-style: italic;
 	        }
 	        /* ..... */
 	        /* css link */
@@ -596,47 +632,154 @@
 	            color: red;
 	        }
 	        /* ..... */
-	        /* css layout  */
-	        /* to hide an element */
-	        .d-none{
-	            display:none;
+	        /* css overflow */
+	        .overflow {
+	            width: 300px;
+	            height: 90px;
+	            background-color: tomato;
+	            /* specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area. */
+	            overflow: hidden;
 	        }
-	        /* to display an element as block */
-	        .d-block{
+	        .overflow:hover {
+	            overflow: visible;
+	        }
+	        /* ..... */
+	        /* css display  */
+	        .d-none {
+	            /* to hide an element */
+	            display: none;
+	        }
+	        .d-block {
+	            /* to display an element as block */
 	            display: block;
 	        }
-	        /* to display elements in line */
-	        .d-inline{
+	        .d-inline {
+	            /* to display elements in line */
 	            display: inline;
+	        }
+	        /* ..... */
+	        /* css positioning */
+	        .box {
+	            width: 90vw;
+	            height: 200vh;
+	            background-color: gray;
+	            z-index: 0;
+	            position: relative;
+	        }
+	        .p-static {
+	            width: 300px;
+	            height: 300px;
+	            background-image: url("./images/tree.jpg");
+	            background-repeat: no-repeat;
+	            position: static;
+	            left: 50px;
+	            bottom: 30px;
+	        }
+	        .p-relative {
+	            width: 300px;
+	            height: 300px;
+	            background-image: url("./images/tree.jpg");
+	            background-repeat: no-repeat;
+	            position: relative;
+	            left: 300px;
+	            top: -20px;
+	        }
+	        .p-fixed {
+	            width: 300px;
+	            height: 300px;
+	            background-image: url("./images/tree.jpg");
+	            background-repeat: no-repeat;
+	            position: fixed;
+	            left: 500px;
+	        }
+	        .p-absolute {
+	            width: 300px;
+	            height: 300px;
+	            background-image: url("./images/tree.jpg");
+	            background-repeat: no-repeat;
+	            position: absolute;
+	            left: 100px;
+	            top: -20px;
 	        }
 	        /* ..... */
 	    </style>
 	</head>
 	<body>
-	    <!-- css text  -->
-	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, placeat? Iusto veniam illum atque voluptatum
-	        voluptates repellendus accusantium necessitatibus laudantium! Sequi asperiores molestiae sit aut illum nesciunt
-	        in earum cum.</p>
 	    <!-- css box model  -->
-	    <div>
+	    <!-- <div class="box-model">
 	        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ipsam, autem exercitationem sunt numquam error.
 	        Aliquam, quidem similique soluta consequatur quae veniam qui eius? Asperiores quisquam quis quaerat dicta
 	        quibusdam?
+	    </div> -->
+	    <!-- ..... -->
+	    <!-- css colors  -->
+	    <!-- <p>Same as color name "DodgerBlue":</p>
+	    <h1 style="background-color:rgb(30, 144, 255);">rgb(30, 144, 255)</h1>
+	    <h1 style="background-color:#1e90ff;">#1e90ff</h1>
+	    <h1 style="background-color:hsl(209.6,100%,55.9%);">hsl(209.6,100%,55.9%)</h1>
+	    <p>Same as color name "DodgerBlue", but 50% transparent:</p>
+	    <h1 style="background-color:rgba(30, 144, 255,0.5);">rgba(30, 144, 255,0.5)</h1>
+	    <h1 style="background-color:hsla(209.6,100%,55.9%,0.5);">hsla(209.6,100%,55.9%,0.5)</h1>
+	    <p>In addition to the predefined color names, colors can be specified using RGB, HEX, HSL, or even transparent
+	        colors using RGBA or HSLA color values.</p> -->
+	    <!-- ..... -->
+	    <!-- css background  -->
+	    <!-- <div class="bg color">
 	    </div>
+	    <div class="bg image">
+	relative
+	    </div> -->
+	    <!-- ..... -->
+	    <!-- css text  -->
+	    <!-- <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, placeat? Iusto veniam illum atque
+	        voluptatum
+	        voluptates repellendus accusantium necessitatibus laudantium! Sequi asperiores molestiae sit aut illum nesciunt
+	        in earum cum.</p> -->
+	    <!-- ..... -->
 	    <!-- css links  -->
-	    <a href="https://www.google.com">Go to google.com</a>
-	    <!-- css layout  -->
+	    <!-- <a href="https://www.google.com">Go to google.com</a> -->
+	    <!-- ..... -->
+	    <!-- css overflow -->
+	    <!-- <div class="overflow">
+	        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque unde eos, in minima itaque provident facere
+	        dolorem tempore. Neque cumque incidunt voluptatum libero alias odit, dolorem ratione. Incidunt, quis
+	        expedita!
+	    </div> -->
+	    <!-- ..... -->
 	    <!-- css display  -->
-	    <!-- display:none  -->
-	    <h1>Visible</h1>
+	    <!-- <h1>Visible</h1>
 	    <h1 class="d-none">Hidden</h1>
-	    <!-- display:block  -->
-	    <span>Lorem</span> <span> ipsum</span>
+	    <span>lorem</span> <span> ipsum</span>
 	    <br>
-	    <span class="d-block">Lorem</span> <span class="d-block"> ipsum</span>
-	    <!-- display:inline  -->
-	    <p>lorwm</p><p>epsum</p><p>dolor</p>
-	    <p class="d-inline">lorwm</p><p class="d-inline">epsum</p><p class="d-inline">dolor</p>
+	    <span class="d-block">lorem</span> <span class="d-block"> ipsum</span>
+	    <p>lorem</p>
+	    <p>ipsum</p>
+	    <p>dolor</p> -->
+	    <!-- paragraph is a block-level element making it inline -->
+	    <!-- <p class="d-inline">lorem</p>
+	    <p class="d-inline"> ipsum</p>
+	    <p class="d-inline"> dolor</p> -->
+	    <!-- ..... -->
+	    <!-- css Positioning  -->
+	    <div class="box">
+	        <!-- position static -->
+	        <!-- Static positioned elements are not affected by the top, bottom, left, and right properties.they are  positioned according to the normal flow of the page -->
+	        <div class="p-static">
+	        </div>
+	        <!-- position relative -->
+	        <!-- Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the elemen -->
+	        <div class="p-relative">
+	        </div>
+	        <!-- position fixed -->
+	        <!-- An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element. -->
+	        <div class="p-fixed">
+	        </div>
+	        <!-- position absolute -->
+	        <!-- An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling. -->
+	        <div class="p-absolute">
+	        </div>
+	    </div>
+	    <!-- ..... -->
 	</body>
 	</html>
 	```
