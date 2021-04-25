@@ -303,6 +303,11 @@
 	</html>  
 	```
 
+## Content Contributors
+
+* [Kshitiz Srivastava](https://github.com/pirateksh/)
+* [Harshit Garg](https://github.com/harshit212705)
+
 ### Material
 
 * [JavatPoint HTML Tutorial](https://www.javatpoint.com/html-tutorial).
