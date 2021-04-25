@@ -11,52 +11,57 @@
 
 *	### HTML Relative File Paths
 	* **`<img src="./picture.jpg">`** or **`<img src="picture.jpg">`** - The *picture.jpg* file is located in the *same folder as the current page*.
-	```
-	|_ Desktop/
-	     |_ my_website/
-	         |_html/
-	             |_ my_webpage.html
-	             |_ picture.jpg
-	```
+		* *Example directory structure* - 
+		```
+		|_ Desktop/
+		     |_ my_website/
+		         |_html/
+		             |_ my_webpage.html
+		             |_ picture.jpg
+		```
 
-	* **`<img src="images/picture.jpg">`** - The *picture.jpg* file is located in the *images folder in the current folder.*
-	```
-	|_ Desktop/
-	     |_my_website/
-	         |_html/
-	             |_ my_webpage.html
-	             |_ images/
-	                  |_ picture.jpg
-	```
+	* **`<img src="images/picture.jpg">`** - The *picture.jpg* file is located in the *images folder in the current folder*.
+		* *Example directory structure* - 
+		```
+		|_ Desktop/
+		     |_my_website/
+		         |_html/
+		             |_ my_webpage.html
+		             |_ images/
+		                  |_ picture.jpg
+		```
 
-	* **`<img src="../picture.jpg">`** - The *picture.jpg* file is located in the *folder one level up from the current folder*
-	```
-	|_ Desktop/     
-	     |_my_website/
-	         |_html/
-	             |_ my_webpage.html
-	         |_ picture.jpg
-	```
+	* **`<img src="../picture.jpg">`** - The *picture.jpg* file is located in the *folder one level up from the current folder*.
+		* *Example directory structure* - 
+		```
+		|_ Desktop/     
+		     |_my_website/
+		         |_html/
+		             |_ my_webpage.html
+		         |_ picture.jpg
+		```
 
-	* **`<img src="../images/picture.jpg">`** - The *picture.jpg* file is located in the *images folder which is located **one** level up from the current folder*
-	```
-	|_ Desktop/
-	     |_my_website/
-	         |_html/
-	             |_ my_webpage.html
-	         |_ images/
-	              |_ picture.jpg
-	```
+	* **`<img src="../images/picture.jpg">`** - The *picture.jpg* file is located in the *images folder which is located **one** level up from the current folder*.
+		* *Example directory structure* - 
+		```
+		|_ Desktop/
+		     |_my_website/
+		         |_html/
+		             |_ my_webpage.html
+		         |_ images/
+		              |_ picture.jpg
+		```
 
-	* **`<img src="../../images/picture.jpg">`** - The *picture.jpg* file is located in the *images folder which is located **two** level up from the current folder*
-	```
-	|_ Desktop/
-	     |_my_website/
-	         |_html/
-	             |_ my_webpage.html
-	     |_ images/
-	          |_ picture.jpg
-	```
+	* **`<img src="../../images/picture.jpg">`** - The *picture.jpg* file is located in the *images folder which is located **two** level up from the current folder*.
+		* *Example directory structure* - 
+		```
+		|_ Desktop/
+		     |_my_website/
+		         |_html/
+		             |_ my_webpage.html
+		     |_ images/
+		          |_ picture.jpg
+		```
 
 *	### HTML Block and Inline Elements
 	* Every HTML element has a default display value, depending on what type of element it is.
