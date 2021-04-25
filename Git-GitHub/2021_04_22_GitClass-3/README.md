@@ -2,7 +2,7 @@
 
 ## Git Class - III recording: [Here](https://drive.google.com/file/d/1ptkeXAEacKCX6JI8ruGEHGgDaOHawR1i/view?usp=sharing)
 
-April 22nd, 2021
+#### April 22nd, 2021
 
 <div align="center"><img src="../Git-Logo-1788C.png" alt="git logo" height=100/></div>
 
