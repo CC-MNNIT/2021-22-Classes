@@ -224,8 +224,8 @@
 	* They are used to select HTML element(s).
 	* Simple selectors
 		* Element of html
-		* **id** selector
-		* **class** selector
+		* **id** selector - **#** is pre-pended to id of element.
+		* **class** selector - **.** is pre-pended to class of elements.
 		* Universal selectors
 	* Combinator Selectors
 	* Pseudo class selectors
