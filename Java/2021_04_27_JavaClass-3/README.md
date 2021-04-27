@@ -2,6 +2,10 @@
 
 #### April 27, 2021
 
+## Get the Java Class - III recording: [Here](https://drive.google.com/file/d/15f4Jlyz7oUaicB82MQQfE8ZeGKO6FtbW/view?usp=sharing)
+
+## Get the Calculator project made during the class: [Here](TestCalculator)
+
 <div align="center"><img src="./img/JavaFX_Logo.png" alt="Java logo" height=100/></div>
 
 <hr>
@@ -59,6 +63,6 @@
     ```xml
     <packaging>jar</packaging>
     ```
-- Class result
+- Class outcome:
 
     ![Calculator in IntelliJ Idea](./img/Screenshot_Calc.png)
