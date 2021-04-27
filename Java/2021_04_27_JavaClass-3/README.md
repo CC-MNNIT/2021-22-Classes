@@ -63,6 +63,11 @@
     ```xml
     <packaging>jar</packaging>
     ```
-- Class outcome:
+-   Class outcome:
 
-    ![Calculator in IntelliJ Idea](./img/Screenshot_Calc.png)
+    <img src="./img/Screenshot_Calc.png" alt="Calculator in IntelliJ Idea" height=250/>
+
+-   Further readings:
+    1. [JavaFX 8 docs](https://docs.oracle.com/javase/8/javafx/api/toc.htm)
+    2. [Last year JavaFX class resources](https://github.com/CC-MNNIT/2020-21-Classes/tree/master/Java/2020_10_05_Java-Class-9)
+    3. [Getting started by JavaFX 8 by Oracle](https://drive.google.com/file/d/1-uDCPiW9WYFVsJBq4V7e-S3gDPNWxgnq/view?usp=sharing)
