@@ -1,5 +1,7 @@
 # Web Development Class - II
 
+## Web Development Class - II recording: [Here](https://drive.google.com/file/d/1lTGGeMfNDLM3PHx8pUjhp0W0d_CeU-Gn/view?usp=sharing)
+
 #### April 26, 2021
 
 <div align="center"><img src="./images/frontend.jpg" alt="Frontend" height=150/></div>
@@ -558,12 +560,13 @@
 * [Kshitiz Srivastava](https://github.com/pirateksh/)
 * [Ankit Sangwan](https://github.com/ankitsangwan1999/)
 * [Sujeet Kushwaha](https://github.com/su050300)
-* [Aman Tebriwal](https://github.com/amantibrewal310) 
+* [Aman Tibrewal](https://github.com/amantibrewal310) 
 
 ### Material
 
-* [JavatPoint HTML Tutorial](https://www.javatpoint.com/html-tutorial).
-* [W3Schools HTML Tutorial](https://www.w3schools.com/html/).
 * [W3Schools CSS Tutorial](https://www.w3schools.com/css/).
+* [CSS Tutorial, Zero to Hero](https://cutt.ly/7v5rRn5) (English) 
+* [CSS 3 Tutorial for Beginners](https://cutt.ly/ov5rooR) (Hindi) 
+* For those of you who prefer reading books - [HTML and CSS design and build websites](https://cutt.ly/Av5tmDl).
 * See a full demo of HTML with external CSS [here](./html_css_demo_complete).
 * Facebook Login/Signup Page like frontend demo (incomplete) [here](./facebook_demo_html_css). 

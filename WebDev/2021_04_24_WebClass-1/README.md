@@ -312,6 +312,7 @@
 
 * [JavatPoint HTML Tutorial](https://www.javatpoint.com/html-tutorial).
 * [W3Schools HTML Tutorial](https://www.w3schools.com/html/).
+* [The Complete HTML cheatsheet](./The-Complete-HTML-Cheat-Sheet.pdf)
 
 ### Note
 * Rest of the material has been moved to [WebClass-II folder](../2021_04_26_WebClass-2).
