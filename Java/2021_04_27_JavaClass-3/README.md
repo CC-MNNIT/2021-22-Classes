@@ -15,15 +15,15 @@
 
     For answer: [Click here](https://dzone.com/articles/a-guide-to-java-versions-and-features)
 
--   Why JavaFx? [Click here](https://medium.com/@shanekhantsoemoe98/why-should-i-use-javafx-42e41d485178)
-    1.  JavaFX can be styled with CSS, whereas Swing cannot be. If we want to style Swing GUIs with CSS, we will need to use third party sources like flying-saucer. Being able to implement CSS is a unique functionality of JavaFX, and that alone lets programmers easily and swiftly create cool designs in applications.
-    2.  JavaFX makes programmers’ life easy by offering “JavaFX scene builder” with which programmers can create GUI controls like buttons via drag and drop.
-    3.  JavaFX supports Java Lambda expressions in action-triggering events unlike Swing. Using Lambda expressions, JavaFX promotes code readability and just needs fewer lines of code than Swing.
+-   Why JavaFx?: [Click here](https://medium.com/@shanekhantsoemoe98/why-should-i-use-javafx-42e41d485178)
+    1.  JavaFX can be styled with CSS, whereas Swing cannot be. If we want to style Swing GUIs with CSS, we will need to use third party sources like [flying-saucer](https://code.google.com/archive/p/flying-saucer/). Being able to implement CSS is a unique functionality of JavaFX, and that alone lets programmers easily and swiftly create cool designs in applications.
+    2.  JavaFX makes programmers’ life easy by offering [“JavaFX scene builder”](http://www.oracle.com/technetwork/java/javase/downloads/sb2download-2177776.html) with which programmers can create GUI controls like buttons via drag and drop.
+    3.  JavaFX supports [Java Lambda expressions](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html) in action-triggering events unlike Swing. Using Lambda expressions, JavaFX promotes code readability and just needs fewer lines of code than Swing.
     4.  JavaFX has built-in data visualization such as 2D charts
     5.  JavaFX 3D API is an awesome API to create 3D objects in creating games or customizing charts in JavaFX.
-    6.  JavaFX is a good alternative GUI for Android and iOS, meaning JavaFX is portable now. Though JavaFX is not as good as native GUIs, it still performs smoothly on both Android and iOS platforms by using Gluon.
+    6.  JavaFX is a good alternative GUI for Android and iOS, meaning JavaFX is portable now. Though JavaFX is not as good as native GUIs, it still performs smoothly on both Android and iOS platforms by using [Gluon](http://gluonhq.com/javafx-3d-now-available-android-ios/).
 
--   Why Desktop Application Development ?
+-   Why Desktop Application Development?
 
     For answer: [Click here](https://www.noodle.com/articles/how-to-become-a-desktop-developer-desktop-is-not-dead).
 
@@ -41,7 +41,7 @@
     1.  Controller classes are only for writing logic of the UI components.
     2.  Other classes may be used for other purposes like fetching data from APIs or connecting to a socket.
     
--   Nomenclature (https://www.javatpoint.com/java-naming-conventions)
+-   Nomenclature: [Click here](https://www.javatpoint.com/java-naming-conventions)
     1.  Class
     2.  Methods
     3.  Variables
