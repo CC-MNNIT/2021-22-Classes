@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- Declaration represents document type.it appears at the top of page -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #table_div {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        h3 {
+            margin-top: 50px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        tr:nth-child(even) {
+           background-color: #dddddd;
+        }
+
+        .left{
+            float:left; 
+            width:33%;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 style="text-align:center;">HTML TABLES</h1>
+        <div id="table_div">
+            <table cellpadding = "10" cellspacing = "10" style="margin-left: auto;margin-right: auto;">
+                <tr>
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                    <th>Column 3</th>
+                 </tr>
+                 <tr>
+                    <td rowspan = "2">Row 1 Cell 1</td>
+                    <td>Row 1 Cell 2</td>
+                    <td>Row 1 Cell 3</td>
+                 </tr>
+                 <tr>
+                    <td>Row 2 Cell 2</td>
+                    <td>Row 2 Cell 3</td>
+                 </tr>
+                 <tr>
+                    <td colspan = "3">Row 3 Cell 1</td>
+                 </tr>
+            </table>
+        </div>
+    </div>
+
+    <div>
+        <h1 style="text-align:center;margin-top: 50px;">HTML LISTS</h1>
+        <div style="display: inline;">
+            <div class="left" style="margin-left: 100px;">
+                <h3>Description List</h3>
+                <dl>
+                <div>
+                    <dt>Name</dt>
+                    <dd>Godzilla</dd>
+                </div>
+                <div>
+                    <dt>Born</dt>
+                    <dd>1952</dd>
+                </div>
+                <div>
+                    <dt>Birthplace</dt>
+                    <dd>Japan</dd>
+                </div>
+                <div>
+                    <dt>Color</dt>
+                    <dd>Green</dd>
+                </div>
+                </dl>
+            </div>
+            <div class="left" style="margin-left: -100px;">
+                <h3>Ordered List</h3>
+                <ol>
+                    <li>Chapter One
+                      <ol style="list-style-type: lower-alpha;">
+                        <li>Section One</li>
+                        <li>Section Two </li>
+                        <li>Section Three </li>
+                      </ol>
+                    </li>
+                    <li>Chapter Two</li>
+                    <li>Chapter Three  </li>
+                  </ol>
+            </div>
+            <div class="left">
+                <h3>Unordered List</h3>
+                <ul>
+                    <li>bread</li>
+                    <li>coffee beans</li>
+                    <li>milk</li>
+                    <li>butter</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

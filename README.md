@@ -6,7 +6,7 @@
 # MNNIT Computer Coding Club
 
 <div align="center">
-    <img src="./cclogo.png" height="200"/>
+    <img src="./cclogo.png" alt="MNNIT CC Club logo" height=200/>
 </div>
 
 This repository contains the codes, support links and other relevant materials for every class under Computer Coding Club, MNNIT Allahabad, Prayagraj.
@@ -43,7 +43,14 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
 ## Resources
 
 - Git/GitHub classes
-    - [Git Class-1](Git-GitHub/2020_04_20_GitClass-1)
+    - [Git Class-1](Git-GitHub/2021_04_20_GitClass-1)
+    - [Git Class-2](Git-GitHub/2021_04_21_GitClass-2)
+    - [Git Class-3](Git-GitHub/2021_04_22_GitClass-3)
+
+- Java classes
+    - [Java Class-1](Java/2021_04_22_JavaClass-1)
+    - [Java Class-2](Java/2021_04_25_JavaClass-2)
+    - [Java Class-3](Java/2021_04_27_JavaClass-3)
 
 - Placements and Internships
 	- [Guide to Placement](Placements)
@@ -69,6 +76,9 @@ Follow the [contribution guide](./CONTRIBUTING.md). Add the class folder link in
 ## Contributors
 
 * [Nishchal Siddharth Pandey](https://github.com/nisiddharth/)
+* [Kshitiz Srivastava](https://github.com/pirateksh/)
+* [Ashutosh Chitranshi](https://github.com/ashu12chi/)
+* [Ankit Sangwan](https://github.com/ankitsangwan1999/)
 * Our beloved seniors.
 
 ## Contact

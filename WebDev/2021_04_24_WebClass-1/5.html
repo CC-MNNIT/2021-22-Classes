@@ -1,0 +1,61 @@
+<!DOCTYPE html>  
+<html>  
+  <head>  
+    <title>Form in HTML</title>  
+  </head>  
+  <body>  
+      <h2>Registration form</h2>  
+      <form action="#", method="POST">  
+      <fieldset>  
+          <legend>User personal information</legend>
+
+          <label>Enter your full name</label><br>  
+          <input type="text" name="name"><br>  
+
+          <label>Enter your email</label><br>  
+          <input type="email" name="email"><br>  
+          
+          <label>Enter your password</label><br>  
+          <input type="password" name="pass"><br>  
+          
+          <label>confirm your password</label><br>  
+          <input type="password" name="pass"><br>  
+          
+          <br><label>Enter your gender</label><br>  
+          <input type="radio" id="gender" name="gender" value="male"/>Male  <br>  
+          <input type="radio" id="gender" name="gender" value="female"/>Female <br/>    
+          <input type="radio" id="gender" name="gender" value="others"/>others <br/>   
+          
+          <br><label>Hobbies</label><br>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1">Hobby 1</label><br>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+          <label for="vehicle2">Hobby 2</label><br>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3">Hobby 3</label>
+          <br>
+
+          <br><label>Select Age Group</label><br>
+          <select name = "dropdown">
+              <option value = "0-10" selected>0-10 yrs</option>
+              <option value = "10-20">10-20 yrs</option>
+              <option value = "20-30">20-30 yrs</option>
+              <option value = "30-40">30-40 yrs</option>
+              <option value = "40-50">40-50 yrs</option>
+              <option value = "50-60">50-60 yrs</option>
+           </select>
+           <br>
+
+           <br><label>Upload Profile Picture</label><br>
+           <input type = "file" name = "fileupload" accept = "image/*" />
+           <br>
+
+          <br>Enter your Address:<br>  
+          <textarea></textarea><br>  
+        
+          <input type="submit" value="SIGN-UP">  
+          <input type = "reset" name = "reset"  value = "Reset" />
+      </fieldset>  
+    </form>  
+  </body>  
+</html>  
