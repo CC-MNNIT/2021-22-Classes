@@ -8,6 +8,7 @@
 
 ## Class content:
 
+-   [Installation instructions](https://docs.google.com/document/d/1MrsuUJ05V6GazqPcjNPifAi3UjLHhCnU4QiN-4fvJyc/edit?usp=sharing)
 -   Installation of Java 8
 -   Installation of IntelliJ IDEA
 -   Installation of Scene Builder + JFoenix
