@@ -10,7 +10,7 @@
 <div align="center"><h2>JavaScript</h2></div>
 
 *	### What is JS?
-	* JavaScript is a **Scripting Language**, used to make web pages dynamic.
+	* JavaScript is a **Scripting Language**, used to make web pages *dynamic* and *interactive*.
 	* If HTML is the *BONES*, then JS is the *MUSCLES* of a webpage.
 
 *	### Scripting Language
@@ -234,6 +234,10 @@
 		* _PROS:_ It help us to optimise the performance of the web page by saving the memory of defining multiple event listeners
 		* _CONS:_ Not all events are bubbled up like resizing of the window, scrolling, etc.
 
+### Explore Yourselves
+* **window** vs **document** object
+* **null** vs **undefined** vs **not-defined**
+
 ### Content Contributors 
 * [Kshitiz Srivastava](https://github.com/pirateksh/)
 * [Ankit Sangwan](https://github.com/ankitsangwan1999/)
@@ -251,4 +255,4 @@
 * [Event Bubbling and Capturing](https://www.youtube.com/watch?v=aVSf0b1jVKk)
 * [Event Listeners](https://www.youtube.com/watch?v=XF1_MlZ5l6M)
 * [MDN Doc](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
-* [Bulb On Off Example](./bulb_on_off)
+* [Bulb On Off Example](./Examples/bulb_on_off)
