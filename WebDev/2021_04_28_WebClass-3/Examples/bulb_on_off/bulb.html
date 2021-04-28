@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Bulb On Off</title>
 	
 	<link rel="stylesheet" href="./css/bulb.css"></link>
 
-	<!-- If we put script tag here, this won't work -->
+	<!-- If we put script tag here, this won't work in this case -->
 	<!-- <script type="text/javascript" src="./js/bulb.js"></script> -->
-	
 
+	<!-- But, if we use 'defer' attribute, this will also work -->
+	<!-- <script type="text/javascript" src="./js/bulb.js" defer></script> -->
 </head>
+
 <body>
 	<div id="bulb">
 		<img id="bulbImage" src="./images/pic_bulboff.gif">

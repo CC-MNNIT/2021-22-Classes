@@ -567,6 +567,6 @@
 * [W3Schools CSS Tutorial](https://www.w3schools.com/css/).
 * [CSS Tutorial, Zero to Hero](https://cutt.ly/7v5rRn5) (English) 
 * [CSS 3 Tutorial for Beginners](https://cutt.ly/ov5rooR) (Hindi) 
-* For those of you who prefer reading books - [HTML and CSS design and build websites](https://cutt.ly/Av5tmDl).
+* For those of you who prefer reading books - [HTML and CSS design and build websites](./HTML_and_CSS_design_and_build_websites.pdf).
 * See a full demo of HTML with external CSS [here](./html_css_demo_complete).
 * Facebook Login/Signup Page like frontend demo (incomplete) [here](./facebook_demo_html_css). 

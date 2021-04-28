@@ -11,27 +11,38 @@ function changeToBulbOff() {
 	offButton.disabled = true;
 }
 
-onButton.onclick = function() {
-	console.log("Bulb on clicked");
+function changeToBulbOn() {
 	var bulb = document.getElementById('bulbImage');
 	bulb.src = "./images/pic_bulbon.gif";
 	onButton.disabled = true;
 	offButton.disabled = false;
 }
 
+
+
 // Method 1
 offButton.onclick = changeToBulbOff;
+onButton.onclick = changeToBulbOn;
 
-// Method 2
-offButton.addEventListener("click", changeToBulbOff);
+// // Method 2
+// offButton.addEventListener("click", changeToBulbOff);
+// onButton.addEventListener("click", changeToBulbOn);
 
-// Method 3
-offButton.onclick = function() {
-	var bulb = document.getElementById('bulbImage');
-	bulb.src = "./images/pic_bulboff.gif";
-	onButton.disabled = false;
-	offButton.disabled = true;
-}
+// // Method 3
+// offButton.onclick = function() {
+// 	var bulb = document.getElementById('bulbImage');
+// 	bulb.src = "./images/pic_bulboff.gif";
+// 	onButton.disabled = false;
+// 	offButton.disabled = true;
+// }
+
+// onButton.onclick = function() {
+// 	var bulb = document.getElementById('bulbImage');
+// 	bulb.src = "./images/pic_bulbon.gif";
+// 	onButton.disabled = true;
+// 	offButton.disabled = false;
+// }
+
 
 /*
 	Wrong Way of doing things
