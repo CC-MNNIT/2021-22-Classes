@@ -212,14 +212,16 @@
 		* HTML elements nest inside other elements. If you hover or click on a link, you will also be hovering or clicking on its parent elements.
 			1. **Event Bubbling**
 			2. **Event Capturing**
-		<div align="center"><img src="./images/event_flow.png"/></div>
-		```html
-		<body>
-		    <ul>
-		    	<li><a>Link</a></li>
-		    </ul>
-		</body>
-		```
+		
+	```html
+	<body>
+	    <ul>
+	    	<li><a>Link</a></li>
+	    </ul>
+	</body>
+	```
+
+	<div align="center"><img src="./images/event_flow.png"/></div>
 
 	* **Bubbling** - The bubbling principle is simple.
 
