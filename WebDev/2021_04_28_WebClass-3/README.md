@@ -86,7 +86,7 @@
 *	### Document Object Model (DOM)
 	* When a web page is loaded, the browser creates a Document Object Model of the page.
 	* It is the webpage represented in terms of **tree of objects** for easy manipulation in JS code.
-	<div align="center"><img src="./images/domtree.gif" alt="DOM Tree" height=150/></div>
+	<div align="center"><img src="./images/domtree.gif" alt="DOM Tree" height=350/></div>
 
 *	### Dom Manipulation/Query Selection
 	
@@ -110,29 +110,31 @@
 	<div align="center"><img src="./images/types_of_events_1.png"></div>
 	<div align="center"><img src="./images/types_of_events_2.png"></div>
 
-*	### TERMINOLOGY
+*	### Terminologies
 
 	* _EVENTS FIRE OR ARE RAISED_
 
-	* When an event has occurred, it is often described as having fired or been raised . In the diagram on the right, if the user is tapping on a link, a click event would fire in the browser.
+		* When an event has occurred, it is often described as having fired or been raised . 
+		* In the diagram below, if the user is tapping on a link, a click event would fire in the browser.
 
 	<div align="center"><img src="./images/event_terminology.png"></div>
 
 	* _EVENTS TRIGGER SCRIPTS_
 
-	* Events are said to trigger a function or script. When the click event fires on the element, it could trigger a script that enlarges the selected item.
+		* Events are said to trigger a function or script. 
+		* When the click event fires on the element, it could trigger a script that enlarges the selected item.
 
 *	### How events trigger JS code
 
 	* When the user interacts with the HTML on a web page, there are three steps involved in getting it to trigger some JavaScript code. Together these steps are known as **event handling**.
 
-	* Steps:
+	* **Steps**:
 
 		1. Select the **element** node(s) you want the script ot respond to.
 		2. Indicate which **event** on the selected node(s) will trigger the response.
 		3. State the _code_ you want to run when the event occurs.
 
-	* Three Ways to bind an event to an element:
+	* **Three Ways to bind an event to an element**:
 
 		1. HTML Event Handlers (_Bad Practice_)
 		2. Traditional DOM Event Handlers
@@ -144,23 +146,21 @@
 		<input type="button" onclick="alert('Click!')" value="Button">
 		```
 
-	* **_Why Bad Practice?_**
-
-		* An HTML-attribute is not a convenient place to write a lot of code, so we’d better create a JavaScript function and call it there.
+		* **_Why Bad Practice?_** An HTML-attribute is not a convenient place to write a lot of code, so we’d better create a JavaScript function and call it there.
 
 	* **Traditional DOM Event Handlers**
 		<div align="center"><img src="./images/dom_event_handler.png" alt="traditional DOM event handler syntax"/></div>
 
-	```
-	<input type="button" id="button" value="Button">
-	<script>
-	  button.onclick = function() {
-	    alert('Click!');
-	  };
-	</script>
-	```
+		```
+		<input type="button" id="button" value="Button">
+		<script>
+		button.onclick = function() {
+		    alert('Click!');
+		};
+		</script>
+		```
 
-	In the first example, the HTML attribute is used to initialize the button.onclick, while in the second example – the script, that’s all the difference.
+		* In the first example, the HTML attribute is used to initialize the button.onclick, while in the second example – the script tag is used, that’s all the difference.
 
 	* **_Note:_** As there’s only one `onclick` property, we can’t assign more than one event handler.
 
@@ -170,9 +170,9 @@
 
 		* Unlike, other two method in this method we can add multiple event listeners and they will execute in the order they are define
 
-	<div align="center"><img src="./images/event_listener.png" /></div>
-	<div align="center"><img src="./images/event_listener_1.png /"></div>
-	<div align="center"><img src="./images/event_listener_with_params.png" /></div>
+		<div align="center"><img src="./images/event_listener.png" /></div>
+		<div align="center"><img src="./images/event_listener_1.png /"></div>
+		<div align="center"><img src="./images/event_listener_with_params.png" /></div>
 
 		* Always first argument of the function associated with the event listener is **event object**
 
@@ -186,16 +186,16 @@
 
 		* Here’s an example of getting pointer coordinates from the event object:
 
-	```
-	<input type="button" value="Click me" id="elem">
-	<script>
-	  elem.onclick = function(event) {
-	    // show event type, element and coordinates of the click
-	    alert(event.type + " at " + event.currentTarget);
-	    alert("Coordinates: " + event.clientX + ":" + event.clientY);
-	  };
-	</script>
-	```
+		```
+		<input type="button" value="Click me" id="elem">
+		<script>
+		elem.onclick = function(event) {
+		    // show event type, element and coordinates of the click
+		    alert(event.type + " at " + event.currentTarget);
+		    alert("Coordinates: " + event.clientX + ":" + event.clientY);
+		};
+		</script>
+		```
 
 	* Some properties of `event` object:
 
@@ -210,13 +210,10 @@
 	* **Event Flow**
 
 		* HTML elements nest inside other elements. If you hover or click on a link, you will also be hovering or clicking on its parent elements.
-
-			1. Event Bubbling
-			2. Event Capturing
-
+			1. **Event Bubbling**
+			2. **Event Capturing**
 		<div align="center"><img src="./images/event_flow.png"/></div>
-
-		```
+		```html
 		<body>
 		    <ul>
 		    	<li><a>Link</a></li>
@@ -234,6 +231,11 @@
 		* It is possible because of event bubbling.
 		* _PROS:_ It help us to optimise the performance of the web page by saving the memory of defining multiple event listeners
 		* _CONS:_ Not all events are bubbled up like resizing of the window, scrolling, etc.
+
+### Content Contributors 
+* [Kshitiz Srivastava](https://github.com/pirateksh/)
+* [Ankit Sangwan](https://github.com/ankitsangwan1999/)
+* [Aman Tibrewal](https://github.com/amantibrewal310) 
 
 ### Materials
 
