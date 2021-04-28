@@ -247,6 +247,7 @@
 
 * [W3Schools JS Basics Tutorial](https://www.w3schools.com/js/default.asp).
 * [W3Schools JS HTML DOM Tutorial](https://www.w3schools.com/js/js_htmldom.asp).
+* [JS Cheatsheet](./Javascript_Cheat_Sheet.pdf)
 * [JS Events](https://javascript.info/events) (Must Read)
 * [JS Video Tutorial Playlist](https://www.youtube.com/watch?v=cvvwkgp4HBg&list=PLu0W_9lII9ajyk081To1Cbt2eI5913SsL) (Hindi)
 * [JS Video Tutorial Playlist](https://www.youtube.com/watch?v=hdI2bqOjy3c&list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX) (English)
