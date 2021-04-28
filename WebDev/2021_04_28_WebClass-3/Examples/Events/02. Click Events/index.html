@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DOM</title>
+    <style>
+      .red {
+        background: red;
+        color: white;
+        text-transform: uppercase;
+        font-size: 2rem;
+      }
+      .blue {
+        background: blue;
+        color: white;
+        text-transform: capitalize;
+        letter-spacing: 10px;
+      }
+      .btn {
+        background: #f15025;
+        color: white;
+        font-size: 1.2rem;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>events in javascript</h2>
+    <button class="btn">click me</button>
+    <!-- javascript -->
+    <p onclick="this.classList.add('red')">
+      the old style
+    </p>
+    <script src="app.js"></script>
+  </body>
+</html>

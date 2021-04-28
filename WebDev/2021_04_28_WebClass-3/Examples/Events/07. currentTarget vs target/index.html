@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DOM</title>
+    <style>
+      .red {
+        background: red;
+        color: white;
+        text-transform: uppercase;
+        font-size: 2rem;
+      }
+      .btn {
+        background: #f15025;
+        color: white;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        border: none;
+        display: inline-block;
+        margin: 0.5rem;
+      }
+      .blue {
+        background: blue;
+        color: white;
+        text-transform: capitalize;
+        letter-spacing: 10px;
+      }
+      a {
+        display: inline-block;
+        margin-top: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="btn">first button</button>
+    <button class="btn">
+      second <strong>button <strong>more nested </strong> </strong>
+    </button>
+    <button class="btn">third button</button>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
