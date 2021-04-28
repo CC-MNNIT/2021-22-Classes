@@ -1,11 +1,11 @@
 # Machine Learning Class resources
-<div align="center"><img src="./MachineLearning.png"/></div>
+<div align="center"><img src="./MachineLearning.png" height  = 500/></div>
 
 ## Table of Contents
 
 - [Classes Held](#classes-held)
 - [Machine Learning Resources](#machine-learning-resources)
-- [Python Language Guide](#python-language-guides)
+- [Python Language Guide](#python-language-guide)
 
 
 ## Classes Held
@@ -18,7 +18,7 @@
 - [Fundamentals of ML by Sanjay Dasgupta](https://www.edx.org/course/machine-learning-fundamentals-2)
 
 
-## Python Language Guides
+## Python Language Guide
 
 - [Python Installaton Guide](https://www.youtube.com/watch?v=4Rx_JRkwAjY)
 - [Python Playlist for ML(videos 1-70)](https://www.youtube.com/playlist?list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3)
