@@ -5,8 +5,8 @@
 
 - [Classes Held](#classes-held)
 - [Machine Learning Resources](#machine-learning-resources)
+- [Data Visualization Guide](#data-visualization-guide)
 - [Python Language Guide](#python-language-guide)
-
 
 ## Classes Held
 
@@ -17,6 +17,9 @@
 - [Machine Learing by Andrew NG](https://www.youtube.com/playlist?list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)
 - [Fundamentals of ML by Sanjay Dasgupta](https://www.edx.org/course/machine-learning-fundamentals-2)
 
+## Data Visualization Guide
+
+- [Data visualization using Matplotlib and Seaborn](https://github.com/deepanshu-Raj/Data_Visualization)
 
 ## Python Language Guide
 
