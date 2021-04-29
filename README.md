@@ -47,10 +47,18 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
     - [Git Class-2](Git-GitHub/2021_04_21_GitClass-2)
     - [Git Class-3](Git-GitHub/2021_04_22_GitClass-3)
 
-- Java classes
-    - [Java Class-1](Java/2021_04_22_JavaClass-1)
-    - [Java Class-2](Java/2021_04_25_JavaClass-2)
-    - [Java Class-3](Java/2021_04_27_JavaClass-3)
+- Java/OOP classes
+    - [Java Class-1 (OOP-1)](Java/2021_04_22_JavaClass-1)
+    - [Java Class-2 (OOP-2)](Java/2021_04_25_JavaClass-2)
+    - [Java Class-3 (JavaFX-1)](Java/2021_04_27_JavaClass-3)
+
+- Web Development classes
+    - [WebDev Class-1](WebDev/2021_04_24_WebClass-1)
+    - [WebDev Class-2](WebDev/2021_04_26_WebClass-2)
+    - [WebDev Class-3](WebDev/2021_04_28_WebClass-3)
+
+- Machine Learning classes
+    - [Machine Learning Class-1](MachineLearning/2021-04-29_ML-Class-1)
 
 - Placements and Internships
 	- [Guide to Placement](Placements)
@@ -79,6 +87,7 @@ Follow the [contribution guide](./CONTRIBUTING.md). Add the class folder link in
 * [Kshitiz Srivastava](https://github.com/pirateksh/)
 * [Ashutosh Chitranshi](https://github.com/ashu12chi/)
 * [Ankit Sangwan](https://github.com/ankitsangwan1999/)
+* [Sidhant Agarwal](https://github.com/sidhantagar)
 * Our beloved seniors.
 
 ## Contact
