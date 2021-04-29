@@ -13,9 +13,9 @@
 
 ## Classes Held
 
-- [Class 1: held on 24 April, 2021](./2021_04_24_WebClass-1)
-- [Class 2: held on 26 April, 2021](./2021_04_26_WebClass-2)
-- [Class 3: held on 28 April, 2021](./2021_04_28_WebClass-3)
+- [Class 1 (HTML): held on 24 April, 2021](./2021_04_24_WebClass-1)
+- [Class 2 (HTML + CSS): held on 26 April, 2021](./2021_04_26_WebClass-2)
+- [Class 3 (JS): held on 28 April, 2021](./2021_04_28_WebClass-3)
 
 ## Getting Started
 Getting started with Web :-
