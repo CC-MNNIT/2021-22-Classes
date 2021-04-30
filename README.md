@@ -57,6 +57,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
     - [WebDev Class-1 (HTML)](WebDev/2021_04_24_WebClass-1)
     - [WebDev Class-2 (HTML + CSS)](WebDev/2021_04_26_WebClass-2)
     - [WebDev Class-3 (JS)](WebDev/2021_04_28_WebClass-3)
+    - [WebDev Class-4 (SQL)](WebDev/2021_05_01_WebClass-4)
 
 - Machine Learning classes
     - [Machine Learning Class-1](MachineLearning/2021-04-29_ML-Class-1)
