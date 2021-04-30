@@ -385,7 +385,86 @@ class Painter implements Workable {
 
 * [Multithreading in Java using Thread Class [Sample code]](SampleThread.java)
 
+	```java
+	class Thread1 extends Thread {
+
+		@Override
+		public void run() {
+			while (true) {
+				System.out.println("I am Thread1.");
+				try {
+					Thread.sleep(500);
+				} catch (Exception ex) {
+					System.err.println("exception");
+				}
+			}
+		}
+
+	}
+
+	class Thread2 extends Thread {
+		@Override
+		public void run() {
+			while (true) {
+				System.out.println("I am Thread2.");
+				try {
+					Thread.sleep(500);
+				} catch (Exception ex) {
+					System.err.println("exception");
+				}
+			}
+		}
+
+	}
+
+	class SampleThread {
+		public static void main(String args[]) throws Exception {
+
+			Thread t1 = new Thread1();
+			t1.start();// separate stack memory is allocated, then run gets called
+			Thread t2 = new Thread2();
+			t2.start();// separate stack memory is allocated, then run gets called
+
+			while (true) {
+				System.out.println("I am main thread.");
+				Thread.sleep(1000);
+			}
+		}
+	}
+	```
+
 * [Multithreading in Java using Runnable Interface [Sample code]](SampleThreadRunnable.java)
+
+	```java
+	public class SampleThreadRunnable implements Runnable {
+
+		@Override
+		public void run() {
+			while (true) {
+				System.out.println("I am secondary thread.");
+				try {
+					Thread.sleep(500);
+				} catch (Exception ex) {
+					System.err.println("exception");
+				}
+			}
+		}
+
+		public static void main(String args[]) throws Exception {
+
+			Runnable r = new SampleThreadRunnable();
+			Thread t = new Thread(r);
+			t.start();// separate stack memory is allocated, then run gets called
+
+			while (true) {
+				System.out.println("I am main thread.");
+				Thread.sleep(700);
+			}
+
+		}
+
+	}
+	```
 
 # Note
 
