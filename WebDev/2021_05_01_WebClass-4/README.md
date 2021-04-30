@@ -2,6 +2,8 @@
 
 #### May 01, 2021
 
+<div align="center"><img src="./images/database.jpeg" alt="databse" height="150" /></div>
+
 <hr>
 
 <div align="center"><h2>Database</h2></div>
@@ -44,11 +46,20 @@
     * **Keys** - It is used for identifying unique rows from table. It also establishes relationship among tables.
 
 *   ### Types of keys in DBMS
-
+    
     * **Primary Key** – A primary is a column or set of columns in a table that **uniquely** identifies tuples (rows) in that table.
     * **Foreign Key** – Foreign keys are the columns of a table that points to the primary key of another table. They act as a **cross-reference** between tables.
 
-*   ### SQL
+    <div align="center"><img src="./images/foreign_key.png" alt="foreign_key" /></div>
+
+<hr>
+<div align="center"><img src="./images/mysql.jpeg" alt="mysql" height="150" /></div>
+
+<hr> 
+
+<div align="center"><h2>SQL</h2></div>
+
+*   ### What is SQL?
     * SQL stands for **Structured Query Language**.
     * It is designed for managing data in a relational database management system (RDBMS).
     * It is pronounced as **S-Q-L** or sometime **See-Qwell**.
@@ -187,8 +198,64 @@
             SELECT emp_name FROM employee WHERE age > 20;  
             ```
 
-*   ### SQL Clauses
-    * **WHERE** - 
+*   ### SQL Key Constraints
+    * **PRIMARY KEY** - 
+        * A column or columns is called primary key (PK) that uniquely identifies each row in the table.
+        * When multiple columns are used as a primary key, it is known as composite primary key.
+        * Example 1 - Primary Key using single column
+        ```sql
+        CREATE TABLE students  
+        (  
+            S_Id int NOT NULL,  
+            LastName varchar (255) NOT NULL,  
+            FirstName varchar (255),  
+            Address varchar (255),  
+            City varchar (255),  
+            PRIMARY KEY (S_Id)  
+        )  
+        ```
+        * Example 2 - Primary Key using multiple columns
+        ```sql
+        CREATE TABLE students  
+        (  
+            S_Id int NOT NULL,  
+            LastName varchar (255) NOT NULL,  
+            FirstName varchar (255),  
+            Address varchar (255),  
+            City varchar (255),  
+            CONSTRAINT pk_StudentID PRIMARY KEY (S_Id, LastName)  
+        )  
+        ```
+    * **UNIQUE KEY** - 
+        * A unique key is a set of one or more than one fields/columns of a table that uniquely identify a record in a database table.
+        * There is an automatically defined unique key constraint within a primary key constraint.
+        * Example - 
+        ```sql
+        CREATE TABLE students  
+        (  
+            S_Id int NOT NULL,  
+            LastName varchar (255) NOT NULL,  
+            FirstName varchar (255),  
+            City varchar (255),  
+            UNIQUE (S_Id)  
+        ) 
+        ```
+    * **FOREIGN KEY** - 
+        * In the relational databases, a foreign key is a field or a column that is used to establish a link between two tables.
+        * In simple words you can say that, a foreign key in one table used to **point to the primary key in another table**.
+        * Example - 
+        ```sql
+        CREATE TABLE orders  
+        (  
+            O_Id int NOT NULL,  
+            Order_No  int NOT NULL,  
+            S_Id int,  
+            PRIMAY KEY (O_Id),  
+            FOREIGN KEY (S_Id) REFERENCES Persons (S_Id)  
+        ) 
+        ```
+*   ### SQL Clauses, Functions and Operators
+    * **WHERE Clause** - 
         * A `WHERE` clause in SQL is a data manipulation language statement.
         * It filters the records. It returns only those queries which **fulfill the specific conditions**.
         * It uses some conditional selection like `=`, `>`, `<`, `<=`, `>=`, `<>`.
@@ -197,10 +264,220 @@
         ```sql
         SELECT s_name FROM students WHERE s_age >= 18;
         ```
-    * **AND** and **OR** - 
-        * Can be used to group multiple conditions.
+    * **AND** and **OR Clauses** - 
+        * `AND` and `OR` clauses can be used to group multiple conditions.
         * Example - 
         ```sql
         SELECT s_name, s_age FROM students WHERE (s_age >= 18 AND cpi > 7.0);
         ```
-    * **LIKE** - 
+    * **IN Operator** - 
+        * The `IN` operator allows you to specify multiple values in a `WHERE` clause.
+        * It is a shorthand for multiple `OR` conditions.
+        * Example - Two statements mentioned below have same effect.
+        ```sql
+        SELECT s_name FROM students WHERE (s_age=18 OR s_age=19 OR s_age=20);
+        SELECT s_name FROM students WHERE s_age IN (18,19,20);
+        ```
+        * **NOT** Operator can also be used with **IN**.
+        * Example - 
+        ```sql
+        SELECT s_name FROM students WHERE s_age NOT IN (18,19,20);
+        ```
+    * **BETWEEN Operator** - 
+        * It selects values within a given range. The values can be *numbers, text, or dates*.
+        * It is inclusive i.e. begin and end values are**included**.
+        * Example 1 - 
+        ```sql
+        SELECT s_name FROM students WHERE s_age BETWEEN 18 AND 20;
+        ``` 
+        * Example 2 - Using AND, NOT, IN and BETWEEN
+        ```sql
+        SELECT * FROM Products
+        WHERE Price BETWEEN 10 AND 20
+        AND CategoryID NOT IN (1,2,3);
+        ``` 
+
+    * **LIKE Clause** - 
+        * The `LIKE` clause is used to compare a value to **similar values using wildcard operators**.
+        * Two wildcard operators are used - 
+            * *Percentage sign (**%**)* -  It represents zero, one or multiple characters.
+            * *Underscore sign (**_**)* - It represents a single number or character.
+        * Example 1 - Find all students whose name start with letter **A**.
+        ```sql
+        SELECT * FROM students WHERE s_name LIKE "A%";
+        ```
+        * Example 2 - Find all employess whose salary end with digit **2**.
+        ```sql
+        SELECT * FROM employees WHERE emp_salary LIKE "%2";
+        ```
+        * Example 3 - Find all employees whose salary has digit 0 at second and third position from starting.
+        ```sql
+        SELECT * FROM employees WHERE emp_salary LIKE "_00%";
+        ```
+    * **ORDER BY Clause** - 
+        * It sorts the result-set in **ascending** or **descending** order.
+        * It sorts the records in ascending order by default. **ASC** keyword can also be used.
+        * **DESC** keyword is used to sort the records in descending order.
+        * Syntax - 
+        ```sql
+        SELECT column1, column2  
+        FROM table_name  
+        WHERE condition  
+        ORDER BY column1, column2... ASC|DESC;  
+        ```
+        * Example - Find all students and sort them in descending order of age.
+        ```sql
+        SELECT * FROM students ORDER BY s_age DESC;
+        ```
+    * **COUNT() Function** - 
+        * It is a function that returns the number of rows that matches a specified criterion.
+        * NULL values are not counted.
+        * Syntax - 
+        ```sql
+        SELECT COUNT(column_name) 
+        FROM table_name 
+        WHERE condition;
+        ```
+    * **AVG() Function** - 
+        * It returns the average value of a numeric column.
+        * NULL values are ignored. 
+        * Syntax - 
+        ```sql
+        SELECT AVG(column_name)
+        FROM table_name
+        WHERE condition;
+        ```
+    * **SUM() Function** - 
+        * It returns the total sum of a numeric column.
+        * NULL values are ignored.
+        * Syntax - 
+        ```sql
+        SELECT SUM(column_name)
+        FROM table_name
+        WHERE condition;
+        ```
+    * **GROUP BY Clause** - 
+        * The `GROUP BY` clause **groups rows that have the same values** into summary rows, like "*find the number of customers in each country*".
+        * The `GROUP BY` clause is often used with **aggregate functions** (`COUNT()`, `MAX()`, `MIN()`, `SUM()`, `AVG()`) to group the result-set by one or more columns.
+        * In a `SELECT` statement, the `GROUP BY` clause follows the `WHERE` clause and precedes the `ORDER BY` clause.
+        * Syntax - 
+        ```sql
+        SELECT column_name(s)
+        FROM table_name
+        WHERE condition
+        GROUP BY column_name(s)
+        ORDER BY column_name(s);
+        ```
+        * Example - List the number of customers in each country.
+        ```sql
+        SELECT COUNT(CustomerID), Country
+        FROM Customers
+        GROUP BY Country;
+        ```
+    * **HAVING Clause** - 
+        * The `HAVING` clause was added to SQL because the `WHERE` clause **cannot be used with aggregate functions**.
+        * Syntax - 
+        ```sql
+        SELECT column_name(s)
+        FROM table_name
+        WHERE condition
+        GROUP BY column_name(s)
+        HAVING condition
+        ORDER BY column_name(s);
+        ```
+        * Example - List the number of customers in each country (of Asia only). Only include countries with **more than 5 customers**.
+        ```sql
+        SELECT COUNT(CustomerID), Country
+        FROM Customers
+        WHERE Continent="Asia"
+        GROUP BY Country
+        HAVING COUNT(CustomerID) > 5;
+        ```
+
+*   ### SQL Aliases
+    * SQL aliases are used to give a table, or a column in a table, a temporary name.
+    * Aliases are often used to make column names more readable.
+    * An alias only exists for the duration of that query.
+    * An alias is created with the **AS** keyword.
+    * Syntax - Column Name Alias
+    ```sql
+    SELECT column_name AS alias_name
+    FROM table_name;
+    ```
+    * Syntax - Table Name Alias
+    ```sql
+    SELECT column_name(s)
+    FROM table_name AS alias_name;
+    ```
+
+*   ### SQL Join
+    * A JOIN clause is used to combine rows from two or more tables, based on a **related column** between them.
+    * Matching is always done based on the **related column**.
+    * Look at **Orders** table - 
+        <div align="center"><img src="./images/orders.png" alt="orders_table"/></div>
+    * Look at the **Customers** table - 
+        <div align="center"><img src="./images/customers.png" alt="customers_table"/></div>
+    * In both these tables, we can clearly see that **CustomerID** is the related column.
+
+*   ### Types of SQL Joins - 
+    <div align="center"><img src="./images/joins.png" alt="joins"/></div>
+    
+    * **(INNER) JOIN** - 
+        * Returns records that have matching values of related column in both tables.
+        * Syntax - 
+        ```sql
+        SELECT column_name(s)
+        FROM table1
+        INNER JOIN table2
+        ON table1.column_name = table2.column_name;
+        ```
+    * **LEFT (OUTER) JOIN** - 
+        * Returns all records from the left table, and the matched records from the right table.
+        * Syntax - 
+        ```sql
+        SELECT column_name(s)
+        FROM table1
+        LEFT JOIN table2
+        ON table1.column_name = table2.column_name;
+        ```
+    * **RIGHT (OUTER) JOIN** - 
+        * Returns all records from the right table, and the matched records from the left table.
+        * Syntax - 
+        ```sql
+        SELECT column_name(s)
+        FROM table1
+        RIGHT JOIN table2
+        ON table1.column_name = table2.column_name;
+        ```
+    * **FULL (OUTER) JOIN** - 
+        * Returns all records when there is a match in either left or right table.
+        * Syntax - 
+        ```sql
+        SELECT column_name(s)
+        FROM table1
+        FULL OUTER JOIN table2
+        ON table1.column_name = table2.column_name
+        WHERE condition;
+        ```
+
+    * **SELF JOIN** - 
+        * A self join is a regular join, but the table is joined with itself.
+        * Example - 
+        ```sql
+        SELECT A.CustomerName AS CustomerName1, B.CustomerName AS CustomerName2, A.City
+        FROM Customers A, Customers B
+        WHERE A.CustomerID <> B.CustomerID
+        AND A.City = B.City
+        ORDER BY A.City;
+        ``` 
+
+*   ### Content Contributors
+    
+    * [Kshitiz Srivastava](https://github.com/pirateksh/)
+    * [Harshit Garg](https://github.com/harshit212705)
+
+*   ### Materials
+    
+    * [W3Schools SQL Tutorial](https://www.w3schools.com/sql/default.asp) (Must Read)
+    * For those of you who prefer reading books, [MySQL Tutorial ](https://drive.google.com/file/d/1Ww5de3bH3oYWKigP_fk5scu6zry103a9/view?usp=sharing)
+    * [SQL Video Tutorial](https://www.youtube.com/watch?v=HXV3zeQKqGY) (English)
