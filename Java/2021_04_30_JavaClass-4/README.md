@@ -2,6 +2,8 @@
 
 #### April 30, 2021
 
+## Get the Java Class - IV recording: [Here](https://drive.google.com/file/d/1m5yhM9lhtO9PeU81xOg0v1zDgdZ06wxR/view?usp=sharing)
+
 <div align="center"><img src="../Java.png" alt="Java logo" height=150/></div>
 
 <hr>
@@ -381,9 +383,9 @@ class Painter implements Workable {
 
 * [Geeksforgeeks article on Multithreading](https://docs.oracle.com/javase/tutorial/essential/concurrency/)
 
-* [Multithreading in Java using Thread Class](SampleThread.java)
+* [Multithreading in Java using Thread Class [Sample code]](SampleThread.java)
 
-* [Multithreading in Java using Runnable Interface](SampleThreadRunnable.java)
+* [Multithreading in Java using Runnable Interface [Sample code]](SampleThreadRunnable.java)
 
 # Note
 
