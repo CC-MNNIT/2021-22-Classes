@@ -51,6 +51,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
     - [Java Class-1 (OOP-1)](Java/2021_04_22_JavaClass-1)
     - [Java Class-2 (OOP-2)](Java/2021_04_25_JavaClass-2)
     - [Java Class-3 (JavaFX-1)](Java/2021_04_27_JavaClass-3)
+    - [Java Class-4 (OOP-3)](Java/2021_04_30_JavaClass-4)
 
 - Web Development classes
     - [WebDev Class-1 (HTML)](WebDev/2021_04_24_WebClass-1)
