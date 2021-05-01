@@ -112,10 +112,21 @@
             * Syntax (creating database) - 
             ```sql
             CREATE DATABASE database_name;
+
+            -- You can use this command to list all databases
+            SHOW DATABASES;
             ```
             * Syntax (creating a table) - 
             ```sql
             CREATE TABLE TABLE_NAME(COLUMN_NAME DATATYPES[,....]);
+
+            -- You can use this command to list all tables in a database
+            SHOW TABLES;
+
+            -- To see structure of a table you can use following command
+            DESCRIBE table_name;
+            -- OR
+            DESC table_name;
             ```
             * Example - 
             ```sql
@@ -225,20 +236,6 @@
             City varchar (255),  
             CONSTRAINT pk_StudentID PRIMARY KEY (S_Id, LastName)  
         )  
-        ```
-    * **UNIQUE KEY** - 
-        * A unique key is a set of one or more than one fields/columns of a table that uniquely identify a record in a database table.
-        * There is an automatically defined unique key constraint within a primary key constraint.
-        * Example - 
-        ```sql
-        CREATE TABLE students  
-        (  
-            S_Id int NOT NULL,  
-            LastName varchar (255) NOT NULL,  
-            FirstName varchar (255),  
-            City varchar (255),  
-            UNIQUE (S_Id)  
-        ) 
         ```
     * **FOREIGN KEY** - 
         * In the relational databases, a foreign key is a field or a column that is used to establish a link between two tables.
@@ -394,6 +391,27 @@
         HAVING COUNT(CustomerID) > 5;
         ```
 
+*   ### SQL NULL Values
+    * A field with a **NULL** value is a field with no value.
+    * If a field in a table is **optional**, it is possible to insert a new record or update a record without adding a value to this field. Then, the field will be saved with a NULL value.
+    * A NULL value is different from a **zero value** or a **field that contains spaces**. 
+    * A field with a NULL value is one that has been **left blank during record creation**.
+    * **Testing for NULL values** - 
+        * It is *not possible* to test for NULL values with comparison operators, such as `=`, `<`, or `<>`.
+        * We will have to use the `IS NULL` and `IS NOT NULL` operators instead.
+        * Syntax -
+        ```sql
+        -- IS NULL
+        SELECT column_names
+        FROM table_name
+        WHERE column_name IS NULL;
+
+        -- IS NOT NULL
+        SELECT column_names
+        FROM table_name
+        WHERE column_name IS NOT NULL;
+        ```
+
 *   ### SQL Aliases
     * SQL aliases are used to give a table, or a column in a table, a temporary name.
     * Aliases are often used to make column names more readable.
@@ -470,7 +488,12 @@
         AND A.City = B.City
         ORDER BY A.City;
         ``` 
-
+*   ### Explore Yourself
+    * SQL UNION
+    * SQL CHECK
+    * SQL NATURAL JOIN
+    * SQL CROSS JOIN
+    
 *   ### Content Contributors
     
     * [Kshitiz Srivastava](https://github.com/pirateksh/)
