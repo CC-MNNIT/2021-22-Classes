@@ -1,0 +1,183 @@
+CREATE DATABASE database_demo_cc;
+
+-- Click on the database from navigation bar.
+
+-- Create a table for students
+CREATE TABLE students 
+(
+	s_id varchar(10) NOT NULL,
+	s_name varchar(50),
+	dob date,
+	s_pno varchar(12)
+);
+
+-- Insert some data in students table
+INSERT INTO students (s_id, s_name, dob, s_pno)
+VALUES ("20184091", "Foo Bar", "1999-01-29", "9415000000");
+
+INSERT INTO students
+VALUES ("20185091", "Alice", "2000-01-01", "9415000200");
+
+INSERT INTO students
+VALUES ("20185040", "Bob", "2000-03-03", "9415050200");
+
+SHOW TABLES;
+
+DESCRIBE students;
+
+-- Alter table and make s_id primary key
+ALTER TABLE students ADD PRIMARY KEY(s_id);
+
+DESC students;
+
+-- Show students whose s_id contains digit "4"
+SELECT * FROM students WHERE s_id LIKE "%4%";
+
+-- Show students whose s_id does not contains digit "4"
+SELECT * FROM students WHERE s_id NOT LIKE "%4%";
+
+-- Create a table to store subjects
+CREATE TABLE subjects
+(
+	sub_id int NOT NULL,
+   	sub_name varchar(50),
+    	sem_taught int,
+    	PRIMARY KEY(sub_id)
+);
+
+-- Enter some subjects
+INSERT INTO subjects VALUES ( 1, "C Programming", 1 );
+INSERT INTO subjects VALUES ( 2, "Maths-I", 1 );
+
+-- Below command will give error (Why?)
+INSERT INTO subjects VALUES (2, "Maths-II", 2);
+
+INSERT INTO subjects VALUES (3, "Maths-II", 2);  
+
+-- Leaving a column's value as NULL
+INSERT INTO subjects (sub_id, sub_name) VALUES (4, "Chemistry");
+
+-- Updating marks table and filling sem_taught for Chemistry.
+UPDATE marks SET sem_taught=1 WHERE sub_name="Chemistry";
+
+SELECT * FROM subjects;
+
+-- Creating marks table 
+CREATE TABLE marks 
+(
+	m_id int NOT NULL,
+   	s_id varchar(10) NOT NULL,
+    	sub_id int NOT NULL,
+    	marks_recvd int,
+    	PRIMARY KEY (m_id),
+    	FOREIGN KEY (s_id) REFERENCES students (s_id),
+   	FOREIGN KEY (sub_id) REFERENCES subjects (sub_id)
+);
+
+-- Inserting marks
+INSERT INTO marks VALUES ( 1, "20184091", 1, 89);
+
+-- This will give error (Why?)
+INSERT INTO marks VALUES (2, "20184091", 9, 85);
+
+-- Insert some more marks
+INSERT INTO marks VALUES (2, "20184091", 2, 85);
+
+INSERT INTO marks VALUES (3, "20185091", 2, 86);
+
+INSERT INTO marks VALUES (4, "20185091", 1, 95);
+
+INSERT INTO marks VALUES (5, "20185091", 3, 78);
+
+INSERT INTO marks VALUES (6, "20184091", 3, 75);
+
+SELECT * FROM marks;
+
+-- Show average marks of student with s_id="20184091"
+SELECT AVG(marks_recvd) FROM marks WHERE s_id="20184091";
+
+-- Show sum of marks of student with s_id="20185091"
+SELECT SUM(marks_recvd) FROM marks WHERE s_id="20185091";
+
+-- Show sum of marks of student with s_id="20185091" using an alias for column name
+SELECT SUM(marks_recvd) AS total_marks FROM marks WHERE s_id="20185091";
+
+-- Show sum of marks and average marks of all students grouped by s_id
+SELECT 
+s_id, 
+SUM(marks_recvd) AS total_marks, 
+AVG(marks_recvd) AS avg_marks 
+FROM marks 
+GROUP BY s_id;
+
+-- Show sum of marks of all students grouped by s_id having average marks more than 85
+SELECT
+s_id, 
+SUM(marks_recvd) AS total_marks, 
+AVG(marks_recvd) AS avg_marks 
+FROM marks 
+GROUP BY s_id 
+HAVING AVG(marks_recvd)>85;
+
+-- Show all the marks of student with s_id="20184091"
+SELECT s_id, marks_recvd FROM marks WHERE s_id="20184091";
+
+-- Show marks of all the students with their names.
+SELECT S.s_name, M.marks_recvd
+FROM marks M
+INNER JOIN students S
+ON M.s_id = S.s_id;
+
+-- Show marks of all the students in descending order with their names
+SELECT S.s_name, M.marks_recvd
+FROM marks M
+INNER JOIN students S
+ON M.s_id = S.s_id
+ORDER BY M.marks_recvd DESC;
+
+-- Show marks of all the students in ascending order with their names
+SELECT S.s_name, M.marks_recvd
+FROM marks M
+INNER JOIN students S
+ON M.s_id = S.s_id
+ORDER BY M.marks_recvd;
+
+-- Show marks of all the students with subject names.
+SELECT M.s_id, SUB.sub_name, M.marks_recvd
+FROM marks M
+INNER JOIN subjects SUB
+ON M.sub_id = SUB.sub_id;
+
+-- Show marks of all the students with subject names. Subject names should be sorted.
+SELECT M.s_id, SUB.sub_name, M.marks_recvd
+FROM marks M
+INNER JOIN subjects SUB
+ON M.sub_id = SUB.sub_id
+ORDER BY SUB.sub_name;
+
+-- Joining 3 tables. Show marks of all students with Student Name as well as Subject Name.
+SELECT * FROM ((marks INNER JOIN students ON marks.s_id = students.s_id) INNER JOIN subjects ON marks.sub_id = subjects.sub_id);
+
+SELECT students.s_name AS Name, subjects.sub_name AS Subject, marks.marks_recvd AS Marks
+FROM 
+((marks INNER JOIN students ON marks.s_id = students.s_id) INNER JOIN subjects ON marks.sub_id = subjects.sub_id);
+
+-- Deleting a row/record from table
+DELETE FROM students WHERE s_id="20185040";
+
+SELECT * FROM students;
+
+-- Deleting column s_pno from students
+ALTER TABLE students DROP COLUMN s_pno;
+
+DESC students;
+
+-- Deleting (dropping) a table
+DROP TABLE marks;
+
+SHOW TABLES;
+
+-- Dropping database
+DROP DATABASE database_demo_cc;
+
+SHOW DATABASES;

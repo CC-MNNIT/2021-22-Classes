@@ -213,8 +213,9 @@
     * **PRIMARY KEY** - 
         * A column or columns is called primary key (PK) that uniquely identifies each row in the table.
         * When multiple columns are used as a primary key, it is known as composite primary key.
-        * Example 1 - Primary Key using single column
+        * Example - 
         ```sql
+        -- Primary Key using single column
         CREATE TABLE students  
         (  
             S_Id int NOT NULL,  
@@ -224,9 +225,8 @@
             City varchar (255),  
             PRIMARY KEY (S_Id)  
         )  
-        ```
-        * Example 2 - Primary Key using multiple columns
-        ```sql
+
+        -- Primary Key using multiple columns
         CREATE TABLE students  
         (  
             S_Id int NOT NULL,  
@@ -235,7 +235,7 @@
             Address varchar (255),  
             City varchar (255),  
             CONSTRAINT pk_StudentID PRIMARY KEY (S_Id, LastName)  
-        )  
+        ) 
         ```
     * **FOREIGN KEY** - 
         * In the relational databases, a foreign key is a field or a column that is used to establish a link between two tables.
@@ -272,7 +272,10 @@
         * It is a shorthand for multiple `OR` conditions.
         * Example - Two statements mentioned below have same effect.
         ```sql
+        -- Without Using IN
         SELECT s_name FROM students WHERE (s_age=18 OR s_age=19 OR s_age=20);
+        
+        -- Using IN
         SELECT s_name FROM students WHERE s_age IN (18,19,20);
         ```
         * **NOT** Operator can also be used with **IN**.
@@ -283,34 +286,32 @@
     * **BETWEEN Operator** - 
         * It selects values within a given range. The values can be *numbers, text, or dates*.
         * It is inclusive i.e. begin and end values are**included**.
-        * Example 1 - 
+        * Example - 
         ```sql
         SELECT s_name FROM students WHERE s_age BETWEEN 18 AND 20;
-        ``` 
-        * Example 2 - Using AND, NOT, IN and BETWEEN
-        ```sql
+
+        -- Using AND, NOT, IN and BETWEEN
         SELECT * FROM Products
         WHERE Price BETWEEN 10 AND 20
         AND CategoryID NOT IN (1,2,3);
         ``` 
-
     * **LIKE Clause** - 
         * The `LIKE` clause is used to compare a value to **similar values using wildcard operators**.
         * Two wildcard operators are used - 
             * *Percentage sign (**%**)* -  It represents zero, one or multiple characters.
             * *Underscore sign (**_**)* - It represents a single number or character.
-        * Example 1 - Find all students whose name start with letter **A**.
+        * Example - 
         ```sql
+        -- Find all students whose name start with letter A.
         SELECT * FROM students WHERE s_name LIKE "A%";
-        ```
-        * Example 2 - Find all employess whose salary end with digit **2**.
-        ```sql
+
+        -- Find all employess whose salary end with digit 2.
         SELECT * FROM employees WHERE emp_salary LIKE "%2";
-        ```
-        * Example 3 - Find all employees whose salary has digit 0 at second and third position from starting.
-        ```sql
+
+        -- Find all employees whose salary has digit 0 at second and third position from starting.
         SELECT * FROM employees WHERE emp_salary LIKE "_00%";
         ```
+
     * **ORDER BY Clause** - 
         * It sorts the result-set in **ascending** or **descending** order.
         * It sorts the records in ascending order by default. **ASC** keyword can also be used.
@@ -417,15 +418,20 @@
     * Aliases are often used to make column names more readable.
     * An alias only exists for the duration of that query.
     * An alias is created with the **AS** keyword.
-    * Syntax - Column Name Alias
+    * Syntax - 
     ```sql
+    -- Column Name Alias
     SELECT column_name AS alias_name
     FROM table_name;
-    ```
-    * Syntax - Table Name Alias
-    ```sql
+
+    -- Table Name Alias
     SELECT column_name(s)
     FROM table_name AS alias_name;
+
+    -- OR
+    
+    SELECT column_name(s)
+    FROM table_name alias_name;
     ```
 
 *   ### SQL Join
@@ -489,6 +495,7 @@
         ORDER BY A.City;
         ``` 
 *   ### Explore Yourself
+    * Other SQL Datatypes 
     * SQL UNION
     * SQL CHECK
     * SQL NATURAL JOIN
