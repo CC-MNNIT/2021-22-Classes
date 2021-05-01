@@ -1,5 +1,7 @@
 # Web Development Class - IV
 
+## Web Development Class - IV recording: [Here](https://drive.google.com/file/d/1VSKUBrIhPPhrxF0OYf4rTC1kUZpuBCYb/view?usp=sharing)
+
 #### May 01, 2021
 
 <div align="center"><img src="./images/database.jpeg" alt="databse" height="150" /></div>
@@ -496,6 +498,7 @@
         ``` 
 *   ### Explore Yourself
     * Other SQL Datatypes 
+    * SQL LIMIT
     * SQL UNION
     * SQL CHECK
     * SQL NATURAL JOIN
@@ -508,6 +511,7 @@
 
 *   ### Materials
     
-    * [W3Schools SQL Tutorial](https://www.w3schools.com/sql/default.asp) (Must Read)
+    * [W3Schools SQL Tutorial](https://www.w3schools.com/sql/default.asp) (Highly Recommended)
+    * [SQL Cheatsheet](https://drive.google.com/file/d/13OdjQrIQipwyjnPmLj66nzWliryDQ96S/view?usp=sharing)
     * For those of you who prefer reading books, [MySQL Tutorial ](https://drive.google.com/file/d/1Ww5de3bH3oYWKigP_fk5scu6zry103a9/view?usp=sharing)
     * [SQL Video Tutorial](https://www.youtube.com/watch?v=HXV3zeQKqGY) (English)
