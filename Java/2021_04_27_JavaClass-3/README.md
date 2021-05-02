@@ -71,3 +71,7 @@
     1. [JavaFX 8 docs](https://docs.oracle.com/javase/8/javafx/api/toc.htm)
     2. [Last year JavaFX class resources](https://github.com/CC-MNNIT/2020-21-Classes/tree/master/Java/2020_10_05_Java-Class-9)
     3. [Getting started by JavaFX 8 by Oracle](https://drive.google.com/file/d/1-uDCPiW9WYFVsJBq4V7e-S3gDPNWxgnq/view?usp=sharing)
+
+-   Content contributors:
+    1. [Aritra Chatterjee](https://github.com/Arc29)
+    2. [Manish Kumar](https://github.com/thisismanishkumar)
