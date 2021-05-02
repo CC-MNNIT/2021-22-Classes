@@ -13,6 +13,7 @@
 
 ## Reading Resources
 
+-   [Connecting Java project with MySQL database](JavaMySQLNotes)
 -   Books
     -   Head First Java (by Kathy Sierra, Bert Bates)
     -   Java: The Complete Reference (by Herbert Schildt)

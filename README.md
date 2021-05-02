@@ -52,6 +52,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
     - [Java Class-2 (OOP-2)](Java/2021_04_25_JavaClass-2)
     - [Java Class-3 (JavaFX-1)](Java/2021_04_27_JavaClass-3)
     - [Java Class-4 (OOP-3)](Java/2021_04_30_JavaClass-4)
+    - [Connecting Java project with MySQL database](Java/JavaMySQLNotes)
 
 - Web Development classes
     - [WebDev Class-1 (HTML)](WebDev/2021_04_24_WebClass-1)
