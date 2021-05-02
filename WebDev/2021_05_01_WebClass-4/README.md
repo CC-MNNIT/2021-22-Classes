@@ -112,13 +112,16 @@
     * Some commands under DDL - 
         * **CREATE** - It is used to create a database or a new table in the database.
             * Syntax (creating database) - 
+
             ```sql
             CREATE DATABASE database_name;
 
             -- You can use this command to list all databases
             SHOW DATABASES;
             ```
+
             * Syntax (creating a table) - 
+
             ```sql
             CREATE TABLE TABLE_NAME(COLUMN_NAME DATATYPES[,....]);
 
@@ -130,10 +133,13 @@
             -- OR
             DESC table_name;
             ```
+
             * Example - 
+
             ```sql
             CREATE TABLE EMPLOYEE(Name VARCHAR(20), Email VARCHAR(100), DOB DATE);
             ```
+
         * **DROP** - It is used to delete both the *structure* and *records* stored in the table.
             * Syntax - 
             ```sql
@@ -216,6 +222,7 @@
         * A column or columns is called primary key (PK) that uniquely identifies each row in the table.
         * When multiple columns are used as a primary key, it is known as composite primary key.
         * Example - 
+
         ```sql
         -- Primary Key using single column
         CREATE TABLE students  
@@ -239,6 +246,7 @@
             CONSTRAINT pk_StudentID PRIMARY KEY (S_Id, LastName)  
         ) 
         ```
+
     * **FOREIGN KEY** - 
         * In the relational databases, a foreign key is a field or a column that is used to establish a link between two tables.
         * In simple words you can say that, a foreign key in one table used to **point to the primary key in another table**.
@@ -273,6 +281,7 @@
         * The `IN` operator allows you to specify multiple values in a `WHERE` clause.
         * It is a shorthand for multiple `OR` conditions.
         * Example - Two statements mentioned below have same effect.
+
         ```sql
         -- Without Using IN
         SELECT s_name FROM students WHERE (s_age=18 OR s_age=19 OR s_age=20);
@@ -280,15 +289,19 @@
         -- Using IN
         SELECT s_name FROM students WHERE s_age IN (18,19,20);
         ```
+
         * **NOT** Operator can also be used with **IN**.
         * Example - 
+
         ```sql
         SELECT s_name FROM students WHERE s_age NOT IN (18,19,20);
         ```
+
     * **BETWEEN Operator** - 
         * It selects values within a given range. The values can be *numbers, text, or dates*.
         * It is inclusive i.e. begin and end values are**included**.
         * Example - 
+
         ```sql
         SELECT s_name FROM students WHERE s_age BETWEEN 18 AND 20;
 
@@ -297,12 +310,14 @@
         WHERE Price BETWEEN 10 AND 20
         AND CategoryID NOT IN (1,2,3);
         ``` 
+
     * **LIKE Clause** - 
         * The `LIKE` clause is used to compare a value to **similar values using wildcard operators**.
         * Two wildcard operators are used - 
             * *Percentage sign (**%**)* -  It represents zero, one or multiple characters.
             * *Underscore sign (**_**)* - It represents a single number or character.
         * Example - 
+
         ```sql
         -- Find all students whose name start with letter A.
         SELECT * FROM students WHERE s_name LIKE "A%";
@@ -403,6 +418,7 @@
         * It is *not possible* to test for NULL values with comparison operators, such as `=`, `<`, or `<>`.
         * We will have to use the `IS NULL` and `IS NOT NULL` operators instead.
         * Syntax -
+
         ```sql
         -- IS NULL
         SELECT column_names
@@ -421,6 +437,7 @@
     * An alias only exists for the duration of that query.
     * An alias is created with the **AS** keyword.
     * Syntax - 
+    
     ```sql
     -- Column Name Alias
     SELECT column_name AS alias_name

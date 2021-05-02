@@ -316,6 +316,7 @@ Volume of plainbox is 105.0
     }
     ```
     - The second is used to access a member of the superclass that has been hidden by a member of a subclass.
+
     #### **[6.java](6.java)**
     ```java
     // Using super to overcome name hiding.
@@ -345,6 +346,7 @@ Volume of plainbox is 105.0
         }
     }
     ```
+    
 - In a class hierarchy, constructors complete their execution in order of derivation, from superclass to subclass. 
 - Further, since super( ) must be the first statement executed in a subclass’
 constructor, this order is the same whether or not super( ) is used.
