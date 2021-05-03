@@ -62,6 +62,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
 
 - Machine Learning classes
     - [Machine Learning Class-1](MachineLearning/2021-04-29_ML-Class-1)
+    - [Machine Learning Class-2](MachineLearning/2021-05-03_ML-Class-2)
 
 - Placements and Internships
 	- [Guide to Placement](Placements)
