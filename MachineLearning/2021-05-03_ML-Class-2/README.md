@@ -18,8 +18,9 @@
 ## Kaggle
 
 - The homepage for the website can be found [here](https://www.kaggle.com/).
-- The notebook to practice your coding skills can be found [here](https://www.kaggle.com/sidagar/tutorial-with-bike-sharing-demand).
+- The notebook to practice your coding skills can be found [here](https://www.kaggle.com/sidagar/tutorial-with-bike-sharing-demand). 
 
 ## Additional reading material
 
 - Video of 3blue1brown which gives an indepth explanation to gradient descent can be found [here](https://www.youtube.com/watch?v=IHZwWFHWa-w).
+- Python tutorial covering the prerequisites for attempting the notebook can be found [here](https://www.youtube.com/playlist?list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3) (videos 1-70)
