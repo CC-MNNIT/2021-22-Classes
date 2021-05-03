@@ -20,9 +20,9 @@ class Box {
 
     // constructor used when no dimensions specified
     Box() {
-        width = -1;  // use -1 to indicate
+        width = -1; // use -1 to indicate
         height = -1; // an uninitialized
-        depth = -1;  // box
+        depth = -1; // box
     }
 
     // constructor used when cube is created
@@ -46,28 +46,33 @@ class BoxWeight extends Box {
         height = h;
         depth = d;
         weight = m;
-    }    
+    }
+
+    double getDensity() {
+        return weight / volume();
+    }
 }
 
 class RefDemo {
     public static void main(String args[]) {
         BoxWeight weightbox = new BoxWeight(3, 5, 7, 8.37);
-        Box plainbox = new Box();
         double vol;
 
         vol = weightbox.volume();
         System.out.println("Volume of weightbox is " + vol);
         System.out.println("Weight of weightbox is " + weightbox.weight);
+        System.out.println("Density of weightbox is " + weightbox.getDensity());
         System.out.println();
 
-        // assign BoxWeight reference to Box reference
-        plainbox = weightbox;
+        Box plainbox = new BoxWeight(3, 5, 7, 8.37);
 
         vol = plainbox.volume(); // OK, volume() defined in Box
         System.out.println("Volume of plainbox is " + vol);
 
-        /* The following statement is invalid because plainbox
-        does not define a weight member. */
-    //  System.out.println("Weight of plainbox is " + plainbox.weight);
+        /*
+         * The following statement is invalid because plainbox does not define a weight
+         * member.
+         */
+        // System.out.println("Weight of plainbox is " + plainbox.weight);
     }
 }

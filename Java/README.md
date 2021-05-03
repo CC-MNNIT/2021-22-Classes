@@ -7,10 +7,13 @@
 
 [Class 2 (OOP-2): held on 25 April, 2021](2021_04_25_JavaClass-2)
 
-[Class 2 (JavaFX-1): held on 27 April, 2021](2021_04_27_JavaClass-3)
+[Class 3 (JavaFX-1): held on 27 April, 2021](2021_04_27_JavaClass-3)
+
+[Class 4 (OOP-3): held on 30 April, 2021](2021_04_30_JavaClass-4)
 
 ## Reading Resources
 
+-   [Connecting Java project with MySQL database](JavaMySQLNotes)
 -   Books
     -   Head First Java (by Kathy Sierra, Bert Bates)
     -   Java: The Complete Reference (by Herbert Schildt)
