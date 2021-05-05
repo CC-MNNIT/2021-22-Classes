@@ -63,6 +63,9 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
 - [Machine Learning classes](MachineLearning)
     - [Machine Learning Class-1](MachineLearning/2021-04-29_ML-Class-1)
     - [Machine Learning Class-2](MachineLearning/2021-05-03_ML-Class-2)
+  
+- [Competitive Programming](CompetitiveProgramming)
+    - [Competitive Programming Class-1](CompetitiveProgramming/2021_05_05_CPClass-1)
 
 - Class recordings
     - [All the recodings of classes held on MS Teams (Drive link)](https://drive.google.com/drive/folders/14UTduGJfnltoc5sEgNX4Qrq4mCEJdz2K?usp=sharing)
