@@ -33,18 +33,18 @@ All the contaniers and data structures in the STL are in the form of templates i
 ### **Pairs**
 A template to store a pair of two elements. Both the elements could be of different data types. The great advantage of pairs is that they have built-in operations to compare themselves. Pairs are compared first-to-second element. If the first elements are not equal, the result will be based on the comparison of the first elements only; the second elements will be compared only if the first ones are equal. The array (or vector) of pairs can easily be sorted by STL internal functions.
 
-```
+```c++
     eg. pair <int , int> p;
-        cin >> p.first >> p.second
+        cin >> p.first >> p.second;
 ```
 
 ### **String**
 There is a special container to manipulate with strings. The string container has a few differences from ``vector< char >``. Most of the differences come down to string manipulation functions and memory management policy.
 
-```
+```c++
     eg. string s;
         cin >> s;
-        string str = s.substr(0 , 5);
+        string str = s.substr(0 , s.size() - 1);
         cout << s.size() << " " << str << "\n";
 ```
 
@@ -56,7 +56,7 @@ The various containers in STL that can help store data efficiently are as follow
 
 1. **vector** :  Vector is just an array with extended functionality. By the way, vector is the only container that is backward-compatible to native C code – this means that vector actually is the array, but with some additional features
    
-   ```
+   ```c++
     vector <int> v(10);
     v.push_back(8);
     v.pop_back();
@@ -66,7 +66,7 @@ The various containers in STL that can help store data efficiently are as follow
 
 2. **list** : Linked List implementation under STL.
    
-   ```
+   ```c++
     list <int> l;
     l.push_back(10);
     l.push_front(11);
@@ -79,7 +79,7 @@ The various containers in STL that can help store data efficiently are as follow
 
 1. **Stack** : A data structure which follows LIFO (Last In First Out) principle.
    
-   ```
+   ```c++
     stack <int> s;
     s.push(10);
     s.pop();
@@ -87,7 +87,7 @@ The various containers in STL that can help store data efficiently are as follow
         cout << s.top();
    ```
 2. **Queue** : A data structure tht follows FIFO (First In First Out) principle.
-    ```
+    ```c++
     queue <int> q;
     q.push(10);
     q.pop();
@@ -96,7 +96,7 @@ The various containers in STL that can help store data efficiently are as follow
    ```
 3. **priority_queue** : An implementation of heap data structure.
 
-    ```
+    ```c++
     priority_queue <int> p;
     p.push(10);
     p.pop();
@@ -109,7 +109,7 @@ The various containers in STL that can help store data efficiently are as follow
 
 1. **set** : A data structure that internally uses red black trees and is used to store an ordered collection of distinct elements.
    
-    ```
+    ```c++
     set <int> s;
     s.insert(10);
     s.insert(10);
@@ -119,7 +119,7 @@ The various containers in STL that can help store data efficiently are as follow
     ```
 
 2. **multiset** : Same as a set but not necessary for elements to be distinct.
-    ```
+    ```c++
     multiset <int> s;
     s.insert(10);
     s.insert(10);
@@ -129,7 +129,7 @@ The various containers in STL that can help store data efficiently are as follow
     ```
 
 3. **map** : A data structure to store key value pairs.
-    ```
+    ```c++
     map <int , int> m;
     m[1] = 2;
     if(!m.empty())
@@ -144,10 +144,11 @@ The unordered counterparts of the associative containers. They have the similar 
 ### **Iterators**
 Iterators are objects that are used to reference/access data in STL containers. They are very much like pointers but have better functionality and are limited to the scope of a container thy are defined for unlike a pointer that can point to anything of the same data type.
 
-```
+```c++
     Syntax : container type :: iterator <name of iterator>;
 
-    eg. set<int>::iterator it = s.begin();
+    eg. set<int> s;
+        set<int>::iterator it = s.begin();
         while(it != s.end()) {
             cout << *it << " ";
             it++;
@@ -160,14 +161,46 @@ Iterators are objects that are used to reference/access data in STL containers. 
 ### **Commonly Used methods in STL**
 
 - ``lower_bound(start iterator , end iterator , const value)`` : returns the iterator of the smallest element in the container that is greater than or equal to the given value.
+
+```c++
+    vector<int> v(20);
+    //Assume we fill the vector and it is sorted
+    vector<int>:: iterator it = lower_bound(v.begin() , v.end() , 5);
+    if(it == v.end()) {
+        cout << "No element greater than or equal to 5 found!!!";
+    }
+    else cout << *it;
+```
+
 - ``upper_bound(start iterator , end iterator , const value)`` : returns the iterator of the smallest element in the container that is greater than the given value.
+
+```c++
+    vector<int> v(20);
+    //Assume we fill the vector and it is sorted
+    vector<int>:: iterator it = upper_bound(v.begin() , v.end() , 5);
+    if(it == v.end()) {
+        cout << "No element greater than 5 found!!!";
+    }
+    else cout << *it;
+```
+
 - ``find(start iterator , end iterator , const value)`` : Returns an iterator pointing to the value if found else returns the end iterator.
+  
+```c++
+    vector<int> v(20);
+    //Assume we fill the vector and it is sorted
+    vector<int>:: iterator it = find(v.begin() , v.end() , 5);
+    if(it == v.end()) {
+        cout << "5 not found!!!";
+    }
+    else cout << *it;
+```
 
 ### **Comparator and sorting of STL containers**
 Since containers comprise of a bunch of elements, therefore it is highly likely we might need to compare them at some point. For example if we want to sort a vector of pairs then there are various ways to do it. We can sort the vector according to the first value or second value or sum of the values etc.. So a custom comparator comes in handy in such situations.
 
 eg. 
-```
+```c++
     bool comp(pair <int , int> x1 , pair <int , int> x2) {
         return x1.first < x2.first;
     }
