@@ -7,11 +7,11 @@
 ## Need of STL
 
 - Covers various data structures so we don't need to rewrite them from scratch.
-- Generic in nature so allows flexibilty.
+- Generic in nature so allows flexibility.
 - All in all STL help us code efficiently.
 
 ## What is STL
-STL stands for **Standard Template Library** which is a libraray consisiting of various template classes which provides us the implementation of some of the common data structures and containers which helps us code efficiently.
+STL stands for **Standard Template Library** which is a library consisting of various template classes which provides us the implementation of some of the common data structures and containers which helps us code efficiently.
 
 ## Templates
 Templates are C++ tools that helps to accomplish generic programming i.e., using templates we can define a general implementation that would work on every data type.
@@ -28,7 +28,7 @@ Templates are C++ tools that helps to accomplish generic programming i.e., using
 A Data structure is way of organising data in a manner that makes it efficient for us to interact with the data. eg., storing key value pairs in a hashMap would be way more efficient than storing them in an array.
 
 ## Why the name Standard Template Library
-All the contaniers and data structures in the STL are in the form of templates i.e., they allow generic programming. Hence the name.
+All the containers and data structures in the STL are in the form of templates i.e., they allow generic programming. Hence the name.
 
 ### **Pairs**
 A template to store a pair of two elements. Both the elements could be of different data types. The great advantage of pairs is that they have built-in operations to compare themselves. Pairs are compared first-to-second element. If the first elements are not equal, the result will be based on the comparison of the first elements only; the second elements will be compared only if the first ones are equal. The array (or vector) of pairs can easily be sorted by STL internal functions.
@@ -75,7 +75,7 @@ The various containers in STL that can help store data efficiently are as follow
     cout << l.front() << " " << l.back();
    ```
    
-### Container adaptars
+### Container adapters
 
 1. **Stack** : A data structure which follows LIFO (Last In First Out) principle.
    
@@ -86,7 +86,7 @@ The various containers in STL that can help store data efficiently are as follow
     if(!s.empty())
         cout << s.top();
    ```
-2. **Queue** : A data structure tht follows FIFO (First In First Out) principle.
+2. **Queue** : A data structure that follows FIFO (First In First Out) principle.
     ```c++
     queue <int> q;
     q.push(10);
@@ -139,7 +139,7 @@ The various containers in STL that can help store data efficiently are as follow
 
 ### Unordered Associative Containers
 
-The unordered counterparts of the associative containers. They have the similar syntax as their ordered counterparts with slight varaitions. However their implementations are completely different.
+The unordered counterparts of the associative containers. They have the similar syntax as their ordered counterparts with slight variations. However their implementations are completely different.
 
 ### **Iterators**
 Iterators are objects that are used to reference/access data in STL containers. They are very much like pointers but have better functionality and are limited to the scope of a container thy are defined for unlike a pointer that can point to anything of the same data type.
@@ -212,6 +212,6 @@ eg.
 
 Note the function call for comp doesn't involve ();
 
-Similarly comparators can be used in various other stuff too liek priority_queues etc. Explore them.
+Similarly, comparators can be used in various other stuff too like priority_queues etc. Explore them.
 
 {% include disqus.html %}
