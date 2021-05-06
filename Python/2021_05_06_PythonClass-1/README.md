@@ -503,7 +503,7 @@ age = 13
 if age < 18:
     print("You cannot vote!")
 
-# Use of is operator
+# Use of "is" operator
 #name = "Foo"
 name = "Bar"
 if name is "Foo":
@@ -513,19 +513,35 @@ elif name == "Bar":
 else:
     print("Please sign up for the site!")
     
-# Use of in operator
+# Use of "in" operator
 students = ["Alice", "Bob", "Foo", "Bar"]
 stu_name = "Bob"
 if stu_name in students:
     print("Hello", stu_name, "You are enrolled")
 else:
     print("You are not enrolled!")
+    
+# Use of "and" operator
+user_name = "abc"
+password = "123"
+if user_name is "abc" and password = "123":
+    print("Access granted")
+else:
+    print("Access denied")
+
+# Use of "or" operator
+age = 30
+if age <10 or age >25:
+    print ("Not golden years")
+else:
+    print("Golden years")
 ```
 
     You cannot vote!
     What's up Bar!
     Hello Bob You are enrolled
-
+    Access granted
+    Not golden years
 
 ### Loops in Python - for, while
 
@@ -666,12 +682,14 @@ def greet(name, msg = "Good morning!"):
     
 greet("Alice")
 greet("Foo Bar")
+greet("Bob", "Good Afternoon!")
 ```
 
     10
     20
     Alice Good morning!
     Foo Bar Good morning!
+    Bob Good Afternoon!
 
 
 
@@ -884,6 +902,7 @@ print(new_list)
 ### Content Contributors
 
 * [Kshitiz Srivastava](https://github.com/pirateksh/)
+* [Sidhant Agarwal](https://github.com/sidhantagar/)
 
 ### Materials
 
