@@ -4,7 +4,7 @@
 
 #### April 22, 2021
 
-<div align="center"><img src="../Android-Logo.png" alt="Java logo" height=150/></div>
+<div align="center"><img src="../Android-Logo.png" alt="Android logo" height=150/></div>
 
 <hr>
 

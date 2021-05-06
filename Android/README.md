@@ -1,5 +1,5 @@
 # Android Development classes resources
-<div align="center"><img src="Android-Logo.png" height="150"/></div>
+<div align="center"><img src="Android-Logo.png"  alt="Android logo" height="150"/></div>
 
 ## Classes held
 
