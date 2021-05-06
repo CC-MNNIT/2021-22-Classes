@@ -1,11 +1,11 @@
 # Android Studio Installation Instructions
 
 - Download the Android Studio installer from here: [https://developer.android.com/studio](https://developer.android.com/studio)
-- <b>Follow this instructions</b> [https://www.youtube.com/watch?v=H53e2kdaLfk](https://www.youtube.com/watch?v=H53e2kdaLfk)
+- <b>Follow this instructions:</b> [https://www.youtube.com/watch?v=H53e2kdaLfk](https://www.youtube.com/watch?v=H53e2kdaLfk)
 
 ## <b>NOTE:</b>
 
-1. During the <b>Android SDK setup</b> (comes at first launch at Android Studio), choose custom install (as done in video).
+1. During the <b>Android SDK setup</b> (comes at first launch of Android Studio), choose "Custom Install" (as done in video).
 2. At this screen
 
     <img src="img/ScreenshotSDK.png" alt="Android logo" height=400/>
