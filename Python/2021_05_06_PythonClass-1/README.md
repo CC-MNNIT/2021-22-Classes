@@ -6,6 +6,11 @@
 
 <hr>
 
+### What is Python?
+* Python is a **general-purpose**, **interpreted**, **object-oriented**, and **high-level** programming language.
+* It was created by **Guido van Rossum** during **1985- 1990**. 
+* Python's source code is also available under the GNU General Public License (GPL).
+
 ### Strings and Printing in Python
 
 
@@ -183,6 +188,7 @@ print("End","and","sep","together","in", sep = " _ ", end=" _print")
 
 ### Variables and Datatypes
 * Python is **Dynamically Typed Language** i.e. the type of variable is checked during **run-time**.
+* Variables in Python **refer** to a value.
 * Some of the datatypes in python are - 
     * str
     * int
@@ -667,7 +673,7 @@ greet("Foo Bar")
 
 
 ```python
-# SyntaxError: non-default argument follows default argument(Uncomment and run following)
+# SyntaxError: non-default argument follows default argument
 def greet(msg = "Good morning!", name):
     print(name,msg)
     
