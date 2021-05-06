@@ -191,7 +191,7 @@ print("End","and","sep","together","in", sep = " _ ", end=" _print")
 
 
 ```python
-# Integer - str
+# Integer - int
 a = 10
 print(a, type(a))
 
