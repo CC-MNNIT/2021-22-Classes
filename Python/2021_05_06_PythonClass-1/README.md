@@ -195,9 +195,10 @@ print("End","and","sep","together","in", sep = " _ ", end=" _print")
     * float
     * bool
 
+<div align="center"><img src="./images/reference.png" height="75" /></div>
 
 ```python
-# Integer - intset
+# Integer - int
 a = 10
 print(a, type(a))
 
