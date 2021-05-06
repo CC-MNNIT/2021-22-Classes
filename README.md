@@ -42,6 +42,9 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
 
 ## Resources
 
+- [Competitive Programming classes](CompetitiveProgramming)
+    - [Competitive Programming Class-1](CompetitiveProgramming/2021_05_05_CPClass-1)
+
 - [Git/GitHub classes](Git-GitHub)
     - [Git Class-1](Git-GitHub/2021_04_20_GitClass-1)
     - [Git Class-2](Git-GitHub/2021_04_21_GitClass-2)
@@ -54,6 +57,9 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
     - [Java Class-4 (OOP-3)](Java/2021_04_30_JavaClass-4)
     - [Connecting Java project with MySQL database](Java/JavaMySQLNotes)
 
+- [Android Development classes](Android)
+    - [AndroidDev Class-1](Android/2021_05_07_AndroidClass-1)
+
 - [Web Development classes](WebDev)
     - [WebDev Class-1 (HTML)](WebDev/2021_04_24_WebClass-1)
     - [WebDev Class-2 (HTML + CSS)](WebDev/2021_04_26_WebClass-2)
@@ -63,9 +69,6 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
 - [Machine Learning classes](MachineLearning)
     - [Machine Learning Class-1](MachineLearning/2021-04-29_ML-Class-1)
     - [Machine Learning Class-2](MachineLearning/2021-05-03_ML-Class-2)
-  
-- [Competitive Programming](CompetitiveProgramming)
-    - [Competitive Programming Class-1](CompetitiveProgramming/2021_05_05_CPClass-1)
 
 - Class recordings
     - [All the recodings of classes held on MS Teams (Drive link)](https://drive.google.com/drive/folders/14UTduGJfnltoc5sEgNX4Qrq4mCEJdz2K?usp=sharing)
