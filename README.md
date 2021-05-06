@@ -71,7 +71,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
     - [Machine Learning Class-2](MachineLearning/2021-05-03_ML-Class-2)
 
 - [Python classes](Python)
-    - [Python Clas-1](Python/2021_05_06_PythonClass-1)
+    - [Python Class-1](Python/2021_05_06_PythonClass-1)
 
 - Class recordings
     - [All the recodings of classes held on MS Teams (Drive link)](https://drive.google.com/drive/folders/14UTduGJfnltoc5sEgNX4Qrq4mCEJdz2K?usp=sharing)
