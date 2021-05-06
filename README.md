@@ -1,7 +1,6 @@
 <head>
     <meta property='og:image' content='{{site.url}}/{{page.image}}'/>
     <meta property='og:type' content='website' />
-    <link rel="shortcut icon" href="cclogo_favicon.jpeg" type="image/x-icon">
 </head>
 
 # MNNIT Computer Coding Club
