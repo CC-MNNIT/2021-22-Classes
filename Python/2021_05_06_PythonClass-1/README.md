@@ -191,7 +191,7 @@ print("End","and","sep","together","in", sep = " _ ", end=" _print")
 
 
 ```python
-# Integer - int
+# Integer - intset
 a = 10
 print(a, type(a))
 
@@ -423,7 +423,7 @@ print("After discarding 2: ", myset)
 ```
 
     {1, 2, 3}
-    {'cherry', 'banana', 'apple'}
+    {'apple', 'banana', 'cherry'}
     After adding:  {1, 2, 3, 4, 8}
     After popping:  {2, 3, 4, 8}
     After removing 3:  {2, 4, 8}
