@@ -1,5 +1,7 @@
 # Python Class - I
 
+## Python Class - I recording: [Here](https://drive.google.com/file/d/1ntme_POLPZy0psYOXax7mrFYsX-1myjl/view?usp=sharing)
+
 #### May 06, 2021
 
 <div align="center"><img src="../python.png" alt="python" height="150" /></div>
