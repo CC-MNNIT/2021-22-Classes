@@ -60,6 +60,7 @@ print(name[2:])       # Substring from index 2 to end of string
 print(name[:3])       # Substring from start to index 2 
 print(name[:])        # Substring from start to end
 print(name[2:5:2])    # Characters from index 2 to 4 in steps of 2
+print(name[::-1])     # Complete string taking a step of -1
 ```
 
     a
@@ -69,6 +70,7 @@ print(name[2:5:2])    # Characters from index 2 to 4 in steps of 2
     asd
     asdfghj
     dg
+    jhgfdsa
 
 
 ### Built-in functions
