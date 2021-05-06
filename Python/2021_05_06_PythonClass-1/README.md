@@ -530,19 +530,19 @@ else:
 
 ```python
 # For loop
-# from 0 to 10
+# from 0 to 9
 for x in range(10):
     print(x, end=",")
 
 print("")
 
-# from 5 to 12
+# from 5 to 11
 for x in range(5, 12):
     print(x, end=",")
 
 print("")
 
-# from 10 to 40 increment value 5
+# from 10 to 40 (not included), increment value 5
 for x in range(10, 40, 5):
     print(x, end=",")
 
