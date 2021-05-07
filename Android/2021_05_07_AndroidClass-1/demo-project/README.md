@@ -1,3 +1,0 @@
-## Android Developmet 1st class Demo Project
-
-Coming soon...
