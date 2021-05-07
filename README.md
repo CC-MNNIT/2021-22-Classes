@@ -72,6 +72,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
 
 - [Python classes](Python)
     - [Python Class-1](Python/2021_05_06_PythonClass-1)
+    - [Python Class-2](Python/2021_05_08_PythonClass-2)
 
 - Class recordings
     - [All the recodings of classes held on MS Teams (Drive link)](https://drive.google.com/drive/folders/14UTduGJfnltoc5sEgNX4Qrq4mCEJdz2K?usp=sharing)

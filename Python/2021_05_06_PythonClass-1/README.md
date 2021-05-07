@@ -343,7 +343,7 @@ print("After deleting: ", prog_langs)
 
 ### 2. **Tuple** - 
 * A tuple in Python is a **heterogeneous container** for items.
-* It is **unmutable** - it NOT is possible to reassign and delete individual items as well.
+* It is **immutable** - it NOT is possible to reassign and delete individual items as well.
 * **(** and **)** are used to define tuple.
 
 
