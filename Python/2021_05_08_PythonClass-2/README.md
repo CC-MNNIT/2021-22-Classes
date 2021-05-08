@@ -6,6 +6,22 @@
 
 <hr>
 
+### Taking input from terminal
+* In python, user input can be taken using **input()** function.
+* As a parameter of input(), we can pass a string which we want to be displayed during this process.
+* **Example** -
+```python
+a = input("Enter you name:")
+print("Hello",a)
+
+a = input("Enter a number.")
+print(a, type(a))
+
+a = int(input("Enter a number"))
+b = int(input("Enter another number"))
+print("Sum of both the numbers is: ", a+b)
+```
+
 ### Functions (continued)
 
 ```python
@@ -80,8 +96,6 @@ my_print('hello', 'my', 'name', 'is', 'bin'+'bash')
     is
     binbash
 
-
-
 ```python
 # variable no. of keyword arguments (**kwargs)
 def func(**kwargs):
@@ -107,8 +121,6 @@ kw_args_func(sep='/', end='*', name='bin')
     key: end   value: *
     key: name   value: bin
 
-
-
 ```python
 # This will give a error
 def ff(*args, **kwargs, name):
@@ -121,12 +133,10 @@ def ff(*args, **kwargs, name):
 ff(10, "Hello", ran=20, "Foo Bar")
 ```
 
-
       File "<ipython-input-39-938320840b18>", line 2
         def ff(*args, **kwargs, name):
                                    ^
     SyntaxError: invalid syntax
-
 
 
 ### Lambda Function
@@ -154,8 +164,6 @@ print(double(5))
 
     10
 
-
-
 ```python
 # Program to filter out only the even items from a list using filter()
 
@@ -168,8 +176,6 @@ print(new_list)
 ```
 
     [4, 6, 8, 12]
-
-
 
 ```python
 # Program to double each item in a list using map()
@@ -184,23 +190,115 @@ print(new_list)
 
     [2, 10, 8, 12, 16, 22, 6, 24]
 
+<br/>
+<div align="center"><h3>Modules and Packages in Python</h3></div>
+<hr/>
+
+<div align="center"><img src="./images/Package_Module_Structure.jpeg" height="350" /></div>
+
+* A python module is a python file. It contains functions that are put together to be used again and again.
+* A package is like a directory/folder that holds sub-packages and modules. 
+* A package is a **special** directory in which Python identifies as package. 
+* A package lets us hold similar modules in one place.
+* A directory must hold the file **__init__.py** for python to treat it like a regular package.
+* A **library** is a collection of **packages.**
+
+### import and from keywords 
+
+* We use, **import *module_name***, to import a module
+* You can’t import a function present inside a module using the dot operator(.) 
+* For that, you must use **from**: `from Game.Sound.load import volume_up`.
+```python
+# Program to generate a random number between 0 and 9
+# importing the random module
+import random
+
+print(random.randint(0,9))
+```
+
+<br/>
+<div align="center"><h3>Classes and Instances</h3></div>
+<hr/>
+
+* Classes are used to create user-defined data structures.
+* Class is a **blueprint** that is exhibited by all of objects belonging to it.
+* Classes define variables called **attributes/properties/data-members**, which holds information about the object created from the class.
+* Classes define functions called **methods/member-methods**, which decide the behaviors and actions that an object created from the class can perform with its data.
+* While the class is the blueprint, an **instance** is an object that is built from a class and contains data specific to this newly created object.
+* **class** keyword is used to define a class. 
+
+```python
+	class Car:
+  		def __init__(self, car_model, car_company, car_color):
+			# Initialising Propertis Specific to the object.
+			self.model = car_model
+			self.company = car_company
+			self.color = car_color
+		
+		def get_color(self):
+			# Instance Method
+			return self.color
+
+		def set_color(self, new_color):
+			# Instance Method
+			self.color = new_color
+
+	# Instantiating an Object or Creating an Object
+	my_car = Car("Model S", "Tesla", "Maroon") # my_car is an instance/object of Car Class.
+
+```
+
+## Instance Variables and Class Variables
+
+* These are the two Types of variables used to define a class.
+* **Instance variables:** properties/attributes unique to a particular objects of the class.
+* **Class variables:-** variables shared among for all the objects made by the class i.e. it is applied for all objects. Good for optimizing memory.
+* `__fun__()`: **"dunder"** syntax in python means some special variable/method in python. **Example** -  `__init__()`, `__str__()` method, `__file__`, `__dict__` property etc.
+* `__init__()`: constructor method of a class. A method to specify properties/attributes of an object along with declarationn of the object. In other words `__init__()` method sets the initial state of the object by assigning the values of the object’s properties.
+* **self** is reference to the current instances of the class. 
+* **self** is NOT a keyword, but it is used by convention.
+
+## Three Types of methods defined inside a Class.
+
+### 1. Instance Methods/Regular Methods:
+
+* Methods which can only be called from an instance of a class.
+* They must have `instance` reference as their first positional argument. Which is automatically passed when we call an instance method. **Example** - `obj_name.instance_method()` is treated as `ClassName.instance_method(obj_name)`.
+* Generally this position argument is taken as `self` argument. So, we can access the instance variable using `self.var_name` inside a method.
+
+### 2. Class Methods:
+
+* Just like Class Variable, we have classmethods in python which are common to all objects of a class.
+* `@classmethod` decorator over a function definition is used to define a class method.
+* We can call a classmethod as:- ClassName.class_mehthod_name()
+* Like Instance methods, these methods also must have `class` as their first positional argument. Which is automatically passed when we call a class-method. e.g. ClassName.class_method_name()
+* Generally this position argument is taken as `cls` argument. So, we can access the Class variable using cls.var_name inside a method.
+
+### 3. Static Methods:
+* Do not operate on instance/object or class i.e. none of the both is passed.
+* These Methods don't accepts any mandatory positional arguments unlike instance and classmethods.  
+* They are generally used to create utility functions for a class.
+* Static method knows nothing about the class variable and just deals with the parameters passed to the method itself.
+* They can be called using both ClassName and InstanceName. **Example** - `ClassName.static_method_fun()`, `InstanceName.static_method_fun()`.
+* Static Methods are not overridden in Subclasses.
+
 <div align="center"><h3>File Handling</h3></div>
 
-Files that store data.
+In this, we will talk about files that store data.
 
 There are two types of data files:
 
 - **Text File**: It stores data in the form of ASCII characters.
-  (each line is terminated with a special delimiter "\n", computer first translates then reads)
+  (each line is terminated with a special delimiter **"\n"**, computer first translates then reads).
 - **Binary File**: It stores data in same format as it is stored in memory.
   (there's no delimiter and no translations for program to read).
 
 ### File Object/Handle
 
-- File object allows us to read and write in the file.
+- File object allows us to **read** and **write** in the file.
 - It takes the reference of the file and open it in diffrent modes we want.
-- File object is the connector between us and the file.
-- When an object is created, we works as if the object is the file.
+- File object is the **connector** between us and the file.
+- When an object is created, we work as if the object is the file.
 
 ### File Object Attributes
 
@@ -331,16 +429,16 @@ A file pointer tells the current position in the file where reading or writing w
 
 ### What is Exception?
 
-An exception is an event, which occurs during the execution of a program that disrupts the normal flow of the program's instructions. In general, when a Python script encounters a situation that it cannot cope with, it raises an exception. An exception is a Python object that represents an error.
+* An exception is an event, which occurs during the execution of a program that **disrupts the normal flow of the program's instructions**. 
+* In general, when a Python script encounters a situation that it cannot cope with, it raises an exception. 
+* An exception is a **Python object** that represents an error.
+* When a Python script raises an exception, it must either handle the exception immediately otherwise it terminates and quits.
 
-When a Python script raises an exception, it must either handle the exception immediately otherwise it terminates and quits.
+### Exception Handling
 
-### Handling an exception
-
-If you have some suspicious code that may raise an exception, you can defend your program by placing the suspicious code in a try: block. After the try: block, include an except: statement, followed by a block of code which handles the problem as elegantly as possible.
-Syntax
-
-Here is simple syntax of try....except...else blocks −
+* If you have some suspicious code that may raise an exception, you can defend your program by placing the suspicious code in a `try:` block. 
+* After the try: block, include an `except:` statement, followed by a block of code which handles the problem as elegantly as possible.
+* **Syntax** - Here is simple syntax of **try....except...else** blocks −
 
 ```python
 try:
@@ -352,9 +450,8 @@ except:
 else:
   # If there is no exception then execute this block.
   <code>
-
 finally:
-  # This code *always* executes
+  # This code always executes
   < code >
 ```
 
