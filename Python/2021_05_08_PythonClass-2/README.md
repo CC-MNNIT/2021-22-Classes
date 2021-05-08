@@ -10,6 +10,7 @@
 * In python, user input can be taken using **input()** function.
 * As a parameter of input(), we can pass a string which we want to be displayed during this process.
 * **Example** -
+
 ```python
 a = input("Enter you name:")
 print("Hello",a)
