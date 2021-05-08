@@ -129,7 +129,7 @@ kw_args_func(sep='/', end='*', name='bin')
 def ff(*args, **kwargs, name):
     for arg in args:
         print(args)
-    for key,value in kwargs.item():
+    for key,value in kwargs.items():
         print(key, ": ", value)
     print("Name: ", name)
     
