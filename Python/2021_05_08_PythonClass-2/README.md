@@ -227,6 +227,23 @@ print(random.randint(0,9))
 * Classes define functions called **methods/member-methods**, which decide the behaviors and actions that an object created from the class can perform with its data.
 * While the class is the blueprint, an **instance** is an object that is built from a class and contains data specific to this newly created object.
 * **class** keyword is used to define a class. 
+* **Minimal Example** - 
+
+```python
+	### Minimal Example Class
+	class Car:
+		pass
+
+	c1 = Car()
+
+	c1.name = "Model 3"
+	c1.company = "Tesla"
+
+	print(c1)
+	print(c1.name)
+	print(c1.company)
+```
+* **Example 2** - 
 
 ```python
 	class Car:
@@ -259,6 +276,25 @@ print(random.randint(0,9))
 * **self** is reference to the current instances of the class. 
 * **self** is NOT a keyword, but it is used by convention.
 
+```python
+class Car:
+	wheels = 4 # Class Variable/attribute
+	def _init_(self, company): # Constructor method
+		self.company = company
+
+	def get_company(self): # Instance Method
+		return self.company
+ 
+	def get_wheels(self): # Instance methods
+		return Car.wheels
+
+my_car = Car("Tesla")
+my_car = Car("Tesla")
+print(my_car._dict_) # Print the Properties associated with an object as a dictionary
+
+print(my_car.get_company()) # Actually Treated as:- print(Car.get_company(my_car))
+print(my_car.get_wheels())
+```
 ## Three Types of methods defined inside a Class.
 
 ### 1. Instance Methods/Regular Methods:
@@ -275,6 +311,27 @@ print(random.randint(0,9))
 * Like Instance methods, these methods also must have `class` as their first positional argument. Which is automatically passed when we call a class-method. e.g. ClassName.class_method_name()
 * Generally this position argument is taken as `cls` argument. So, we can access the Class variable using cls.var_name inside a method.
 
+```python
+### Car Class Example
+class Car:
+	wheels = 4 # Class Variable/attribute
+	def _init_(self, company): # Constructor method
+		self.company = company
+
+	def get_company(self): # Instance Method
+		return self.company
+ 
+	def get_wheels(self): # Instance methods
+		return Car.wheels
+
+	@classmethod
+	def about(cls): # Class Method
+		return "This is the Blue-Print of a Car having " + str(cls.wheels) + " wheels."
+print(Car.about()) 
+# You can call a class-method using an instance but as an instance never stores a classmethod. So, Car.about() is called.
+print(my_car.about()) 
+```
+
 ### 3. Static Methods:
 * Do not operate on instance/object or class i.e. none of the both is passed.
 * These Methods don't accepts any mandatory positional arguments unlike instance and classmethods.  
@@ -282,6 +339,36 @@ print(random.randint(0,9))
 * Static method knows nothing about the class variable and just deals with the parameters passed to the method itself.
 * They can be called using both ClassName and InstanceName. **Example** - `ClassName.static_method_fun()`, `InstanceName.static_method_fun()`.
 * Static Methods are not overridden in Subclasses.
+
+```python
+# Static Methods
+class Car:
+	wheels = 4 # Class Variable/attribute
+	def _init_(self, company):
+		print(self)
+		self.company = company
+
+	def get_company(self): # Instance Method
+		return self.company
+ 
+	def get_wheels(self): # Instance methods
+		return Car.wheels
+
+	@classmethod
+	def about(cls):
+		return "This is the Blue-Print of a Car having " + str(cls.wheels) + " wheels."
+
+	@staticmethod
+	def calculate_fuel_amount(cost_per_litre, amount_paid):
+		# A uitility Function.
+		return amount_paid/cost_per_litre
+
+
+my_car = Car("Tesla")
+fuel_amount = Car.calculate_fuel_amount(90, 900)
+# fuel_amount = my_car.calculate_fuel_amount(90, 900)
+print(fuel_amount, "Litres")
+```
 
 <div align="center"><h3>File Handling</h3></div>
 
@@ -454,6 +541,20 @@ else:
 finally:
   # This code always executes
   < code >
+```
+
+* **Example** - Division by zero
+
+```python
+def divide(a,b):
+	try:
+		ans = a / b
+	except ZeroDivisionError:
+		print("Trying to divide by zero")
+		ans = float("Inf")
+	finally:
+		print("Division successful")
+	return ans
 ```
 
 ### Content Contributors
