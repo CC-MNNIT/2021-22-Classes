@@ -2,6 +2,7 @@
 
 - Download the Android Studio installer from here: [https://developer.android.com/studio](https://developer.android.com/studio)
 - <b>Follow this instructions:</b> [https://www.youtube.com/watch?v=H53e2kdaLfk](https://www.youtube.com/watch?v=H53e2kdaLfk)
+- [Android Dev Class - 1 resources](README.md)
 
 ## <b>NOTE:</b>
 
