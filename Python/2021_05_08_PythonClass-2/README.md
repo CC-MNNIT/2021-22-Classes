@@ -184,8 +184,184 @@ print(new_list)
 
     [2, 10, 8, 12, 16, 22, 6, 24]
 
+<div align="center"><h3>File Handling</h3></div>
+
+Files that store data.
+
+There are two types of data files:
+
+- **Text File**: It stores data in the form of ASCII characters.
+  (each line is terminated with a special delimiter "\n", computer first translates then reads)
+- **Binary File**: It stores data in same format as it is stored in memory.
+  (there's no delimiter and no translations for program to read).
+
+### File Object/Handle
+
+- File object allows us to read and write in the file.
+- It takes the reference of the file and open it in diffrent modes we want.
+- File object is the connector between us and the file.
+- When an object is created, we works as if the object is the file.
+
+### File Object Attributes
+
+| Attribute   | Description                                      |
+| ----------- | ------------------------------------------------ |
+| file.closed | Returns true if file is closed, false otherwise. |
+| file.mode   | Returns access mode with which file was opened.  |
+| file.name   | Returns name of the file.                        |
+
+### Opening Files
+
+To open a file in our program we have a function named open().
+* **Syntax** - 
+```python
+  <file_objectname> = open(<filename>)
+  <file_objectname> = open(<filename>, <mode>)
+```
+* **Example** - 
+```python
+    a = open("myFile.txt", "r") # File Opened in read mode
+    b = open("list.txt", "w") # File opened in the write mode
+```
+* **Note**: default mode is read mode
+
+
+### File Access Modes
+| Text Files | Binary Files | Function | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| 'r' | 'rb' | read | File must exist, else error |
+| 'w' | 'wb' | write | If file exist overwrite, else create new file|
+| 'r+' | 'r+b' or 'rb+' | read and write | File must exist, else error. Both read and write works |
+| 'w+' | 'w+b' or 'wb+' | write and read | If file exist overwrite, else not create new file. Both read and write works |
+| 'a' | 'ab' | append | Same as 'write', data is not overwritten. It's appended. |
+| 'a+' | 'a+b' or 'ab+' | append and read | Same as 'write' data is not overwritten. It's appended. Both read and write works |
+
+### Reading a file
+
+- The read() function:
+  returns n bytes from the file. If n not given, returns all the bytes from the file
+
+```python
+f = open("list.txt") # file is opened
+result = f.read()
+print(result) # will print the whole file.
+result = f.read(10)
+print(result) # will print only the first 10 bytes i.e 10 characters of the file.
+```
+* **Note**: 1 character has size of 1 bytes.
+
+
+- The readline() function:
+  returns n bytes from the file.
+  if n not given, returns all the bytes from one line.
+
+```python
+  f = open("list.txt) # file is opened
+  result = f.readline()
+  print(result) # will print the first line
+  result = f.realine(3)
+  print(result) # will print first 3 characters of second line.
+  result = f.readline()
+  print(result) # will print the remaining part of second line.
+```
+* **Note**: readline() automatically add "\n" on the end of every string that it returns
+
+
+- The readlines() function:
+  return all the lines in a from of list
+
+```python
+  f = open("list.txt")
+  result = f.readlines()
+  print(result) # will print list of lines
+```
+
+There's an alternate way to read line by line
+
+```python
+  f = open("list.txt)
+  for i in f:
+    print(i) # i iterates till "\n", which was the delimiter.
+  
+  # It's same as:
+  s = f.readline()
+  while s:
+    print(s)
+    s = f.readline()
+```
+
+- using **_with_** keyword
+
+```python
+with open("file.txt", 'w') as f:
+  f.write("Hello World!!)
+```
+
+### What's special about the with keyword?
+
+When you open a file python creates an file object i.e some memory has been allocated to the file object if we forgot to clean this memory it can cause memory leak (we clean this memory by calling close() method i.e f.close()). But in case of with keyword when the code comes out the block scope of the with keyword it will automatically close the file object i.e clean the memory which was allocated to the file
+
+### Writing in a file
+
+1. The write(<str>) function:
+
+writes string <str> in the file associated with file object.
+
+```python
+  f = open("list.txt", 'w')
+  f.write("Hello World!")
+```
+* **Note**: Notice the access mode is write, all old data in the file will be deleted.
+
+
+2. The writelines(<L>) function:
+
+writes all string from the list <L> in the file associated with file object.
+
+```python
+  f = open("list.txt", 'w')
+  todo = ["Coding", "Binge Watching", "Football"]
+  f.writelines(todo)
+```
+
+### File Pointers
+A file pointer tells the current position in the file where reading or writing will take place.
+
+<div align="center"><h3>Exception Handling</h3></div>
+
+### What is Exception?
+
+An exception is an event, which occurs during the execution of a program that disrupts the normal flow of the program's instructions. In general, when a Python script encounters a situation that it cannot cope with, it raises an exception. An exception is a Python object that represents an error.
+
+When a Python script raises an exception, it must either handle the exception immediately otherwise it terminates and quits.
+
+### Handling an exception
+
+If you have some suspicious code that may raise an exception, you can defend your program by placing the suspicious code in a try: block. After the try: block, include an except: statement, followed by a block of code which handles the problem as elegantly as possible.
+Syntax
+
+Here is simple syntax of try....except...else blocks −
+
+```python
+try:
+   # Runs first
+   < code >
+except:
+  # If there is exception, then execute this block.
+   < code >
+else:
+  # If there is no exception then execute this block.
+  <code>
+
+finally:
+  # This code *always* executes
+  < code >
+```
+
 ### Content Contributors
 
+* [Aman Tibrewal](https://github.com/amantibrewal310)
+* [Ankit Sangwan](https://github.com/ankitsangwan1999/)
 * [Kshitiz Srivastava](https://github.com/pirateksh/)
 
 ### Materials
@@ -194,3 +370,5 @@ print(new_list)
 * [Learn Python in 1 Video](https://www.youtube.com/watch?v=qHJjMvHLJdg) (Hindi)
 * [Python Tutorials for Beginners Video Playlist](https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7) (English)
 * For those of you who prefer reading books - [Python for Absolute beginners](https://drive.google.com/file/d/1_zCsrSLewaIHb0hQOnenexVLukbGw1xn/view?usp=sharing)
+* [File Handling](https://www.tutorialspoint.com/python/python_files_io.htm)
+* [Exception Handling](https://www.tutorialspoint.com/python/python_exceptions.htm)
