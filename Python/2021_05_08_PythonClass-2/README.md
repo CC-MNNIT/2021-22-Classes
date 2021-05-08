@@ -1,5 +1,7 @@
 # Python Class - II
 
+## Python Class - II recording: [Here](https://drive.google.com/file/d/11oAuU7pmKDEl1zwIYZ2apZEUe4tfxy8B/view?usp=sharing)
+
 #### May 08, 2021
 
 <div align="center"><img src="../python.png" alt="python" height="150" /></div>
@@ -442,7 +444,7 @@ print(result) # will print only the first 10 bytes i.e 10 characters of the file
   if n not given, returns all the bytes from one line.
 
 ```python
-  f = open("list.txt) # file is opened
+  f = open("list.txt") # file is opened
   result = f.readline()
   print(result) # will print the first line
   result = f.realine(3)
@@ -566,8 +568,7 @@ def divide(a,b):
 ### Materials
 
 * [W3Schools Python Tutorial](https://www.w3schools.com/python/)
-* [Learn Python in 1 Video](https://www.youtube.com/watch?v=qHJjMvHLJdg) (Hindi)
-* [Python Tutorials for Beginners Video Playlist](https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7) (English)
-* For those of you who prefer reading books - [Python for Absolute beginners](https://drive.google.com/file/d/1_zCsrSLewaIHb0hQOnenexVLukbGw1xn/view?usp=sharing)
+* [Python OOPs Video Tutorial](https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc) (English)
 * [File Handling](https://www.tutorialspoint.com/python/python_files_io.htm)
 * [Exception Handling](https://www.tutorialspoint.com/python/python_exceptions.htm)
+* For those of you who prefer reading books - [Python for Absolute beginners](https://drive.google.com/file/d/1_zCsrSLewaIHb0hQOnenexVLukbGw1xn/view?usp=sharing)
