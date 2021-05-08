@@ -211,6 +211,7 @@ print(new_list)
 * We use, **import *module_name***, to import a module
 * You can’t import a function present inside a module using the dot operator(.) 
 * For that, you must use **from**: `from Game.Sound.load import volume_up`.
+
 ```python
 # Program to generate a random number between 0 and 9
 # importing the random module
@@ -245,6 +246,7 @@ print(random.randint(0,9))
 	print(c1.name)
 	print(c1.company)
 ```
+
 * **Example 2** - 
 
 ```python
@@ -402,11 +404,13 @@ There are two types of data files:
 
 To open a file in our program we have a function named open().
 * **Syntax** - 
+
 ```python
   <file_objectname> = open(<filename>)
   <file_objectname> = open(<filename>, <mode>)
 ```
 * **Example** - 
+
 ```python
     a = open("myFile.txt", "r") # File Opened in read mode
     b = open("list.txt", "w") # File opened in the write mode
