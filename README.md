@@ -58,7 +58,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
     - [Connecting Java project with MySQL database](Java/JavaMySQLNotes)
 
 - [Android Development classes](Android)
-    - [AndroidDev Class-1](Android/2021_05_07_AndroidClass-1)
+    - [AndroidDev Class-1](Android/2021_05_09_AndroidClass-1)
 
 - [Web Development classes](WebDev)
     - [WebDev Class-1 (HTML)](WebDev/2021_04_24_WebClass-1)
