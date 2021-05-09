@@ -1,6 +1,7 @@
 # Android Development Class - I
 
 ## Get the Presentation used in class: [Here](Android_Class-1.pdf)
+## Get the Class recording: [Here](https://drive.google.com/file/d/1rIe4-fIQq-ysc39NS3hJ6fNSUj8sFtms/view?usp=sharing)
 
 #### May 09, 2021
 
@@ -14,6 +15,7 @@
 -   [Installation Instructions](Installation-Instructions.md)
 -   [How to deploy app to your phone](https://developer.android.com/training/basics/firstapp/running-app#RealDevice)
 -   [Using emulator to deploy apps](https://developer.android.com/studio/run/emulator) - this is not preferred for Laptops as it is resource hungry. We'd suggest don't use emulator unless you have more than 8GBs of RAM.
+-   [More learning resources](../)
 
 ## Class coverage:
 1. [First demo app: to demonstrate LifeCycle of Android Activity](FirstDemo) (click to visit)
