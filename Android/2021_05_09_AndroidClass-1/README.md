@@ -32,6 +32,8 @@
 
 ## Homework:
 
+-   Read about `R.java` file.
+-   Study about Metaprogramming. Identify where we have used this.
 -   Try to explore more UI components like TextView, Checkboxes, Spinner, etc.
 -   Read about the following:
     -   [Permissions in Android](https://developer.android.com/guide/topics/permissions/overview)
