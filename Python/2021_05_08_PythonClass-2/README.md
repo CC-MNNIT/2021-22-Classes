@@ -419,6 +419,7 @@ To open a file in our program we have a function named open().
 
 
 ### File Access Modes
+
 | Text Files | Binary Files | Function | Description |
 | ----------- | ----------- | ----------- | ----------- |
 | 'r' | 'rb' | read | File must exist, else error |
