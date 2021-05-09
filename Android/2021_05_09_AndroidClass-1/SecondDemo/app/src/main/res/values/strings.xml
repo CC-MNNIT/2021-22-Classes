@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SecondDemo</string>
+    <string name="btn_name">Tap me!</string>
+</resources>

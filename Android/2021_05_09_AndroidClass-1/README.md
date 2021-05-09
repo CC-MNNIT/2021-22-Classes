@@ -15,6 +15,10 @@
 -   [How to deploy app to your phone](https://developer.android.com/training/basics/firstapp/running-app#RealDevice)
 -   [Using emulator to deploy apps](https://developer.android.com/studio/run/emulator) - this is not preferred for Laptops as it is resource hungry. We'd suggest don't use emulator unless you have more than 8GBs of RAM.
 
+## Class coverage:
+1. [First demo app: to demonstrate LifeCycle of Android Activity](FirstDemo) (click to visit)
+2. [Second demo app: to demonstrate Layouts and to make a simple button tap counter](SecondDemo) (click to visit)
+
 ## Further readings:
 
 -   [Android lifecycle](https://developer.android.com/guide/components/activities/activity-lifecycle)
