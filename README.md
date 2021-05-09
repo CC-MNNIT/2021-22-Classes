@@ -60,19 +60,20 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
 - [Android Development classes](Android)
     - [AndroidDev Class-1](Android/2021_05_09_AndroidClass-1)
 
+- [Python classes](Python)
+    - [Python Class-1](Python/2021_05_06_PythonClass-1)
+    - [Python Class-2](Python/2021_05_08_PythonClass-2)
+
 - [Web Development classes](WebDev)
     - [WebDev Class-1 (HTML)](WebDev/2021_04_24_WebClass-1)
     - [WebDev Class-2 (HTML + CSS)](WebDev/2021_04_26_WebClass-2)
     - [WebDev Class-3 (JS)](WebDev/2021_04_28_WebClass-3)
     - [WebDev Class-4 (SQL)](WebDev/2021_05_01_WebClass-4)
+    - [WebDev Class-5 (Django-1)](WebDev/2021_05_10_WebClass-5)
 
 - [Machine Learning classes](MachineLearning)
     - [Machine Learning Class-1](MachineLearning/2021-04-29_ML-Class-1)
     - [Machine Learning Class-2](MachineLearning/2021-05-03_ML-Class-2)
-
-- [Python classes](Python)
-    - [Python Class-1](Python/2021_05_06_PythonClass-1)
-    - [Python Class-2](Python/2021_05_08_PythonClass-2)
 
 - Class recordings
     - [All the recodings of classes held on MS Teams (Drive link)](https://drive.google.com/drive/folders/14UTduGJfnltoc5sEgNX4Qrq4mCEJdz2K?usp=sharing)

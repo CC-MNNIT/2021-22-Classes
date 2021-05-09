@@ -17,6 +17,7 @@
 - [Class 2 (HTML + CSS): held on 26 April, 2021](./2021_04_26_WebClass-2)
 - [Class 3 (JS): held on 28 April, 2021](./2021_04_28_WebClass-3)
 - [Class 4 (SQL): held on 01 May, 2021](./2021_05_01_WebClass-4)
+- [Class 5 (Django-1): held on 10 May, 2021](./2021_05_10_WebClass-5)
 
 ## Getting Started
 Getting started with Web :-
