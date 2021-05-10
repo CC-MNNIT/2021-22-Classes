@@ -1,6 +1,8 @@
 # Android Development classes resources
 <div align="center"><img src="Android-Logo.png"  alt="Android logo" height="150"/></div>
 
+Join the Android MNNIT Facebook group: [here](https://www.facebook.com/groups/droidrush/)
+
 ## Classes held
 
 -   [Class 1: held on 09 May, 2021](2021_05_09_AndroidClass-1)
