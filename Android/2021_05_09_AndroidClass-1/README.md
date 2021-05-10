@@ -33,6 +33,7 @@
 ## Homework:
 
 -   Read about `R.java` file.
+-   Learn what is the difference between `sp` and `dp` units in the layout file.
 -   Study about Metaprogramming. Identify where we have used this.
 -   Try to explore more UI components like TextView, Checkboxes, Spinner, etc.
 -   Read about the following:

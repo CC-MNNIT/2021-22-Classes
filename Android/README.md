@@ -3,8 +3,9 @@
 
 ## Classes held
 
-[Class 1: held on 09 May, 2021](2021_05_09_AndroidClass-1)
-[Class 2: held on 11 May, 2021](2021_05_11_AndroidClass-2)
+-   [Class 1: held on 09 May, 2021](2021_05_09_AndroidClass-1)
+
+-   [Class 2: to be held on 11 May, 2021](2021_05_11_AndroidClass-2)
 
 ## Reading Resources
 
