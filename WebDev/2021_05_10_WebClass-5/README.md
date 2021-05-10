@@ -71,6 +71,71 @@
 
 <div align="center"><img src="./images/relating.png" /></div>
 
+### Setting up Django Project
+* **Step 1** - Install Python 3.
+* **Step 2** - Run `python --version` or `python3 --version` in your command prompt or terminal to check whether Python is successfully installed or not.
+* **Step 3** - Go to directory where you want to create the project.
+* **Step 4** - Make a new folder named **Django_Projects**.
+* **Step 5** - Right Click in that directory and open command prompt or terminal.
+* **Step 6** - Run the following command to create a **virtual environment**.
+	```
+	python -m venv djenv
+	```
+* **Step 7** - Activate the environment.
+	* In **Windows** run the following command - 
+	
+	```
+	djenv\scripts\activate
+	``` 
+	
+	* In **Linux/Mac** run the following command - 
+
+	```
+	source djenv/bin/activate
+	```
+
+	* After this step you should see environment name besides the command line as shown below.
+
+	<div align="center"><img src="./images/env.png" /></div>
+
+* **Step 8** - Download and install Django
+	
+	```
+	python -m pip install --upgrade pip
+	pip install django
+	```
+
+	* This will download and install necessary files.
+	* To verify the installation type following command - 
+
+	```
+	python
+	>>> import django
+	>>> django.VERSION
+	```
+
+	* If output matches with the following output, then django is properly installed. Your django version might be different from the one shown in this image.
+
+	<div align="center"><img src="./images/dj_ins.png" /></div>
+
+* **Step 9** - Starting a project in Django.
+	
+	```
+	django-admin startproject project1
+	```
+
+	* **project1** is just the project name.
+
+* **Step 10** - Open **PyCharm Professional IDE**. Open **project1** in PyCharm.
+
+* **Step 11** - Setting Virtual environment for project in PyCharm
+	* After opening **project1** in PyCharm go to **File** and open **Settings**.
+	* Click on **Project:project1** and then select **Project Interpreter**.
+	* Click on **Settings icon**, then click on **Add** and then select **Existing Environment**.
+	* Select **djenv/Scripts/python3.exe** or **djenv/bin/python3.exe** from Interpreter dropdown and click **OK**.
+	* Click **OK** again.
+	* Now open the terminal in Pycharm and you'll se `(djenv)` written in it just like Step 7.
+
 ### Content Contributors
     
 * [Ankit Sangwan](https://github.com/ankitsangwan1999)
