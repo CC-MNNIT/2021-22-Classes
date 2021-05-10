@@ -59,6 +59,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
 
 - [Android Development classes](Android)
     - [AndroidDev Class-1](Android/2021_05_09_AndroidClass-1)
+    - [AndroidDev Class-2](Android/2021_05_11_AndroidClass-2)
 
 - [Python classes](Python)
     - [Python Class-1](Python/2021_05_06_PythonClass-1)
