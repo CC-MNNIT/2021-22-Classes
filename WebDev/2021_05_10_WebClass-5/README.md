@@ -166,7 +166,20 @@
 	* Click on **Settings icon**, then click on **Add** and then select **Existing Environment**.
 	* Select **djenv/Scripts/python3.exe** or **djenv/bin/python3.exe** from Interpreter dropdown and click **OK**.
 	* Click **OK** again.
-	* Now open the terminal in Pycharm and you'll se `(djenv)` written in it just like Step 7.
+	* Now open the terminal in Pycharm and you'll see `(djenv)` written in it just like Step 7.
+
+### Some pre-existing files in Django Project
+* **settings.py file** - It sets the basic configuration of the project like - 
+	* Language of Website, 
+	* Timezone to be used in website,
+	* Database Engine of Website, etc
+* **manage.py file** - It is used to perform various tasks related to project like - 
+	* Making a new app in project,
+	* Starting the server,
+	* Creating the database, etc.
+	* We can write commands like `python manage.py runserver`.
+* **\_\_init\_\_.py file** - It defines **project1** as a Python package.
+* **wsgi.py file** - It stands for Web Server Gateway Interface. It is used to **forward requests** from a web server (such as Apache or NGINX) to a backend Python web application or framework.
 
 ### Content Contributors
     
