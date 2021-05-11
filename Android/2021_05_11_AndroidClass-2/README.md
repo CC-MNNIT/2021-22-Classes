@@ -8,6 +8,13 @@
 
 <hr>
 
+## Class coverage:
+
+-   [The project in which we showed how to Intent b/w activities](IntentDemo) (click to visit)
+-   [The project in which we showed how to send runtime permission requests and adding dependencies](PermissionDemo) (click to visit)
+-   [The project in which we showed how to create ListView using ArrayAdapter<String>](ListStringDemo) (click to visit)
+-   [The project in which we showed how to create ListView using Custom Adapter (used CardView)](ListAdapterDemo) (click to visit)
+
 ## Class Content:
 
 -   [Intent](https://developer.android.com/reference/android/content/Intent); more [here](https://developer.android.com/guide/components/intents-filters).
@@ -19,3 +26,11 @@
 -   [Adapter](https://developer.android.com/reference/android/widget/Adapter)
 -   [RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview)
 -   [More learning resources](../)
+
+## Homework:
+
+-   Learn how to set persisitance of data across screen rotations.
+-   Which Android version started runtime permissions?
+-   Read what is the difference between Implementation and Compile dependencies.
+-   Create a simple single activity project which supports app language change using the string resources files (strings.xml)
+-   Try implementing RecyclerView (it is very similar to ListView).
