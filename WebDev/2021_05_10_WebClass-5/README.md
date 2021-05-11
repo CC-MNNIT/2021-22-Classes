@@ -167,6 +167,11 @@
 	* Select **djenv/Scripts/python3.exe** or **djenv/bin/python3.exe** from Interpreter dropdown and click **OK**.
 	* Click **OK** again.
 	* Now open the terminal in Pycharm and you'll see `(djenv)` written in it just like Step 7.
+* **Step 12** - Run following command in PyCharm's terminal
+	```
+	python manage.py runserver
+	```
+	* Then open the link from the terminal, if you see default Django Page with a rocket in it, then your installation was successful.
 
 ### Some pre-existing files in Django Project
 * **settings.py file** - It sets the basic configuration of the project like - 
@@ -187,3 +192,7 @@
 * [Kshitiz Srivastava](https://github.com/pirateksh/)
 
 ### Materials
+
+* [Django Video Tutorial Playlist](https://www.youtube.com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p) (English)
+* [Django Video Tutorial Playlist](https://www.youtube.com/watch?v=5BDgKJFZMl8&list=PLu0W_9lII9ah7DDtYtflgwMwpT3xmjXY9) (Hindi)
+* [Python Resources](https://github.com/CC-MNNIT/2021-22-Classes/tree/main/Python)
