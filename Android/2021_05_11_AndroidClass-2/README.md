@@ -2,6 +2,8 @@
 
 ## Get the Presentation used in class: [Here](Android_Class-2.pdf)
 
+## Get the Class recording: [Here](https://drive.google.com/file/d/13vu4D7n0ltzq0-3QwK3C1ClhhPS1ZV0a/view?usp=sharing)
+
 #### May 11, 2021
 
 <div align="center"><img src="../Android-Logo.png" alt="Android logo" height=150/></div>

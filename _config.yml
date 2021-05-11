@@ -1,4 +1,8 @@
+remote_theme: daattali/beautiful-jekyll
 ---
+thumbnail-img: ""
 layout: default
 comments: true
+gh-repo: CC-MNNIT/2021-22-Classes
+gh-badge: star
 ---
