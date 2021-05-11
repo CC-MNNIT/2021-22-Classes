@@ -1,8 +1,8 @@
-remote_theme: daattali/beautiful-jekyll
+remote_theme: "dracula/gh-pages"
 ---
-thumbnail-img: ""
 layout: default
 comments: true
-gh-repo: CC-MNNIT/2021-22-Classes
-gh-badge: star
+show_downloads: false
+show_header: false
+icon: https://github.com/CC-MNNIT/2021-22-Classes/raw/main/cclogo_favicon.jpeg
 ---
