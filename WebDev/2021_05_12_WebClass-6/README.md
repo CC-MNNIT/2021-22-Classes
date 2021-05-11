@@ -19,6 +19,7 @@
 ### Creating a new app
 * We will create a new app by the name **polls**.
 * Run the following command in PyCharm's terminal
+
 ```
 python manage.py startapp polls
 ```
@@ -28,6 +29,7 @@ python manage.py startapp polls
 * Notice that **urls.py** file is missing from this folder. *What to do now?*
 * *It's simple, we will create it ourselves.* Create a new file **urls.py** in **polls** folder.
 * Last but not the least, we will have to add this app in the **INSTALLED_APPS** list of **settings.py** file.
+
 ```python
 # In project1/settings.py file
 INSTALLED_APPS = [
@@ -42,17 +44,20 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 ```
+
 * **Note** - If you apps name was `foo`, you'd have added `foo.apps.FooConfig` in **INSTALLED_APPS** list.
 
 ### Writing our first view
 * So, respecting the tradition, the very first view which we'll write, will print **Hello World!** in our website's main page.
 * Open **views.py** file and write the following code
+
 ```python
 # In project1/polls/views.py file
 def hello_world(request):
 	print("This is my first view! Hello World!")
 	return HTTP_RESPONSE("Hello World!")
 ```
+
 * So, our very first view is ready. *What do we need to do now? Any Guesses?*.
 
 ### Mapping view with URL
@@ -66,7 +71,9 @@ def hello_world(request):
 from django.urls import path, include
 path("/", include("polls.urls")),
 ``` 
+
 * The **URL_PATTERNS** should look like
+
 ```python
 # In project1/urls.py file
 URL_PATTERNS = [
@@ -74,7 +81,9 @@ URL_PATTERNS = [
 	path("admin/", admin.site.urls),
 ]
 ```
+
 * Now open **project1/polls/urls.py** and add following code
+
 ```python
 # In project1/polls/urls.py file
 from django.urls import path
@@ -87,9 +96,11 @@ URL_PATTERNS = [
 
 ### Testing our first view
 * Run the server by running following command in **PyCharm's terminal**.
+
 ```
 python manage.py runserver
 ```
+
 * Now visit `http://127.0.0.1:8000/` on your browser and you must see **Hello World!** there.
 * Also, see in PyCharm's terminal, you'll see `This is my first view! Hello World!` printed there. ***WHY?***
 
