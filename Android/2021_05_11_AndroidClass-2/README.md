@@ -31,7 +31,7 @@
 
 ## Homework:
 
--   Learn how to set persisitance of data across screen rotations.
+-   Learn how to set persistence of data across screen rotations.
 -   Which Android version started runtime permissions?
 -   Read what is the difference between `implementation` and `compile` dependencies.
 -   Create a simple single activity project which supports app language change using the string resources files (`strings.xml`)
