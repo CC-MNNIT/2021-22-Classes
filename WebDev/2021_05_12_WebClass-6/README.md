@@ -173,6 +173,8 @@ class Question(models.Model):  # Model class from models module is inherited in 
 
 ```
 
+* Note that we have not added **question_id** field. *Why?* This is because for each model, **Django creates a Primary Key by default**. It's name is **id** or **pk**.
+
 * For **Choices** Table, write the following code
 
 ```python
