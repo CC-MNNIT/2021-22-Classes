@@ -185,11 +185,17 @@ class Choice(models.Model):
 
     number_of_votes = models.IntegerField(verbose_name="Number of Votes")
 
-    question = models.ForeignKey(Question, verbose_name="Question")
+    question = models.ForeignKey(Question, on_delete=models.CASCADE())
 
     def __str__(self):
         return self.choice_text
 ```
+
+* **models.CASCADE()** - **Cascade** means that if a table is deleted, then all it's related from in other tables is also deleted. **Example** - In this case when a **Question** is deleted from database, **Choices** corresponding to that question will also be deleted.
+
+* **models.DO_NOTHING()** - In this case on deleting a **Question**, **Choices** related to that question won't be deleted.
+
+* **models.RESTRICT()** - This will **not allow** any **Question** to be deleted as long as there is a **Choice** present for that question. If we want to delete the **Question**, firstly we will have to delete all the **Choices** related to that question.
 
 * Now can you relate and see the similarities b/w these **Python classes** and **Database's Tables**?
 * Visit this link to see all possible **Field Types** - [Django Models Field Types](https://docs.djangoproject.com/en/3.2/ref/models/fields/#field-types)
@@ -293,6 +299,116 @@ admin.site.register(Choice)
 * **Step 2 (Activation)** - We run `python manage.py makemigrations` command. Migrated files are created. These files contains queries written by Django in selected Database Engine in a **.py** file.
 * **Step 3 (Migration)** - We run `python manage.py migrate` command. Actual Tables/Database is created.
 * **Step 4** - Visit **Django Admin Panel** to interact with the database.
+
+### Interacting with database using CLI
+* We have already seen how to interact with database using **GUI (Graphical User Interface)** i.e. by using **Django Admin Panel**.
+* Now we will see how we can get similar things done by Python code using **CLI (Command Line Interface)**.
+* Django provides **APIs** for facilitating **CRUD (Create, Read, Update, Delete)** operations on the database.
+* There is **no need** to write SQL Queries for this. *Another advantage of mighty Django!*
+* Run following command in **PyCharm's terminal** to open **Python console** where we'll be typing our commands to interact with database.
+
+```
+python manage.py shell
+```
+
+* Now we will perform CRUD on database using CLI
+    * **C (CREATE)** - Adding a new question from CLI
+        ```python
+        # In Python console
+        >>> from polls.models import Question, Choice
+        >>> from django.utils import timezone
+        >>> new_ques = Question(question_text="Which is better, GUI or CLI?", publication_date=timezone.now)
+        ```
+        * Here we have created an **object** or **instance** of **Question** class.
+        * Open another terminal and start server. Now check from **Admin Panel** whether this new question has been added or not?
+        * We have just created an object of Question class. To save it to database, we will need to call **save()** method.
+        ```python
+        >>> new_ques.save()
+        ```
+        * Now again check the **Admin Panel**. You'll **a new row** has appeared in **Questions** table.
+    * **U (UPDATE)** - Updating Question Text of the question we just created.
+        ```python
+        >>> new_ques.question_text = "Which is better, GUI (Graphical User Interface) or CLI (Command Line Interface)?"
+        >>> new_ques.save()
+        ```
+        * **Do not forget** to use `save()` method after **creation** and **updation**.
+    * **R (READ)** - Reading/Fetching all the questions saved in database till now.
+        ```python
+        >>> all_questions = Question.objects.all()
+        >>> print(all_questions)
+        ``` 
+        * Reading/Fetching question with **id = 1**. **get** returns only 1 record.
+        ```python
+        >>> ques = Question.objects.get(id=1)
+        >>> ques = Question.objects.filter(id=1)
+        ```
+        *OR*
+        ```python
+        >>> ques = Question.objects.get(pk=1)
+        >>> ques = Question.objects.filter(pk=1)
+        ```
+        * Reading/Fetching all questions which start with word **How**.
+        ```python
+        >>> ques_how = Question.objects.filter(question_text__startswith="How")
+        ```
+    * **D (DELETE)** - Deleting ques with **id = 1** from database.
+        ```python
+        >>> ques = Question.objects.get(id=1)
+        >>> ques.delete()
+        ```
+        *OR*
+        ```python
+        >>> Question.objects.get(id=1).delete()
+        ```
+
+* **Some useful methods** - 
+    * **all()** - 
+        * It is used to fetch all the records present in any table.
+        * It returns a **QuerySet**.
+
+    * **get()** - 
+        * It returns a single matching object from the table based on any condition.
+        * It will **raise an exception** in case the record matching the given condition is not present.
+
+    * **filter()** - 
+        * In this a **QuerySet** of records matching the specified condition is returned.
+        * In case, there is no record matching the given condition, it returns **Null QuerySet** and **does not raise exception**.
+        * Many time we use **filter** instead of **get** like this
+        ```python
+        ques_qs = Question.objects.filter(id=1)
+        if ques_qs:
+            ques_obj = ques_qs[0]  # ques_qs.first()
+
+        # OR
+        ques_obj = Question.objects.filter(id=1)[0]
+        
+        # OR
+        ques_obj = Question.objects.filter(id=1).first()
+        ```
+    * **create()** - 
+        * It is used to **create an object** and **save** it at the same time to the database.
+        * We do not need to call **save()** method if we use **create()**.
+        * **Example** -
+        ```python
+        new_ques = Question.objects.create(question_text="New Question", publication_date=timezone.now)
+        ``` 
+    * **save()** - 
+        * It is used to save changes to the database after **creating a new object** (without using **create()**) or after **updating any existing object**.
+
+    * **order_by()** - 
+        * Used to Order the records in **Ascending** or **Descending** order based on any attribute.
+        * **Example** - 
+        ```python
+        ordered_ques = Question.objects.order_by('pub_date')
+
+        # Reversing order
+
+        reverse_ordered_ques = Question.objects.order_by('-pub_date')
+        ```
+    * **exclude()** - Used to exclude some objects based on some condition. *EXPLORE ON YOUR OWN!*
+* **QuerySet** - 
+    * It is a **list of objects** of a given Model.
+    * QuerySets allow us to read the data from the database, filter it and order it, etc.
 
 ### Content Contributors
     
