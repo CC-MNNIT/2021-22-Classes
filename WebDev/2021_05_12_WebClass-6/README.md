@@ -1,5 +1,7 @@
 # Web Development Class - VI
 
+## Web Development Class - VI recording: [Here](https://drive.google.com/file/d/1Q7uyvy33VvwXyYMrRw1fApWKk5ikiKUC/view?usp=sharing)
+
 #### May 12, 2021
 
 <div align="center"><h3>Polling App in Django</h3></div>
@@ -53,9 +55,11 @@ INSTALLED_APPS = [
 
 ```python
 # In project1/polls/views.py file
+from django.shortcuts import render, HttpResponse
+
 def hello_world(request):
 	print("This is my first view! Hello World!")
-	return HTTP_RESPONSE("Hello World!")
+	return HttpResponse("Hello World!")
 ```
 
 * So, our very first view is ready. *What do we need to do now? Any Guesses?*.
