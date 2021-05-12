@@ -398,7 +398,7 @@ python manage.py shell
     * **order_by()** - 
         * Used to Order the records in **Ascending** or **Descending** order based on any attribute.
         * **Example** - Ordering Questions by Publication Date.
-	```python
+        ```python
         ordered_ques = Question.objects.order_by('publication_date')
 
         # Reversing order
