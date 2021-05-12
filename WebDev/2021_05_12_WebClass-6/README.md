@@ -355,25 +355,22 @@ python manage.py shell
         ```python
         >>> ques = Question.objects.get(id=1)
         >>> ques.delete()
-        ```
-        *OR*
-        ```python
+        # OR
         >>> Question.objects.get(id=1).delete()
         ```
 
 * **Some useful methods** - 
-    * **all()** - 
-        * It is used to fetch all the records present in any table.
-        * It returns a **QuerySet**.
+* **all()** - 
+    * It is used to fetch all the records present in any table.
+    * It returns a **QuerySet**.
+* **get()** - 
+    * It returns a single matching object from the table based on any condition.
+    * It will **raise an exception** in case the record matching the given condition is not present.
+* **filter()** - 
+    * In this a **QuerySet** of records matching the specified condition is returned.
+    * In case, there is no record matching the given condition, it returns **Null QuerySet** and **does not raise exception**.
+    * Many time we use **filter** instead of **get** like this.
 
-    * **get()** - 
-        * It returns a single matching object from the table based on any condition.
-        * It will **raise an exception** in case the record matching the given condition is not present.
-
-    * **filter()** - 
-        * In this a **QuerySet** of records matching the specified condition is returned.
-        * In case, there is no record matching the given condition, it returns **Null QuerySet** and **does not raise exception**.
-        * Many time we use **filter** instead of **get** like this.
 ```python
 ques_qs = Question.objects.filter(id=1)
 if ques_qs:
@@ -386,19 +383,22 @@ ques_obj = Question.objects.filter(id=1)[0]
 ques_obj = Question.objects.filter(id=1).first()
 ```
     
-   * **create()** - 
-        * It is used to **create an object** and **save** it at the same time to the database.
-        * We do not need to call **save()** method if we use **create()**.
-        * **Example** -
-        ```python
-        new_ques = Question.objects.create(question_text="New Question", publication_date=timezone.now)
-        ``` 
-   * **save()** - 
-        * It is used to save changes to the database after **creating a new object** (without using **create()**) or after **updating any existing object**.
+* **create()** - 
+    * It is used to **create an object** and **save** it at the same time to the database.
+    * We do not need to call **save()** method if we use **create()**.
+    * **Example** -
 
-   * **order_by()** - 
-        * Used to Order the records in **Ascending** or **Descending** order based on any attribute.
-        * **Example** - Ordering Questions by Publication Date.
+```python
+new_ques = Question.objects.create(question_text="New Question", publication_date=timezone.now)
+``` 
+
+* **save()** - 
+    * It is used to save changes to the database after **creating a new object** (without using **create()**) or after **updating any existing object**.
+
+* **order_by()** - 
+    * Used to Order the records in **Ascending** or **Descending** order based on any attribute.
+    * **Example** - Ordering Questions by Publication Date.
+
 ```python
 ordered_ques = Question.objects.order_by('publication_date')
 
@@ -406,7 +406,9 @@ ordered_ques = Question.objects.order_by('publication_date')
 
 reverse_ordered_ques = Question.objects.order_by('-publication_date')
 ```
-   * **exclude()** - Used to exclude some objects based on some condition. *EXPLORE ON YOUR OWN!*
+
+* **exclude()** - Used to exclude some objects based on some condition. *EXPLORE ON YOUR OWN!*
+
 * **QuerySet** - 
     * It is a **list of objects** of a given Model.
     * QuerySets allow us to read the data from the database, filter it and order it, etc.
