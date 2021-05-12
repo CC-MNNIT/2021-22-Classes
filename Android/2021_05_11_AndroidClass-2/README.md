@@ -37,3 +37,4 @@
 -   Create a simple single activity project which supports app language change using the string resources files (`strings.xml`)
 -   Try implementing `RecyclerView` (it is very similar to `ListView`).
 -   Try to change your app's icon.
+-   Learn what is `SharedPreferences`.
