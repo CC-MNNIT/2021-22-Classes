@@ -3,13 +3,13 @@
 
 ## Classes held
 
-[Class 1 (OOP-1): held on 22 April, 2021](2021_04_22_JavaClass-1)
+[Class 1 (OOP-1): held on April 22, 2021](2021_04_22_JavaClass-1)
 
-[Class 2 (OOP-2): held on 25 April, 2021](2021_04_25_JavaClass-2)
+[Class 2 (OOP-2): held on April 25, 2021](2021_04_25_JavaClass-2)
 
-[Class 3 (JavaFX-1): held on 27 April, 2021](2021_04_27_JavaClass-3)
+[Class 3 (JavaFX-1): held on April 27, 2021](2021_04_27_JavaClass-3)
 
-[Class 4 (OOP-3): held on 30 April, 2021](2021_04_30_JavaClass-4)
+[Class 4 (OOP-3): held on April 30, 2021](2021_04_30_JavaClass-4)
 
 ## Reading Resources
 

@@ -4,8 +4,8 @@
 
 ## Classes held
 
-- [Class 1: held on 6 May, 2021](2021_05_06_PythonClass-1)
-- [Class 2: held on 8 May, 2021](2021_05_08_PythonClass-2)
+- [Class 1: held on May 06, 2021](2021_05_06_PythonClass-1)
+- [Class 2: held on May 08, 2021](2021_05_08_PythonClass-2)
 
 ## Reading Resources
 

@@ -13,12 +13,12 @@
 
 ## Classes Held
 
-- [Class 1 (HTML): held on 24 April, 2021](./2021_04_24_WebClass-1)
-- [Class 2 (HTML + CSS): held on 26 April, 2021](./2021_04_26_WebClass-2)
-- [Class 3 (JS): held on 28 April, 2021](./2021_04_28_WebClass-3)
-- [Class 4 (SQL): held on 01 May, 2021](./2021_05_01_WebClass-4)
-- [Class 5 (Django-1): held on 10 May, 2021](./2021_05_10_WebClass-5)
-- [Class 6 (Django-2): held on 12 May, 2021](./2021_05_12_WebClass-6)
+- [Class 1 (HTML): held on April 24, 2021](./2021_04_24_WebClass-1)
+- [Class 2 (HTML + CSS): held on April 26, 2021](./2021_04_26_WebClass-2)
+- [Class 3 (JS): held on April 28, 2021](./2021_04_28_WebClass-3)
+- [Class 4 (SQL): held on May 01, 2021](./2021_05_01_WebClass-4)
+- [Class 5 (Django-1): held on May 10, 2021](./2021_05_10_WebClass-5)
+- [Class 6 (Django-2): held on May 12, 2021](./2021_05_12_WebClass-6)
 
 ## Getting Started
 Getting started with Web :-

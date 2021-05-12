@@ -2,7 +2,7 @@
 
 ## Classes held
 
-[Class 1 (STL): held on 05 May, 2021](2021_05_05_CPClass-1)
+-   [Class 1 (STL): held on May 05, 2021](2021_05_05_CPClass-1)
 
 ## Reading Resources
 
