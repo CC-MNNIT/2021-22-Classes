@@ -374,38 +374,39 @@ python manage.py shell
         * In this a **QuerySet** of records matching the specified condition is returned.
         * In case, there is no record matching the given condition, it returns **Null QuerySet** and **does not raise exception**.
         * Many time we use **filter** instead of **get** like this.
-        ```python
-        ques_qs = Question.objects.filter(id=1)
-        if ques_qs:
-            ques_obj = ques_qs[0]  # ques_qs.first()
+```python
+ques_qs = Question.objects.filter(id=1)
+if ques_qs:
+    ques_obj = ques_qs[0]  # ques_qs.first()
 
-        # OR
-        ques_obj = Question.objects.filter(id=1)[0]
-        
-        # OR
-        ques_obj = Question.objects.filter(id=1).first()
-        ```
-    * **create()** - 
+# OR
+ques_obj = Question.objects.filter(id=1)[0]
+
+# OR
+ques_obj = Question.objects.filter(id=1).first()
+```
+    
+   * **create()** - 
         * It is used to **create an object** and **save** it at the same time to the database.
         * We do not need to call **save()** method if we use **create()**.
         * **Example** -
         ```python
         new_ques = Question.objects.create(question_text="New Question", publication_date=timezone.now)
         ``` 
-    * **save()** - 
+   * **save()** - 
         * It is used to save changes to the database after **creating a new object** (without using **create()**) or after **updating any existing object**.
 
-    * **order_by()** - 
+   * **order_by()** - 
         * Used to Order the records in **Ascending** or **Descending** order based on any attribute.
         * **Example** - Ordering Questions by Publication Date.
-        ```python
-        ordered_ques = Question.objects.order_by('publication_date')
+```python
+ordered_ques = Question.objects.order_by('publication_date')
 
-        # Reversing order
+# Reversing order
 
-        reverse_ordered_ques = Question.objects.order_by('-publication_date')
-        ```
-    * **exclude()** - Used to exclude some objects based on some condition. *EXPLORE ON YOUR OWN!*
+reverse_ordered_ques = Question.objects.order_by('-publication_date')
+```
+   * **exclude()** - Used to exclude some objects based on some condition. *EXPLORE ON YOUR OWN!*
 * **QuerySet** - 
     * It is a **list of objects** of a given Model.
     * QuerySets allow us to read the data from the database, filter it and order it, etc.
