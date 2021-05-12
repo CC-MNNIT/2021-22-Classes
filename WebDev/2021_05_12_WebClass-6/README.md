@@ -80,8 +80,8 @@ path("/", include("polls.urls")),
 
 ```python
 # In project1/urls.py file
-URL_PATTERNS = [
-	path("/", include("polls.urls")),
+urlpatterns = [
+	path("", include("polls.urls")),
 	path("admin/", admin.site.urls),
 ]
 ```
@@ -93,8 +93,8 @@ URL_PATTERNS = [
 from django.urls import path
 from polls import views
 
-URL_PATTERNS = [
-	path("/", views.hello_world),
+urlpatterns = [
+	path("", views.hello_world),
 ]
 ```
 
