@@ -373,7 +373,7 @@ python manage.py shell
     * **filter()** - 
         * In this a **QuerySet** of records matching the specified condition is returned.
         * In case, there is no record matching the given condition, it returns **Null QuerySet** and **does not raise exception**.
-        * Many time we use **filter** instead of **get** like this
+        * Many time we use **filter** instead of **get** like this.
         ```python
         ques_qs = Question.objects.filter(id=1)
         if ques_qs:
@@ -397,13 +397,13 @@ python manage.py shell
 
     * **order_by()** - 
         * Used to Order the records in **Ascending** or **Descending** order based on any attribute.
-        * **Example** - 
-        ```python
-        ordered_ques = Question.objects.order_by('pub_date')
+        * **Example** - Ordering Questions by Publication Date.
+	```python
+        ordered_ques = Question.objects.order_by('publication_date')
 
         # Reversing order
 
-        reverse_ordered_ques = Question.objects.order_by('-pub_date')
+        reverse_ordered_ques = Question.objects.order_by('-publication_date')
         ```
     * **exclude()** - Used to exclude some objects based on some condition. *EXPLORE ON YOUR OWN!*
 * **QuerySet** - 
