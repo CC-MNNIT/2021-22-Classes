@@ -189,17 +189,17 @@ class Choice(models.Model):
 
     number_of_votes = models.IntegerField(verbose_name="Number of Votes")
 
-    question = models.ForeignKey(Question, on_delete=models.CASCADE())
+    question = models.ForeignKey(Question, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.choice_text
 ```
 
-* **models.CASCADE()** - **Cascade** means that if a table is deleted, then all it's related from in other tables is also deleted. **Example** - In this case when a **Question** is deleted from database, **Choices** corresponding to that question will also be deleted.
+* **models.CASCADE** - **Cascade** means that if a table is deleted, then all it's related from in other tables is also deleted. **Example** - In this case when a **Question** is deleted from database, **Choices** corresponding to that question will also be deleted.
 
-* **models.DO_NOTHING()** - In this case on deleting a **Question**, **Choices** related to that question won't be deleted.
+* **models.DO_NOTHING** - In this case on deleting a **Question**, **Choices** related to that question won't be deleted.
 
-* **models.RESTRICT()** - This will **not allow** any **Question** to be deleted as long as there is a **Choice** present for that question. If we want to delete the **Question**, firstly we will have to delete all the **Choices** related to that question.
+* **models.RESTRICT** - This will **not allow** any **Question** to be deleted as long as there is a **Choice** present for that question. If we want to delete the **Question**, firstly we will have to delete all the **Choices** related to that question.
 
 * Now can you relate and see the similarities b/w these **Python classes** and **Database's Tables**?
 * Visit this link to see all possible **Field Types** - [Django Models Field Types](https://docs.djangoproject.com/en/3.2/ref/models/fields/#field-types)
