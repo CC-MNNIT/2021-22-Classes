@@ -8,6 +8,13 @@
 
 <hr>
 
+## Class coverage:
+
+-   [JSON demo](JSONDemo) (click to visit)
+-   [Firebase demo](FirebaseDemo) (click to visit)
+-   [Location demo](LocationDemo) (click to visit)
+-   [Notification demo](NotificationDemo) (click to visit)
+
 ## Class Content:
 
 -   [Services](https://developer.android.com/guide/components/services)
