@@ -321,7 +321,7 @@ python manage.py shell
         # In Python console
         >>> from polls.models import Question, Choice
         >>> from django.utils import timezone
-        >>> new_ques = Question(question_text="Which is better, GUI or CLI?", publication_date=timezone.now)
+        >>> new_ques = Question(question_text="Which is better, GUI or CLI?", publication_date=timezone.now())
         ```
         * Here we have created an **object** or **instance** of **Question** class.
         * Open another terminal and start server. Now check from **Admin Panel** whether this new question has been added or not?
@@ -393,7 +393,7 @@ ques_obj = Question.objects.filter(id=1).first()
     * **Example** -
 
 ```python
-new_ques = Question.objects.create(question_text="New Question", publication_date=timezone.now)
+new_ques = Question.objects.create(question_text="New Question", publication_date=timezone.now())
 ``` 
 
 * **save()** - 
