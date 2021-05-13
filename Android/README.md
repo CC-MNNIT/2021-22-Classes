@@ -11,6 +11,8 @@ Join the Android MNNIT Facebook group: [here](https://www.facebook.com/groups/dr
 
 -   [Class 3: held on May 13, 2021](2021_05_13_AndroidClass-3)
 
+### Get Class recordings [here](https://drive.google.com/drive/folders/1WHlPGy2OniDtXpmwdUgTGWnw-9SKa3X2?usp=sharing).
+
 ## Reading Resources
 
 -   <b>Book:</b> Head First Android Development: A Brain-Friendly Guide (by David Griffiths and Dawn Griffiths)
