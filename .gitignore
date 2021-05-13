@@ -33,6 +33,9 @@
 # Local configuration file (sdk path, etc)
 **/local.properties
 
+# Google services keys
+**/google-services.json
+
 # Android gitignore ends here
 
 # Jupyter NoteBook
