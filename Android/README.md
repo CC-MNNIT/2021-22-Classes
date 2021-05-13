@@ -9,7 +9,7 @@ Join the Android MNNIT Facebook group: [here](https://www.facebook.com/groups/dr
 
 -   [Class 2: held on May 11, 2021](2021_05_11_AndroidClass-2)
 
--   [Class 3: TO BE held on May 13, 2021](2021_05_13_AndroidClass-3)
+-   [Class 3: held on May 13, 2021](2021_05_13_AndroidClass-3)
 
 ## Reading Resources
 
