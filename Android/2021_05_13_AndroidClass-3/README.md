@@ -16,11 +16,13 @@
 -   [Firebase demo](FirebaseDemo) (click to visit)
 -   [Location demo](LocationDemo) (click to visit)
 -   [Notification demo](NotificationDemo) (click to visit)
+-   [Foreground service demo](https://androidwave.com/foreground-service-android-example/) (click to visit)
 
 ## Class Content:
 
 -   [Services](https://developer.android.com/guide/components/services)
 -   [Background tasks](https://developer.android.com/guide/background)
+    -   [Scheduling Repeating Alarms](https://developer.android.com/training/scheduling/alarms)
 -   JSON parsing:
     -   [Volley](https://developer.android.com/training/volley) for network requests. For tutorial [click here](https://developer.android.com/training/volley/simple). For NetworkImageView [click here](https://cypressnorth.com/web-programming-and-development/setting-android-google-volley-imageloader-networkimageview/).
     -   [JSONObject class](https://developer.android.com/reference/org/json/JSONObject)
