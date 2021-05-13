@@ -20,7 +20,7 @@
 -   [Services](https://developer.android.com/guide/components/services)
 -   [Background tasks](https://developer.android.com/guide/background)
 -   JSON parsing:
-    -   [Volley](https://developer.android.com/training/volley) for network requests
+    -   [Volley](https://developer.android.com/training/volley) for network requests. For tutorial [click here](https://developer.android.com/training/volley/simple). For NetworkImageView [click here](https://cypressnorth.com/web-programming-and-development/setting-android-google-volley-imageloader-networkimageview/).
     -   [JSONObject class](https://developer.android.com/reference/org/json/JSONObject)
     -   [Android JSON Parser Tutorial](https://www.javatpoint.com/android-json-parsing-tutorial)
     -   [Online JSON Viewer](http://jsonviewer.stack.hu/)
@@ -34,6 +34,7 @@
         -   [Using phone number](https://firebase.google.com/docs/auth/android/phone-auth)
 -   Location:
     -   [Location overview](https://developer.android.com/training/location)
+    -   [Setting up Google Play Services](https://developers.google.com/android/guides/setup)
     -   [Request location permission](https://developer.android.com/training/location/permissions)
     -   [Get last known location](https://developer.android.com/training/location/retrieve-current)
 -   Notifications:
