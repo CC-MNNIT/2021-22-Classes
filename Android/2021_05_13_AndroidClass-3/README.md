@@ -11,6 +11,7 @@
 ## Class Content:
 
 -   [Services](https://developer.android.com/guide/components/services)
+-   [Background tasks](https://developer.android.com/guide/background)
 -   JSON parsing:
     -   [Volley](https://developer.android.com/training/volley) for network requests
     -   [JSONObject class](https://developer.android.com/reference/org/json/JSONObject)
@@ -24,6 +25,10 @@
     -   [Firebase Auth documentation](https://firebase.google.com/docs/auth)
         -   [Setup steps with FirebaseUI](https://firebase.google.com/docs/auth/android/firebaseui)
         -   [Using phone number](https://firebase.google.com/docs/auth/android/phone-auth)
+-   Location:
+    -   [Location overview](https://developer.android.com/training/location)
+    -   [Request location permission](https://developer.android.com/training/location/permissions)
+    -   [Get last known location](https://developer.android.com/training/location/retrieve-current)
 -   Notifications:
     -   [Notifications](https://developer.android.com/guide/topics/ui/notifiers/notifications)
     -   [Create a Notification](https://developer.android.com/training/notify-user/build-notification)
