@@ -436,7 +436,7 @@ def details(request, ques_id):
 * Now try to submit the form. *What happened?*
 * We have to add one more field in inside `<form>` when submitting **POST** data in django.
 
-```
+```html
 <!-- Inside details.html -->
 <!DOCTYPE html>
 <html>
@@ -551,7 +551,7 @@ def vote(request, ques_id):
 * Now let's see how we'll include this in our templates (HTML file).
 * **static** tag of DTL is used for including static files in templates.
 
-```
+```html
 <!-- In main_page.html file -->
 {% load 'static' %}
 <!DOCTYPE html>
