@@ -308,16 +308,17 @@ def main_page(request):
 		* **Keys** of **Context** passed from **view** becomes DTL variable inside the templates.
 		* **Example** - `{{ question_list }}`
 	* **Tags** - 
-		* `{% tag_name %}` is used to define DTL tags.
+		* {% raw %}`{% tag_name %}`{% endraw %} is used to define DTL tags.
 		* Logic like **Control Statements**, **Loops**, etc are given in DTL tags.
-		* **Example** - `{% if <condition> %}`, `{% elif <condition> %}`, `{% else %}`, `{% endif %}`, `{% for i in arr %} <h1>{{ i }}</h1> {% endfor %}`, etc.
+		* **Example** - {% raw %}`{% if <condition> %}`, `{% elif <condition> %}`, `{% else %}`, `{% endif %}`, `{% for i in arr %} <h1>{{ i }}</h1> {% endfor %}`,{% endraw %} etc.
 	* **Comments** - 
-		* `{% comment %}....{% endcomment %}`.
+		* {% raw %}`{% comment %}....{% endcomment %}`{% endraw %}.
 	* **Filters** - 
 		* Data can be transformed using filters.
 		* Pipe **|** symbol is used.
 		* **Example** - `{{ question.publication_date|timesince }}` (here **timesince** is a filter), `{{ var1|date:"y-m-d" }}`, etc. *Explore filters according to your need*.
 
+{% raw %}
 ```html
 <!-- In main_page.html file -->
 <!DOCTYPE html>
@@ -340,14 +341,16 @@ def main_page(request):
 	</ul>
 </body>
 </html>
-``` 
+```
+{% endraw %}
 
 ### Removing Hard-coded URLs
 * Hardcoding the URLs in Django would be a bad choice. *What if we want to change a URL? We'll have to change it everywhere we have used*.
 * **url** tag of **DTL** comes to our rescue. 
 * We can specify a URL just by using **url** tag and the **name** which we provided in **urls.py** file.
-* **Syntax** - `{% url "name_of_url_from_path" varibales_passed_in_url %}`.
+* **Syntax** - {% raw %}`{% url "name_of_url_from_path" varibales_passed_in_url %}`{% endraw %}.
 
+{% raw %}
 ```html
 <!-- In main_page.html file -->
 <!DOCTYPE html>
@@ -371,6 +374,8 @@ def main_page(request):
 </body>
 </html>
 ```
+{% endraw %}
+
 
 ### Creating Details Page
 * In details page, we need to show **Question** and its **Choices**.
@@ -404,6 +409,7 @@ def details(request, ques_id):
 		return HttpResponse(response)
 ```
 
+{% raw %}
 ```html
 <!-- Inside details.html -->
 <!DOCTYPE html>
@@ -426,18 +432,22 @@ def details(request, ques_id):
 </body>
 </html>
 ```
+{% endraw %}
 
 * Recall that **action** attribute is used to specify the path or URL where we want to submit the data of the form.
 * In this case, we want it go to `<int:ques_id>/vote` URL. So specify **action** as following.
 
+{% raw %}
 ```html
 <!-- Inside details.html -->
 <form method="POST" action="{% url "Vote" question.pk %}">
 ```
+{% endraw %}
 
 * Now try to submit the form. *What happened?*
 * We have to add one more field in inside `<form>` when submitting **POST** data in django.
 
+{% raw %}
 ```html
 <!-- Inside details.html -->
 <!DOCTYPE html>
@@ -461,8 +471,10 @@ def details(request, ques_id):
 </body>
 </html>
 ```
+{% endraw %}
 
-* `{% csrf_token %}` is added to protect from **Cross Site Request Forgery attacks**.
+
+* {% raw %}`{% csrf_token %}`{% endraw %} is added to protect from **Cross Site Request Forgery attacks**.
 
 ### Handling the Votes
 * We are submitting the form at `http://127.0.0.1:8000/polls/<int:ques_id>/vote`.
@@ -553,6 +565,7 @@ def vote(request, ques_id):
 * Now let's see how we'll include this in our templates (HTML file).
 * **static** tag of DTL is used for including static files in templates.
 
+{% raw %}
 ```html
 <!-- In main_page.html file -->
 {% load 'static' %}
@@ -580,6 +593,7 @@ def vote(request, ques_id):
 </body>
 </html>
 ```
+{% endraw %}
 
 ### Assignment
 * Complete the **results** view and HTML page of the **polling app** and make it working.
