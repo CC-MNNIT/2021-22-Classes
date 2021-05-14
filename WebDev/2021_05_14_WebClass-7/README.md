@@ -581,6 +581,7 @@ def vote(request, ques_id):
 
 ### Explore Yourself
 * Template Inheritance
+* {{ forloop.counter }} in DTL
 * Django Forms
 * Cross Site Request Forgery
 
