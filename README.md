@@ -73,6 +73,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
     - [WebDev Class-4 (SQL)](WebDev/2021_05_01_WebClass-4)
     - [WebDev Class-5 (Django-1)](WebDev/2021_05_10_WebClass-5)
     - [WebDev Class-6 (Django-2)](WebDev/2021_05_12_WebClass-6)
+    - [WebDev Class-7 (Django-3)](WebDev/2021_05_14_WebClass-7)
 
 - [Machine Learning classes](MachineLearning)
     - [Machine Learning Class-1](MachineLearning/2021-04-29_ML-Class-1)

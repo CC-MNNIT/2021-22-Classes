@@ -19,6 +19,7 @@
 - [Class 4 (SQL): held on May 01, 2021](./2021_05_01_WebClass-4)
 - [Class 5 (Django-1): held on May 10, 2021](./2021_05_10_WebClass-5)
 - [Class 6 (Django-2): held on May 12, 2021](./2021_05_12_WebClass-6)
+- [Class 7 (Django-3): held on May 14, 2021](./2021_05_14_WebClass-7)
 
 ## Getting Started
 Getting started with Web :-
