@@ -31,3 +31,11 @@ Join the Android MNNIT Facebook group: [here](https://www.facebook.com/groups/dr
 ## Contributors:
 -   [Ashutosh Chitranshi](https://github.com/ashu12chi/)
 -   [Nishchal Siddharth Pandey](https://github.com/nisiddharth/)
+
+## Tap to chat on MS Teams:
+
+-   [Ashutosh Chitranshi](https://teams.microsoft.com/l/chat/0/0?users=ashutosh.chitranshi@mnnit.ac.in)
+-   [Nishchal Siddharth Pandey](https://teams.microsoft.com/l/chat/0/0?users=nishchal.siddharth@mnnit.ac.in)
+-   [Om Singh](https://teams.microsoft.com/l/chat/0/0?users=om.singh@mnnit.ac.in)
+-   [Ankit Raj](https://teams.microsoft.com/l/chat/0/0?users=ankit.r@mnnit.ac.in)
+-   [Anushka Srivastava](https://teams.microsoft.com/l/chat/0/0?users=anushka.srivastava@mnnit.ac.in)
