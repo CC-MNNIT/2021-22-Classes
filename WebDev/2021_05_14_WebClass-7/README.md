@@ -579,6 +579,9 @@ def vote(request, ques_id):
 </html>
 ```
 
+### Assignment
+* Complete the **results** view and HTML page of the **polling app** and make it working.
+
 ### Explore Yourself
 * Template Inheritance
 * {{ forloop.counter }} in DTL
