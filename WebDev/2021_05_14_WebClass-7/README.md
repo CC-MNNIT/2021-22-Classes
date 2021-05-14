@@ -581,6 +581,7 @@ def vote(request, ques_id):
 
 ### Explore Yourself
 * Template Inheritance
+* Django Forms
 * Cross Site Request Forgery
 
 ### Content Contributors
@@ -591,5 +592,5 @@ def vote(request, ques_id):
 
 * [Django Video Tutorial Playlist](https://www.youtube.com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p) (English)
 * [Django Video Tutorial Playlist](https://www.youtube.com/watch?v=5BDgKJFZMl8&list=PLu0W_9lII9ah7DDtYtflgwMwpT3xmjXY9) (Hindi)
-* [Django Models Field Types](https://docs.djangoproject.com/en/3.2/ref/models/fields/#field-types)
+* [Udemy - Python and Django Full Stack Web Developer Bootcamp](https://drive.google.com/drive/folders/1ehj9WoqztSVi4QAHCdLncOiaewYl0dbw?usp=sharing)
 * [Python Resources](https://github.com/CC-MNNIT/2021-22-Classes/tree/main/Python)
