@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+    <link rel="stylesheet" href={% static "polls/css/style.css" %}>
+    <script src={% static "polls/js/main.js" %} defer></script>
+</head>
+<body>
+<div id="img_container">
+    <img src="{% static 'polls/images/b4.jpg'%}" alt="Static Demo">
+</div>
+
+<div id="ques_container">
+    <h1>Question List</h1>
+    <table border="2">
+        <tr>
+            <th>Question ID</th>
+            <th>Question Text</th>
+            <th>Publication Date</th>
+            <th>Links</th>
+        </tr>
+
+        {% for question in ques_list %}
+            <tr>
+                <td>{{ question.pk }}</td>
+                <td>{{ question.question_text }}</td>
+                <td>{{ question.publication_date }}</td>
+                <td>
+                    <a href="{% url "Details" question.pk %}">Details</a>
+                    <a href="{% url "Results" question.pk %}">Results</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+img {
+    border-radius: 50px;
+    width: 500px;
+
+}
+
+#img_container {
+    width: 500px;
+    margin: auto;
+}
+
+#ques_container {
+    width: 800px;
+    margin: auto;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<body>
+    <h1>Results</h1>
+    <h2>{{ question.question_text }}</h2>
+    <h3>Published on: {{ question.publication_date }}</h3>
+
+<table border="2">
+    <tr>
+        <th>Choice</th>
+        <th>Votes</th>
+    </tr>
+    {% for choice in choice_list %}
+        <tr>
+            <td>{{ choice.choice_text }}</td>
+            <td>{{ choice.number_of_votes }}</td>
+        </tr>
+    {% endfor %}
+</table>
+</body>
+</html>

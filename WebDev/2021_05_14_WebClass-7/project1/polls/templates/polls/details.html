@@ -1,0 +1,33 @@
+{% comment %}
+        context = {
+            "question": question,
+            "choice_list": choice_list,
+        }
+{% endcomment %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Details</title>
+</head>
+<body>
+    <h1>{{ question.question_text }}</h1>
+    <h2>Published on: {{ question.publication_date }}</h2>
+
+    <form method="post" action="{% url "Vote" question.pk %}">
+
+        {% csrf_token %}
+
+        {% for choice in choice_list %}
+            <input type="radio" name="choice" id="choice_{{ choice.pk }}" value="{{ choice.pk }}">
+            <label for="choice_{{ choice.pk }}">{{ choice.choice_text }}</label>
+            <br>
+        {% endfor %}
+
+        <br>
+        <button type="submit">Vote</button>
+    </form>
+
+</body>
+</html>
