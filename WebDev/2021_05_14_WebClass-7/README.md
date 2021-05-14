@@ -1,5 +1,7 @@
 # Web Development Class - VII
 
+## Web Development Class - VII recording: [Here](https://drive.google.com/file/d/193k1S6gQ4q_cNJrbOQQh6NcWAcmPwRAA/view?usp=sharing)
+
 #### May 14, 2021
 
 <div align="center"><h3>Polling App in Django (Continued)</h3></div>
@@ -292,7 +294,7 @@ def main_page(request):
 
 * In **main_page.html** inside the `<body>` tag, add the following line.
 
-```dtl
+```html
 {{ question_list }}
 ```
 
@@ -558,11 +560,11 @@ def vote(request, ques_id):
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" href={% static "css/style.css" %}>
-	<script src={% static "js/main.js" %} defer></script>
+	<link rel="stylesheet" href={% static "polls/css/style.css" %}>
+	<script src={% static "polls/js/main.js" %} defer></script>
 </head>
 <body>
-	<img src="{% static 'image.png' %}">
+	<img src="{% static 'polls/images/image.png' %}">
 	<h1>Question List</h1>
 	<ul>
 		{% for question in question_list %}
@@ -586,6 +588,7 @@ def vote(request, ques_id):
 * Template Inheritance
 * {{ forloop.counter }} in DTL
 * Django Forms
+* Class Based Views
 * Cross Site Request Forgery
 
 ### Content Contributors
@@ -594,6 +597,7 @@ def vote(request, ques_id):
 
 ### Materials
 
+* [Class Demo Project - Polling App](./project1)
 * [Django Video Tutorial Playlist](https://www.youtube.com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p) (English)
 * [Django Video Tutorial Playlist](https://www.youtube.com/watch?v=5BDgKJFZMl8&list=PLu0W_9lII9ah7DDtYtflgwMwpT3xmjXY9) (Hindi)
 * [Udemy - Python and Django Full Stack Web Developer Bootcamp](https://drive.google.com/drive/folders/1ehj9WoqztSVi4QAHCdLncOiaewYl0dbw?usp=sharing)
