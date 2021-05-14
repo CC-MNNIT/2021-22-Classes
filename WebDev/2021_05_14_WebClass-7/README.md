@@ -306,7 +306,7 @@ def main_page(request):
 		* **Keys** of **Context** passed from **view** becomes DTL variable inside the templates.
 		* **Example** - `{{ question_list }}`
 	* **Tags** - 
-		* `{% %}` is used to define DTL tags.
+		* `{% tag_name %}` is used to define DTL tags.
 		* Logic like **Control Statements**, **Loops**, etc are given in DTL tags.
 		* **Example** - `{% if <condition> %}`, `{% elif <condition> %}`, `{% else %}`, `{% endif %}`, `{% for i in arr %} <h1>{{ i }}</h1> {% endfor %}`, etc.
 	* **Comments** - 
