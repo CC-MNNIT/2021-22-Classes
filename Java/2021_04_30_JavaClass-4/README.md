@@ -477,5 +477,3 @@ In the above article, we have tried to explain when to use Abstract Classes and 
 > To write good code you must read good code.
 
 Interfaces and Abstract Classes are highly confusing concepts, So in case of any doubt feel free to reach any of the CC Club coordinators.
-
-{% include disqus.html %} 

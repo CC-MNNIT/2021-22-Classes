@@ -213,5 +213,3 @@ eg.
 Note the function call for comp doesn't involve ();
 
 Similarly, comparators can be used in various other stuff too like priority_queues etc. Explore them.
-
-{% include disqus.html %}

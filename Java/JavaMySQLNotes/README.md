@@ -126,5 +126,3 @@ public class DatabaseConnectivity {
 
 ## Content contributor:
 - [Aritra Chatterjee](https://github.com/Arc29)
-
-{% include disqus.html %}
