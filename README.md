@@ -89,7 +89,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
 
 ## Announcements
 
-- Weekend of Code 2021 registrations are now open. Head on to [https://woc2k21.github.io/](https://woc2k21.github.io/) for more info and registration links.
+- Weekend of Code 2021 registrations are now closed. Head on to [WoC Facebook page](https://www.facebook.com/wocmnnit) for further updates.
 
 ## Previous Years Resources
 
