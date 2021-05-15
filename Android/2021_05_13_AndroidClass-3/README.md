@@ -16,7 +16,7 @@
 -   [Firebase demo](FirebaseDemo) (click to visit)
 -   [Location demo](LocationDemo) (click to visit)
 -   [Notification demo](NotificationDemo) (click to visit)
--   [Foreground service demo](https://androidwave.com/foreground-service-android-example/) (click to visit)
+-   [Foreground service demo](ForegroundDemo) (click to visit)
 
 ## Class Content:
 
