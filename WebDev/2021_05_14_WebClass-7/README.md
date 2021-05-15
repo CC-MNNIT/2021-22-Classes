@@ -304,9 +304,9 @@ def main_page(request):
 * It is used inside HTML page to handle the data passed from views effectively and display them on the page easily.
 * **Components of STL** - 
 	* **Variables** - 
-		* `{{  }}` Double Curly braces are used to signify DTL variables inside HTML.
+		* {% raw %}`{{  }}`{% endraw %} Double Curly braces are used to signify DTL variables inside HTML.
 		* **Keys** of **Context** passed from **view** becomes DTL variable inside the templates.
-		* **Example** - `{{ question_list }}`
+		* **Example** - {% raw %}`{{ question_list }}`{% endraw %}
 	* **Tags** - 
 		* {% raw %}`{% tag_name %}`{% endraw %} is used to define DTL tags.
 		* Logic like **Control Statements**, **Loops**, etc are given in DTL tags.
@@ -315,8 +315,8 @@ def main_page(request):
 		* {% raw %}`{% comment %}....{% endcomment %}`{% endraw %}.
 	* **Filters** - 
 		* Data can be transformed using filters.
-		* Pipe **|** symbol is used.
-		* **Example** - `{{ question.publication_date|timesince }}` (here **timesince** is a filter), `{{ var1|date:"y-m-d" }}`, etc. *Explore filters according to your need*.
+		* Pipe "{% raw %}|{% endraw %}" symbol is used.
+		* **Example** - {% raw %}`{{ question.publication_date|timesince }}`{% endraw %} (here **timesince** is a filter), {% raw %}`{{ var1|date:"y-m-d" }}`{% endraw %}, etc. *Explore filters according to your need*.
 
 {% raw %}
 ```html
@@ -600,7 +600,7 @@ def vote(request, ques_id):
 
 ### Explore Yourself
 * Template Inheritance
-* {{ forloop.counter }} in DTL
+* {% raw %}`{{ forloop.counter }}`{% endraw %} in DTL
 * Django Forms
 * Class Based Views
 * Cross Site Request Forgery
