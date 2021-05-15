@@ -568,7 +568,7 @@ def vote(request, ques_id):
 {% raw %}
 ```html
 <!-- In main_page.html file -->
-{% load 'static' %}
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
