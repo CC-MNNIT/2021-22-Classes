@@ -315,7 +315,7 @@ def main_page(request):
 		* {% raw %}`{% comment %}....{% endcomment %}`{% endraw %}.
 	* **Filters** - 
 		* Data can be transformed using filters.
-		* Pipe "{% raw %}|{% endraw %}" symbol is used.
+		* Pipe "{% raw %}`|`{% endraw %}" symbol is used.
 		* **Example** - {% raw %}`{{ question.publication_date|timesince }}`{% endraw %} (here **timesince** is a filter), {% raw %}`{{ var1|date:"y-m-d" }}`{% endraw %}, etc. *Explore filters according to your need*.
 
 {% raw %}
