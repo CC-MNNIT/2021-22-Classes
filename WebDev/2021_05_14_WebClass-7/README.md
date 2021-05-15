@@ -548,7 +548,7 @@ def vote(request, ques_id):
 
 		selected_choice.save()
 	
-		return HttpResponseRedirect(reverse('results', kwargs={'ques_id': ques_id}))
+		return HttpResponseRedirect(reverse('Results', kwargs={'ques_id': ques_id}))
 	else:
 		response = "Choice with this id is not present."
 		return HttpResponse(response)
