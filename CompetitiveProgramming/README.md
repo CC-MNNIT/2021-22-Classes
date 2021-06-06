@@ -2,6 +2,7 @@
 
 ## Classes held
 
+-   Previously held classes [resources](https://github.com/CC-MNNIT/2020-21-Classes/tree/master/Freshers/First_Year_Competitive_Programming) and [recordings](https://drive.google.com/drive/folders/1yyjYXB__RQWaOCL739X_96e6FHsqJcPQ?usp=sharing)
 -   [Class 1 (STL): held on May 05, 2021](2021_05_05_CPClass-1)
 
 ## Reading Resources
