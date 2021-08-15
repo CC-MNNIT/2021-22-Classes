@@ -46,6 +46,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
     - [Competitive Programming Class-1](CompetitiveProgramming/2021_05_05_CPClass-1)
     - [Competitive Programming Class-2](CompetitiveProgramming/2021_08_01_CPClass-2)
     - [Competitive Programming Class-3](CompetitiveProgramming/2021_08_08_CPClass-3)
+    - [Competitive Programming Class-4](CompetitiveProgramming/2021_08_15_CPClass-4)
 
 - [Git/GitHub classes](Git-GitHub)
     - [Git Class-1](Git-GitHub/2021_04_20_GitClass-1)

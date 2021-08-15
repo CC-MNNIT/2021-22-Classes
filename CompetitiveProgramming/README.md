@@ -6,6 +6,7 @@
 -   [Class 1 (STL): held on May 05, 2021](2021_05_05_CPClass-1)
 -   [Class 2 (Extended Euclidean Algorithm + Matrix Exponentiation): held on August 01, 2021](2021_08_01_CPClass-2)
 -   [Class 3 (Introduction to Dynamic Programming): held on August 08, 2021](2021_08_08_CPClass-3)
+-   [Class 4 (Problems on Dynamic Programming): held on August 15, 2021](2021_08_15_CPClass-4)
 
 ## Reading Resources
 
