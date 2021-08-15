@@ -2,7 +2,7 @@
 
 ## Get the presentation used in class: [Here](./Competitive_Programming_Class_4.pdf) 
 
-## Get the class recording: [Here](https://drive.google.com/file/d/1d8aCMfjuGqR8iBSZ8L-75a_5U1beL58e/view?usp=sharing)
+## Get the class recording: [Here](https://drive.google.com/file/d/1gpIwrlYD754WycS9ZAX2DUnpgZrhCvXE/view?usp=sharing)
 
 #### August 15, 2021
 
