@@ -42,7 +42,10 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
 
 ## Resources
 
+- [Classes taken for freshers by last year seniors](https://github.com/CC-MNNIT/2020-21-Classes/tree/master/Freshers), find recordings [here](https://drive.google.com/drive/folders/1T4PSadZL0A7pgWy3v-9plHNP-OpJgc6S?usp=sharing).
+
 - [Competitive Programming classes](CompetitiveProgramming)
+    - [Previously held CP classes](https://github.com/CC-MNNIT/2020-21-Classes/tree/master/Freshers/First_Year_Competitive_Programming), get recordings [here](https://drive.google.com/drive/folders/1yyjYXB__RQWaOCL739X_96e6FHsqJcPQ?usp=sharing).
     - [Competitive Programming Class-1](CompetitiveProgramming/2021_05_05_CPClass-1)
     - [Competitive Programming Class-2](CompetitiveProgramming/2021_08_01_CPClass-2)
     - [Competitive Programming Class-3](CompetitiveProgramming/2021_08_08_CPClass-3)
