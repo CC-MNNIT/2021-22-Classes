@@ -86,6 +86,9 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
     - [Machine Learning Class-1](MachineLearning/2021-04-29_ML-Class-1)
     - [Machine Learning Class-2](MachineLearning/2021-05-03_ML-Class-2)
 
+- [Linux classes](Linux)
+    - [Linux Class-1](Linux/2021_09_05_LinuxClass-1)
+
 - Class recordings
     - [All the recodings of classes held on MS Teams (Drive link)](https://drive.google.com/drive/folders/14UTduGJfnltoc5sEgNX4Qrq4mCEJdz2K?usp=sharing)
 
@@ -96,7 +99,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
 
 ## Announcements
 
-- Weekend of Code 2021 registrations are now closed. Head on to [WoC Facebook page](https://www.facebook.com/wocmnnit) for further updates.
+- CyberQuest (Avishkar-2021) is coming up soon. Head on to [CC-MNNIT Facebook Group](https://www.facebook.com/groups/ccqueries/) for further updates.
 
 ## Previous Years Resources
 
