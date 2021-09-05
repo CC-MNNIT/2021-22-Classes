@@ -3,7 +3,7 @@
 
 ## Classes held
 
-[Class 1 : to be held on September 5, 2021](2021_09_05_LinuxClass-1)
+[Class 1 : held on September 5, 2021](2021_09_05_LinuxClass-1)
 
 <br>
 
@@ -63,8 +63,8 @@
 * Inter Process Communication(Pipe, FIFO)
 
 ### Reference Books:
-* **The linux command line** (TLCL) book : [here](http://sourceforge.net/projects/linuxcommand/files/TLCL/17.10/TLCL-17.10.pdf/download)
+* **The linux command line** ([TLCL](https://linuxcommand.org/tlcl.php)) book : [download here](https://sourceforge.net/projects/linuxcommand/files/TLCL/19.01/TLCL-19.01.pdf/download)
 * Unix - Concepts and Applications by Sumitabha Das.
 * Advanced Programming in the UNIX environment by Richard W. Stevens.
 
-> Note: This is not the syllabus and are just few topics you should explore.
+> Note: The above topic list is not the syllabus and are just few topics you should explore.
