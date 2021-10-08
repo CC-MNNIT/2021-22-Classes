@@ -3,7 +3,8 @@
 
 ## Classes held
 
-[Class 1 : held on September 5, 2021](2021_09_05_LinuxClass-1)
+- [Class 1 : held on September 5, 2021](2021_09_05_LinuxClass-1)
+- [Class 2 : held on October 8, 2021](2021_10_08_LinuxClass-2)
 
 <br>
 
