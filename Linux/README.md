@@ -68,3 +68,10 @@
 * Advanced Programming in the UNIX environment by Richard W. Stevens.
 
 > Note: The above topic list is not the syllabus and are just few topics you should explore.
+
+## Contact us
+
+- [Nishchal Siddharth Pandey](https://teams.microsoft.com/l/chat/0/0?users=nishchal.siddharth@mnnit.ac.in)
+- [Kshitiz Srivastava](https://teams.microsoft.com/l/chat/0/0?users=kshitiz.srivastava@mnnit.ac.in)
+- [Akshay Mall](https://teams.microsoft.com/l/chat/0/0?users=akshay.mall@mnnit.ac.in)
+- [Anushka Srivastava](https://teams.microsoft.com/l/chat/0/0?users=anushka.s@mnnit.ac.in)

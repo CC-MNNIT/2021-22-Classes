@@ -89,6 +89,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
 
 - [Linux classes](Linux)
     - [Linux Class-1](Linux/2021_09_05_LinuxClass-1)
+    - [Linux Class-2](Linux/2021_10_08_LinuxClass-2)
 
 - Class recordings
     - [All the recodings of classes held on MS Teams (Drive link)](https://drive.google.com/drive/folders/14UTduGJfnltoc5sEgNX4Qrq4mCEJdz2K?usp=sharing)

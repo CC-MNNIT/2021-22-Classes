@@ -82,10 +82,3 @@
 
 1. For those with NVIDIA Graphic Card, use Pop!_OS for peace of mind. From [https://pop.system76.com](https://pop.system76.com]) click on the NVIDIA version while downloading.
 2. For others, its are yours, try whatever you want. For beginners Linux Mint, Ubuntu, Pop!_OS, KDE Neon, Zorin OS, Deepin Linux are great options.
-
-## Contact us
-
-- [Nishchal Siddharth Pandey](https://teams.microsoft.com/l/chat/0/0?users=nishchal.siddharth@mnnit.ac.in)
-- [Kshitiz Srivastava](https://teams.microsoft.com/l/chat/0/0?users=kshitiz.srivastava@mnnit.ac.in)
-- [Pratik Narola](https://teams.microsoft.com/l/chat/0/0?users=narola.pratik@mnnit.ac.in)
-- [Anushka Srivastava](https://teams.microsoft.com/l/chat/0/0?users=anushka.s@mnnit.ac.in)
