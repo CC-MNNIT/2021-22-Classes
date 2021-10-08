@@ -10,6 +10,8 @@
 ### Event wise Facebook Pages
 
 - [MNNIT CC Queries](https://www.facebook.com/groups/ccqueries/)
+- [Softathlon](https://www.facebook.com/cyberquest.avishkar)
+- [Insomnia, Code of the Day, Mathrush](https://www.facebook.com/coderushmnnit)
 - [SoftaBlitz](https://www.facebook.com/groups/softablitz/)
 - [DroidRush](https://www.facebook.com/groups/droidrush)
 - [Webster](https://www.facebook.com/groups/webster.avishkar)
@@ -18,11 +20,14 @@
 - [Operaomnia](https://www.facebook.com/operaomnia.cyberquest/)
 - [TechMaiden](https://www.facebook.com/techmaiden.mnnit/)
 - [Code Warrior](https://www.facebook.com/groups/mnnitcodewarriors/)
-- [Insomnia, Code of the Day, Mathrush](https://www.facebook.com/coderushmnnit)
+- [ContriHUB](https://www.facebook.com/groups/ContriHUB/)
+- [ByberQuest_UnOfficial](https://www.facebook.com/byberquest/)
 
 ### Problem Statements
 
 - [Droidrush](PS_Droidrush.pdf)
+- [Webster](PS_Webster.pdf)
+- [Softablitz](PS_Softablitz.pdf)
 
 ### Event Details
 
