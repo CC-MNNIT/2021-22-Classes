@@ -11,6 +11,8 @@ Join the Android MNNIT Facebook group: [here](https://www.facebook.com/groups/dr
 
 -   [Class 3: held on May 13, 2021 (Services, JSON Parsing, Firebase, GPS Location, Notifications)](2021_05_13_AndroidClass-3)
 
+-   [More Reading Resources, **including Flutter**](MoreResources.md)
+
 ### Get Class recordings [here](https://drive.google.com/drive/folders/1WHlPGy2OniDtXpmwdUgTGWnw-9SKa3X2?usp=sharing).
 
 ## Reading Resources
