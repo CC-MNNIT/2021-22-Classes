@@ -2,7 +2,7 @@
 
 For this follow the 3 classes we took under Computer Club during the month of May: [here](.)
 
-# Flutter backend
+# Flutter Frontend
 
 Best way to start is to head on to [https://flutter.dev/](https://flutter.dev/) and press the ‘Get Started’ button. The official docs of Flutter are very great for learning.
 
