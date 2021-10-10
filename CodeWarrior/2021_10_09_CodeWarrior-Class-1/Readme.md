@@ -13,13 +13,13 @@
 
 ### Terminologies
 
-1. Perfect Information, Zero Sum games
+#### 1. Perfect Information, Zero Sum games
 
 - We are considering two-player, perfect information games
 - The two players take turns and try respectively to maximize and minimize an Evaluation function (also called utility function or heuristic function).
 - The two players are called respectively MAX and MIN. We assume that the MAX player makes the first move.
 
-2. Evaluation function
+#### 2. Evaluation function
 
 - An Evaluation function is used to evaluate the "goodness" of a configuration of the game.
 - Here we'll use a single evaluation function to describe the goodness of a board with respect to BOTH players.
