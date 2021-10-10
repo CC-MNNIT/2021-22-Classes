@@ -92,6 +92,12 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
     - [Linux Class-1](Linux/2021_09_05_LinuxClass-1)
     - [Linux Class-2](Linux/2021_10_08_LinuxClass-2)
 
+- [Capture the Flag (Revengg)](Capture-the-Flag)
+    - held on 10 October, 2021
+
+- [Code Warriors](CodeWarrior)
+    - [Code Warriors Class-1](2021_10_09_CodeWarrior-Class-1)
+
 - Class recordings
     - [All the recodings of classes held on MS Teams (Drive link)](https://drive.google.com/drive/folders/14UTduGJfnltoc5sEgNX4Qrq4mCEJdz2K?usp=sharing)
 
