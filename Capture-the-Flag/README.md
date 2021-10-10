@@ -12,7 +12,7 @@
 
 ## Class content
 
-<coming soon>
+(coming soon)
 
 ## Contact us:
 
