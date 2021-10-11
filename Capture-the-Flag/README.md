@@ -19,7 +19,7 @@
 3. Online Cryptography tools:
     - [Cryptii](https://cryptii.com/)
     - [CyberChef](https://gchq.github.io/CyberChef/)
-    - [Decode.fr](https://www.dcode.fr/)
+    - [dCode](https://www.dcode.fr/en)
 4. [A wonderful collection of CTF tools/hints by John Hammond](https://github.com/JohnHammond/ctf-katana)
 5. [AwesomeCTF resources collection](https://github.com/c4pr1c3/awesome-ctf)
 6. For CTF practice:
