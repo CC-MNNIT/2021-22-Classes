@@ -1,6 +1,6 @@
 # Code Warrior Class-1
 
-#### September 22nd, 2020
+#### October 9th, 2021
 
 ### Code Warrior Class 1 [Recording](https://bit.ly/CodeWarriors-class1)
 

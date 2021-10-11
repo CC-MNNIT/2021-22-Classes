@@ -97,6 +97,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
 
 - [Code Warriors](CodeWarrior)
     - [Code Warriors Class-1](CodeWarrior/2021_10_09_CodeWarrior-Class-1)
+    - [Code Warriors Class-2](CodeWarrior/2021_10_11_CodeWarrior-Class-2)
 
 - Class recordings
     - [All the recodings of classes held on MS Teams (Drive link)](https://drive.google.com/drive/folders/14UTduGJfnltoc5sEgNX4Qrq4mCEJdz2K?usp=sharing)
