@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class LifeCycle extends StatefulWidget {
-  const LifeCycle({Key? key}) : super(key: key);
+class StatefulSample extends StatefulWidget {
+  const StatefulSample({Key? key}) : super(key: key);
 
   //createState(): When the Framework is instructed to build a StatefulWidget, it immediately calls createState()
   @override
   State<StatefulWidget> createState() {
-    return LifeCycleState();
+    return StatefulSampleState();
   }
 }
 
-class LifeCycleState extends State<LifeCycle> {
+class StatefulSampleState extends State<StatefulSample> {
   int count = 0;
   /*
     build(): This method is called often. It is required, and it must return a Widget.

@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
           title: const Text('Flutter layout demo'),
         ),
         body: const Center(
-          child: Text("Hello, World!")
+          child: Text("Hello, World!", style: TextStyle(fontSize: 30),)
         ),
       ),
       darkTheme: ThemeData.dark(),  // to enable dark theme support

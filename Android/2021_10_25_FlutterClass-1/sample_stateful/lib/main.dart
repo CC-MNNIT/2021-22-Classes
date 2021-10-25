@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:screen_lifecycle/life_cycle.dart';
+import 'package:stateful_sample/stateful_sample.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,8 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'LifeCycle',
-      home: LifeCycle(),
+      title: 'Stateful Sample',
+      home: StatefulSample(),
       debugShowCheckedModeBanner: false,
     );
   }

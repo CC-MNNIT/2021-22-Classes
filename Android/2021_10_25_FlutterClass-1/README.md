@@ -27,3 +27,11 @@
 
 ## Homework:
 
+1. Install Flutter and make the Hello World app.
+2. Go through the PPT once, revise what is a Widget
+3. Have a look at [this screenshot](homework_screenshot.jpg) and try to identify what widgets have been used to make this and where are the `Row` and the `Column` widgets used.
+4. Learn about [semver versioning system](https://semver.org/).
+
+<hr>
+
+You can find more links, reading resources and contacts to coordinators [here](../).
