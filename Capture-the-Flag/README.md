@@ -10,6 +10,8 @@
 
 ### Class content PDF: [Here](Revengg-2k21.pdf)
 
+### Recording of warm-up round discussion meeting: [Here](https://drive.google.com/file/d/1bytIzaOskLGgtPz0UmOJOWSDDyLcT8Wz/view?usp=sharing)
+
 <br>
 
 ## Some more links:
