@@ -65,10 +65,11 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
     - [Java Class-4 (OOP-3)](Java/2021_04_30_JavaClass-4)
     - [Connecting Java project with MySQL database](Java/JavaMySQLNotes)
 
-- [Android Development classes](Android)
+- [Android and Flutter Development classes](Android)
     - [AndroidDev Class-1](Android/2021_05_09_AndroidClass-1)
     - [AndroidDev Class-2](Android/2021_05_11_AndroidClass-2)
     - [AndroidDev Class-3](Android/2021_05_13_AndroidClass-3)
+    - [Flutter Class-1](Android/2021_10_25_FlutterClass-1)
     - [More reading resources, including Flutter](Android/MoreResources.md)
 
 - [Python classes](Python)

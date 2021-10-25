@@ -1,5 +1,8 @@
 # Android Development classes resources
-<div align="center"><img src="Android-Logo.png"  alt="Android logo" height="150"/></div>
+<div align="center">
+<img src="Android-Logo.png"  alt="Android logo" height="150"/>
+<img src="Flutter-Logo.png"  alt="Android logo" height="120"/>
+</div>
 
 Join the Android MNNIT Facebook group: [here](https://www.facebook.com/groups/droidrush/)
 
@@ -10,6 +13,8 @@ Join the Android MNNIT Facebook group: [here](https://www.facebook.com/groups/dr
 -   [Class 2: held on May 11, 2021 (Intent, Manifest, Permissions, Dependencies, some more components, Adapter and ListView)](2021_05_11_AndroidClass-2)
 
 -   [Class 3: held on May 13, 2021 (Services, JSON Parsing, Firebase, GPS Location, Notifications)](2021_05_13_AndroidClass-3)
+
+-   [Class 4: held on Oct 25, 2021 (What is Flutter, Why Flutter, Installation and Hello World, Widgets and some examples)](2021_10_25_FlutterClass-1)
 
 -   [More Reading Resources, **including Flutter**](MoreResources.md)
 
@@ -38,6 +43,8 @@ Join the Android MNNIT Facebook group: [here](https://www.facebook.com/groups/dr
 
 -   [Ashutosh Chitranshi](https://teams.microsoft.com/l/chat/0/0?users=ashutosh.chitranshi@mnnit.ac.in)
 -   [Nishchal Siddharth Pandey](https://teams.microsoft.com/l/chat/0/0?users=nishchal.siddharth@mnnit.ac.in)
--   [Om Singh](https://teams.microsoft.com/l/chat/0/0?users=om.singh@mnnit.ac.in)
 -   [Ankit Raj](https://teams.microsoft.com/l/chat/0/0?users=ankit.r@mnnit.ac.in)
--   [Anushka Srivastava](https://teams.microsoft.com/l/chat/0/0?users=anushka.srivastava@mnnit.ac.in)
+-   [Anushka Srivastava](https://teams.microsoft.com/l/chat/0/0?users=anushka.S@mnnit.ac.in)
+-   [Aanchal Singh](https://teams.microsoft.com/l/chat/0/0?users=aanchal.singh@mnnit.ac.in)
+-   [Om Singh](https://teams.microsoft.com/l/chat/0/0?users=om.singh@mnnit.ac.in)
+-   [Harshit Kapoor](https://teams.microsoft.com/l/chat/0/0?users=harshit.kapoor@mnnit.ac.in)
