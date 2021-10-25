@@ -1,6 +1,6 @@
 # Android Development Class - III
 
-## Get the Presentation used in class: [Here](Flutter_Class-1.pdf)
+## Get the Presentation used in class: [Here](Flutter_Class_1.pdf)
 
 ## Get the Class recording: [Here](https://drive.google.com/file/d/1NkjiS7LsKlhJkI6o7_n8h4AIfevgAs0X/view?usp=sharing)
 
