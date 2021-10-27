@@ -8,6 +8,7 @@
 -   [Class 3 (Introduction to Dynamic Programming): held on August 08, 2021](2021_08_08_CPClass-3)
 -   [Class 4 (Problems on Dynamic Programming): held on August 15, 2021](2021_08_15_CPClass-4)
 -   [Class 5 (DP tricks and Bitmask DP): held on August 21, 2021](2021_08_21_CPClass-5)
+-   [Class 6 (SOS DP and Intro to Graphs): held on October 27, 2021](2021_10_27_CPClass-6)
 
 ## Reading Resources
 
