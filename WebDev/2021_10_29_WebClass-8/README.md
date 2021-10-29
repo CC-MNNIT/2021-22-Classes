@@ -1,5 +1,7 @@
 # Web Development Class - VIII
 
+## Web Development Class - VIII recording: [Here](https://drive.google.com/file/d/17j-O9cUiR_l5cPI9lSSu8_3SmYnjBfw6/view?usp=sharing)
+
 #### October 29, 2021
 
 <div align="center"><img src="./images/js.png" alt="JS" height=150/></div>
@@ -183,6 +185,12 @@
 
 		// object destructuring 
 		const { first_name, last_name } = person;
+
+		// object destructuring - This will give Error (undefined)
+		const { a, b } = person;
+
+		// object destructuring (changing name)
+		const { first_name: new_first_name, last_name } = person;
 
 		// Can You Relate? Destructuring is somewhat similar to "Tuple Unpacking" in Python.
 
@@ -564,7 +572,7 @@
 				console.log(videoDetail);
 			})
 			.catch(err => {
-				console.log(`Error occured ${e}`);
+				console.log(`Error occured ${err}`);
 			})
 
 		console.log("finish");
