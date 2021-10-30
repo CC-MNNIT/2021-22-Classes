@@ -90,7 +90,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
 - [Machine Learning classes](MachineLearning)
     - [Machine Learning Class-1](MachineLearning/2021-04-29_ML-Class-1)
     - [Machine Learning Class-2](MachineLearning/2021-05-03_ML-Class-2)
-    - [Machine Learning Class-2](MachineLearning/2021-10-30_ML-Class-3)
+    - [Machine Learning Class-3](MachineLearning/2021-10-30_ML-Class-3)
 
 - [Linux classes](Linux)
     - [Linux Class-1](Linux/2021_09_05_LinuxClass-1)
