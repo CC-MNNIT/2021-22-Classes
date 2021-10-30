@@ -12,6 +12,7 @@
 
 - [Class 1: held on April 29, 2021](./2021-04-29_ML-Class-1)
 - [Class 2: held on May 03, 2021](./2021-05-03_ML-Class-2)
+- [Class 3: held on October 30, 2021](./2021-10-30_ML-Class-3)
 
 ## Machine Learning Resources
 
