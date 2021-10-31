@@ -9,7 +9,6 @@
 -   [Class 4 (Problems on Dynamic Programming): held on August 15, 2021](2021_08_15_CPClass-4)
 -   [Class 5 (DP tricks and Bitmask DP): held on August 21, 2021](2021_08_21_CPClass-5)
 -   [Class 6 (SOS DP and Intro to Graphs): held on October 27, 2021](2021_10_27_CPClass-6)
--   [Class 7 (Graph Traversals Implementation Details): held on October 31, 2021](2021_10_31_CPClass-7)
 
 ## Reading Resources
 
