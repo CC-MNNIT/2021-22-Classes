@@ -27,7 +27,7 @@ void bfs(int s) {   // s -> root
                 p[u] = v;
             }
             else {
-                if(u = p[v]) {
+                if(u == p[v]) {
                     continue;
                 }
                 // graph has cycle
