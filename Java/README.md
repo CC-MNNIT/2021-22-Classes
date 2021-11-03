@@ -11,6 +11,8 @@
 
 [Class 4 (OOP-3): held on April 30, 2021](2021_04_30_JavaClass-4)
 
+[Class 5 (Softablitz-1): held on November 2, 2021](2021_11_02_SoftablitzClass-1)
+
 ## Reading Resources
 
 -   [Connecting Java project with MySQL database](JavaMySQLNotes)
