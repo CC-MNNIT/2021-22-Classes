@@ -85,12 +85,12 @@
     - When the `click` event is fired on the button, React calls the event handler function. React supports a vast amount of types of events, like `onKeyUp`, `onFocus`,`onChange`, `onMouseDown`, `onSubmit` and many more.
         ```jsx
         export default function SomeComponent() {
-        // ...
-        const handleBtnClick = (e) => {
-            console.log("Button was pressed");
-        };
+            // ...
+            const handleBtnClick = (e) => {
+                console.log("Button was pressed");
+            };
 
-        return <button onClick={handleBtnClick}>Click Me</button>;
+            return <button onClick={handleBtnClick}>Click Me</button>;
         }
         ```
 
@@ -121,22 +121,22 @@
 
         ```jsx
         function ComponentUsingCounter({}) {
-        //...
-        const [count, setCount] = useState(0);
-
-        return (
             //...
-            <Counter setCount={setCount} />
-        );
+            const [count, setCount] = useState(0);
+
+            return (
+                //...
+                <Counter setCount={setCount} />
+            );
         }
 
         // Counter Component
         function Counter({ setCount }) {
-        //...
+            //...
 
-        setCount(1);
+            setCount(1);
 
-        //...
+            //...
         }
         ```
 
@@ -229,13 +229,13 @@
 
             ```jsx
             <button
-            onClick={() =>
-                this.setState({
-                count: this.state.count + 1,
-                })
-            }
+                onClick={() =>
+                    this.setState({
+                    count: this.state.count + 1,
+                    })
+                }
             >
-            Click me
+                Click me
             </button>
             ```
 
@@ -275,7 +275,7 @@
 
         ```jsx
         useEffect(() => {
-        console.log(`Hi ${name} you clicked ${count} times`);
+            console.log(`Hi ${name} you clicked ${count} times`);
         }, [name, count]);
         ```
 
@@ -285,7 +285,7 @@
 
         ```jsx
         useEffect(() => {
-        console.log(`Component mounted`);
+            console.log(`Component mounted`);
         }, []);
         ```
 
@@ -295,17 +295,17 @@
 
             ```jsx
             class Example extends React.Component {
-            // ...
-            componentDidMount() {
-                document.title = `You clicked ${this.state.count} times`;
-            }
-            componentDidUpdate() {
-                document.title = `You clicked ${this.state.count} times`;
-            }
+                // ...
+                componentDidMount() {
+                    document.title = `You clicked ${this.state.count} times`;
+                }
+                componentDidUpdate() {
+                    document.title = `You clicked ${this.state.count} times`;
+                }
 
-            render() {
-                // ..
-            }
+                render() {
+                    // ..
+                }
             }
             ```
 
@@ -313,25 +313,26 @@
 
             ```jsx
             function Example() {
-            const [count, setCount] = useState(0);
+                const [count, setCount] = useState(0);
 
-            // Behave same as ComponentDidMount
-            useEffect(() => {
-                document.title = `You clicked ${count} times`;
-            }, []);
-            // Behave same as ComponentDidUpdate
-            useEffect(() => {
-                document.title = `You clicked ${this.state.count} times`;
-            }, [count]);
+                // Behave same as ComponentDidMount
+                useEffect(() => {
+                    document.title = `You clicked ${count} times`;
+                }, []);
+                
+                // Behave same as ComponentDidUpdate
+                useEffect(() => {
+                    document.title = `You clicked ${this.state.count} times`;
+                }, [count]);
 
-            // Here we one advantage that we are getting compare
-            // to class based component is that we can merge
-            // above to lifecycle methods in one.
-            useEffect(() => {
-                document.title = `You clicked ${count} times`;
-            }, [count]);
+                // Here we one advantage that we are getting compare
+                // to class based component is that we can merge
+                // above to lifecycle methods in one.
+                useEffect(() => {
+                    document.title = `You clicked ${count} times`;
+                }, [count]);
 
-            // ...
+                // ...
             }
             ```
 
@@ -356,30 +357,30 @@
 
     // Function to add item to grocery list
     const addItemToList = (item) => {
-    const listNode = document.createElement("li");
-    const textNode = document.createTextNode(item);
-    listNode.appendChild(textNode);
-    list.appendChild(listNode);
+        const listNode = document.createElement("li");
+        const textNode = document.createTextNode(item);
+        listNode.appendChild(textNode);
+        list.appendChild(listNode);
     };
 
     // Items already present in grocery list
     const items = ["Apples", "Mangoes", "Oranges"];
 
     items.forEach((item) => {
-    addItemToList(item);
+        addItemToList(item);
     });
 
     // To add more items
     const addButton = document.getElementById("add-button");
     addButton.addEventListener("click", function () {
-    const input = document.getElementById("item-input");
-    const list = document.getElementById("grocery-list");
+        const input = document.getElementById("item-input");
+        const list = document.getElementById("grocery-list");
 
-    const listNode = document.createElement("li");
-    const textNode = document.createTextNode(input.value);
+        const listNode = document.createElement("li");
+        const textNode = document.createTextNode(input.value);
 
-    listNode.appendChild(textNode);
-    list.appendChild(listNode);
+        listNode.appendChild(textNode);
+        list.appendChild(listNode);
     });
     ```
 
@@ -389,33 +390,33 @@
     import { useState } from "react";
 
     export default function GroceryList() {
-    const [items, setItems] = useState(["Apples", "Oranges", "Manges"]);
-    const [newItem, setNewItem] = useState("");
+        const [items, setItems] = useState(["Apples", "Oranges", "Manges"]);
+        const [newItem, setNewItem] = useState("");
 
-    // runs when something is typed in input box
-    const handleChange = (e) => {
-        setNewItem(e.target.value);
-    };
+        // runs when something is typed in input box
+        const handleChange = (e) => {
+            setNewItem(e.target.value);
+        };
 
-    // runs when add item button clicked
-    const handleClick = () => {
-        const updItems = [...items, newItem];
-        setItems(updItems);
-        setNewItem("");
-    };
+        // runs when add item button clicked
+        const handleClick = () => {
+            const updItems = [...items, newItem];
+            setItems(updItems);
+            setNewItem("");
+        };
 
-    return (
-        <div>
-        <h3>Grocery List</h3>
-        <ul id="grocery-list">
-            {items.map((item) => (
-            <li>{item}</li>
-            ))}
-        </ul>
-        <input onChange={handleChange} />
-        <button onClick={handleClick}> Add Item </button>
-        </div>
-    );
+        return (
+            <div>
+            <h3>Grocery List</h3>
+            <ul id="grocery-list">
+                {items.map((item) => (
+                <li>{item}</li>
+                ))}
+            </ul>
+            <input onChange={handleChange} />
+            <button onClick={handleClick}> Add Item </button>
+            </div>
+        );
     }
     ```
 
