@@ -89,6 +89,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
     - [WebDev Class-7 (Django-3)](WebDev/2021_05_14_WebClass-7)
     - [WebDev Class-8 (Advanced JS)](WebDev/2021_10_29_WebClass-8)
     - [WebDev Class-9 (React-1)](WebDev/2021_11_17_WebClass-9)
+    - [WebDev Class-10 (React-2)](WebDev/2021_11_19_WebClass-10)
 
 - [Machine Learning classes](MachineLearning)
     - [Machine Learning Class-1](MachineLearning/2021-04-29_ML-Class-1)
