@@ -21,6 +21,8 @@
 - [Class 6 (Django-2): held on May 12, 2021](./2021_05_12_WebClass-6)
 - [Class 7 (Django-3): held on May 14, 2021](./2021_05_14_WebClass-7)
 - [Class 8 (Advanced JS): held on October 29, 2021](./2021_10_29_WebClass-8)
+- [Class 9 (React-1): held on November 17, 2021](./2021_11_17_WebClass-9)
+- [Class 10 (React-2): held on November 19, 2021](./2021_11_19_WebClass-10)
 
 ## Getting Started
 Getting started with Web :-

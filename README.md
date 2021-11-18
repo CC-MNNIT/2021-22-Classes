@@ -66,6 +66,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
     - [Java Class-2 (OOP-2)](Java/2021_04_25_JavaClass-2)
     - [Java Class-3 (JavaFX-1)](Java/2021_04_27_JavaClass-3)
     - [Java Class-4 (OOP-3)](Java/2021_04_30_JavaClass-4)
+    - [Softablitz Class-1](Java/2021_11_02_SoftablitzClass-1)
     - [Connecting Java project with MySQL database](Java/JavaMySQLNotes)
 
 - [Android and Flutter Development classes](Android)
@@ -88,6 +89,8 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
     - [WebDev Class-6 (Django-2)](WebDev/2021_05_12_WebClass-6)
     - [WebDev Class-7 (Django-3)](WebDev/2021_05_14_WebClass-7)
     - [WebDev Class-8 (Advanced JS)](WebDev/2021_10_29_WebClass-8)
+    - [WebDev Class-9 (React-1)](WebDev/2021_11_17_WebClass-9)
+    - [WebDev Class-10 (React-2)](WebDev/2021_11_19_WebClass-10)
 
 - [Machine Learning classes](MachineLearning)
     - [Machine Learning Class-1](MachineLearning/2021-04-29_ML-Class-1)
