@@ -13,12 +13,6 @@ vector<edge> e;
 
 vector<int> used , d , p;
 
-
-// bellman ford works on directed graphs
-
-/*
-    a -> b
-*/
 void bellman_ford(int v) {
     d.assign(n , INF);
     d[v] = 0;
@@ -46,11 +40,6 @@ void bellman_ford(int v) {
 
     // display d, for example, on the screen
 }
-
-/*
-    Time Complexity : O(N * M)
-    Space COmplexity : O(N + M)
-*/
 
 
 int main() {
