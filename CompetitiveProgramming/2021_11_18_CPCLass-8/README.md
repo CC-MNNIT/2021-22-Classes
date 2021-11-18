@@ -2,7 +2,7 @@
 
 ## Get the presentation used in class: [Here](./Shortest_Path_Algorithms.pdf) 
 
-## Get the class recording: 
+## Get the class recording: [Here](https://drive.google.com/file/d/1GxdJ98YAf6KDUF63ZWJgBwpGhshnKWOl/view?usp=sharing)
 
 #### November 18, 2021
 
