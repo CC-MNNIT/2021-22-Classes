@@ -36,7 +36,7 @@
         **Syntax**
 
         ```jsx
-        const [ set, setState] = useState(<initial value>)
+        const [ state, setState] = useState(<initial value>)
         ```
 
         **Reading State** 
