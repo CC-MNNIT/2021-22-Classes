@@ -1,5 +1,7 @@
 # Web Development Class - X
 
+## Web Development Class - X recording: [Here](https://drive.google.com/file/d/1uDngQh7DsCMoW216K4LMpDXIAp_XreM_/view?usp=sharing)
+
 #### November 19, 2021
 
 <div align="center"><img src="./images/react.png" alt="JS" height=150/></div>
