@@ -16,6 +16,8 @@ Join the Android MNNIT Facebook group: [here](https://www.facebook.com/groups/dr
 
 -   [Class 4: held on Oct 25, 2021 (What is Flutter, Why Flutter, Installation and Hello World, Widgets and some examples)](2021_10_25_FlutterClass-1)
 
+-   [Class 5: held on Nov 20, 2021 (Stateful widget, layouts, responsiveness, adaptiveness, Navigation)](2021_11_20_FlutterClass-2)
+
 -   [More Reading Resources, **including Flutter**](MoreResources.md)
 
 ### Get Class recordings [here](https://drive.google.com/drive/folders/1WHlPGy2OniDtXpmwdUgTGWnw-9SKa3X2?usp=sharing).

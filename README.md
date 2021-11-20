@@ -74,6 +74,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
     - [AndroidDev Class-2](Android/2021_05_11_AndroidClass-2)
     - [AndroidDev Class-3](Android/2021_05_13_AndroidClass-3)
     - [Flutter Class-1](Android/2021_10_25_FlutterClass-1)
+    - [Flutter Class-2](Android/2021_11_20_FlutterClass-2)
     - [More reading resources, including Flutter](Android/MoreResources.md)
 
 - [Python classes](Python)
@@ -138,6 +139,7 @@ Follow the [contribution guide](./CONTRIBUTING.md). Add the class folder link in
 * [Ankit Sangwan](https://github.com/ankitsangwan1999/)
 * [Sidhant Agarwal](https://github.com/sidhantagar/)
 * [Mridul Bhatt](https://github.com/embiway/)
+* [Aritra Chatterjee](https://github.com/Arc29/)
 * Our beloved seniors.
 
 ## Contact
