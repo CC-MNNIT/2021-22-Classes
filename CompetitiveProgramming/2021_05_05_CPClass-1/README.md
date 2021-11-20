@@ -1,5 +1,7 @@
 # STL
 
+## Get the class recording: [Here](https://drive.google.com/file/d/1bNaE_JYH_y9VflJSLD04mic0h0F9I2_l/view?usp=sharing)
+
 #### May 5, 2021
 
 <div align="center"><img src="assets/cpp_Logo.png" alt="C++ Logo" height=150/></div>
