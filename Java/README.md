@@ -13,7 +13,7 @@
 
 [Class 5 (Softablitz-1): held on November 2, 2021](2021_11_02_SoftablitzClass-1)
 
-[Class 6 (Softablitz-2): held on November 24, 2021](2021_11_25_Softablitz_Class-2)
+[Class 6 (Softablitz-2): held on November 24, 2021](2021_11_24_Softablitz_Class-2)
 
 ## Reading Resources
 
