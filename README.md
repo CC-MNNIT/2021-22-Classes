@@ -120,7 +120,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
 
 ## Announcements
 
-- CyberQuest (Avishkar-2021) is here. Head on to [CC-MNNIT Facebook Group](https://www.facebook.com/groups/ccqueries/) for further updates.
+- CyberQuest (Avishkar-2021) has ended. Head on to [CyberQuest FB Page](https://www.facebook.com/cyberquest.avishkar/) for results :D.
 
 ## Previous Years Resources
 
