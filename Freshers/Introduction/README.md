@@ -26,6 +26,8 @@ January 9th, 2022
     * Make a [GitHub](https://github.com/) account (if you don't already have one).
     * Star the [MNNIT CC 2021-22 GitHub repository](https://github.com/CC-MNNIT/2021-22-Classes).
 
+* Install the GCC compiler following the links present in the slide no. 10 of the [Presentation](CC_Freshers_Introduction.pdf).
+
 * Make accounts at:
     * [CodeChef](https://www.codechef.com/)
     * [HackerEarth](https://www.hackerearth.com/)
