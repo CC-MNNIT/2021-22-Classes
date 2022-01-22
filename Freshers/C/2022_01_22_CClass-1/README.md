@@ -16,7 +16,7 @@ January 22nd, 2022
 2. Run `gcc --version` to check if it works.
 3. Write a ["Hello, World!"](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) program in C. Find sample code in [here](hello_world.c).
 4. Compile the program using `gcc hello_world.c`.
-5. Run the program using `./a.out` (or `a.exe` on Windows MingW).
+5. Run the program using `./a.out` (or `a.exe` on Windows with MingW).
 
 ## In case of any problems:
 
