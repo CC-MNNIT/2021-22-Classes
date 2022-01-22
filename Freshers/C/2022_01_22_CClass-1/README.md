@@ -11,3 +11,15 @@ January 22nd, 2022
 <hr>
 
 ## Tasks:
+
+1. Ensure you now have `gcc` installed on your system (might be WSL/ Linux/ Windows ([Mingw](https://nuwen.net/mingw.html)) or MacOS).
+2. Run `gcc --version` to check if it works.
+3. Write a ["Hello, World!"](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) program in C. Find sample code in [here](hello_world.c).
+4. Compile the program using `gcc hello_world.c`.
+5. Run the program using `./a.out` (or `a.exe` on Windows MingW).
+
+## In case of any problems:
+
+1. Google the problem and see if it is already solved by someone else.
+2. Ask your friend to help you, this helps foster a community of programmers.
+3. If still not solved, ask any instructor/ CC member to help you. You can use Teams/ Facebook Messenger for this.

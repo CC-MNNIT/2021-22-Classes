@@ -58,6 +58,8 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
 
 - [Freshers' classes](Freshers)
     - [Introductory Briefing](Freshers/Introduction)
+    - [C classes](Freshers/C)
+        - [C Class-1](Freshers/C/2022_01_22_CClass-1)
 
 - [Git/GitHub classes](Git-GitHub)
     - [Git Class-1](Git-GitHub/2021_04_20_GitClass-1)
