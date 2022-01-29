@@ -20,8 +20,9 @@ January 29th, 2022
 4. WAP to accept an alphabet from user. If the alphabet is in lower case, convert it to upper case. If the alphabet is in upper case, convert it to lower case.
 5. WAP to accept temperature in Celsius and convert it to Fahrenheit.
 6. A company pays its employees as per the given criteria:
-    If his basic salary is less than ₹1500 then HRA = 10% of basic salary and DA = 90% of basic salary.
-    If his basic salary is equal to or more than ₹1500 then HRA = ₹500 and DA = 98% of basic salary.
+    * *If his basic salary is less than ₹1500*, then HRA = 10% of basic salary and DA = 90% of basic salary.
+    * *If his basic salary is equal to or more than ₹1500*, then HRA = ₹500 and DA = 98% of basic salary.
+    
     WAP to take employee's salary as input from user and display the gross salary.
     *Where gross salary = basic salary + HRA + DA.*
 7. WAP to accept basic salary of a person. Calculate and display income tax to pay as per given criteria:
