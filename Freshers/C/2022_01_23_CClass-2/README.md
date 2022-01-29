@@ -2,7 +2,7 @@
 
 
 ## Class recording: [Here](https://drive.google.com/file/d/1N3nF13g1sxA5fUlv447jJMVmfwpc6YbW/view?usp=sharing)
-## PPT: [Part 1](CC_FirstYe_Class1.pdf) and [Part 2](CC_FirstYe_Class2.pdf)
+## PPT: [Part 1](../2022_01_22_CClass-1/CC_FirstYe_Class1.pdf) and [Part 2](CC_FirstYe_Class2.pdf)
 
 January 23rd, 2022
 
