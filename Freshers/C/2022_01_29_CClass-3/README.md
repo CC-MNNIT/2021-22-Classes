@@ -24,6 +24,7 @@ January 29th, 2022
     * *If his basic salary is equal to or more than ₹1500*, then HRA = ₹500 and DA = 98% of basic salary.
     
     WAP to take employee's salary as input from user and display the gross salary.
+
     *Where gross salary = basic salary + HRA + DA.*
 7. WAP to accept basic salary of a person. Calculate and display income tax to pay as per given criteria:
     | Annual Salary | Income tax |
@@ -46,3 +47,9 @@ January 29th, 2022
 1. [Sum and Difference of Two Numbers](https://www.hackerrank.com/challenges/sum-numbers-c/problem?isFullScreen=true)
 2. [Playing with Characters](https://www.hackerrank.com/challenges/playing-with-characters/problem?isFullScreen=true)
 3. [Conditional Statements in C](https://www.hackerrank.com/challenges/conditional-statements-in-c/problem?isFullScreen=true)
+
+---
+
+_Good luck!_
+
+**Note:** Tomorrow's class timing is unusual, please be available at 3pm.
