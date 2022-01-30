@@ -10,9 +10,9 @@ January 29th, 2022
 
 <hr>
 
-## Tasks:
+## Tasks
 
-### Offline:
+### Offline
 
 1. Write a program (WAP) to accept a number from user and display it is a Negative number or positive number or zero.
 2. WAP to accept a number from user and check if it is a multiple of 8 or not.
@@ -27,6 +27,7 @@ January 29th, 2022
 
     *Where gross salary = basic salary + HRA + DA.*
 7. WAP to accept basic salary of a person. Calculate and display income tax to pay as per given criteria:
+
     | Annual Salary | Income tax |
     | ------------- | ---------- |
     | <= ₹2,50,000 | 0 |
@@ -42,14 +43,8 @@ January 29th, 2022
     * PF (provident fund) = 10% of basic salary
     * INS (insurance) = 12% of basic salary</i>
 
-### On HackerRank:
+### On HackerRank
 
 1. [Sum and Difference of Two Numbers](https://www.hackerrank.com/challenges/sum-numbers-c/problem?isFullScreen=true)
 2. [Playing with Characters](https://www.hackerrank.com/challenges/playing-with-characters/problem?isFullScreen=true)
 3. [Conditional Statements in C](https://www.hackerrank.com/challenges/conditional-statements-in-c/problem?isFullScreen=true)
-
----
-
-_Good luck!_
-
-**Note:** Tomorrow's class timing is unusual, please be available at 3pm.
