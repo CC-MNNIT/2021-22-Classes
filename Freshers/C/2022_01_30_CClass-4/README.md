@@ -31,7 +31,7 @@ January 30th, 2022
 1. WAP to display all **even** numbers from 1 to 100.
 2. WAP to display all **odd** numbers between two number entered by user.
 3. WAP to accept a number from user and display the **factorial** of that number.
-4. WAP to accept a number frm user and display it's **multiplication table**.
+4. WAP to accept a number frm user and display its **multiplication table**.
 5. WAP to accept a number from user and display the **number of digits** in that number.
 6. WAP to accept a number from user and display the **sum of digits** in that number.
 7. WAP to accept a number from user and display the **product of digits** in that number.
