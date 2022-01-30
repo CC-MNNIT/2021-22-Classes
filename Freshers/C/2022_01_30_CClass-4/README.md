@@ -17,8 +17,7 @@ January 30th, 2022
 
 1. Write a program (WAP) to accept an year from the user and check whether it is a leap year or not. [Rules to check leap year](https://www.timeanddate.com/date/leapyear.html#:~:text=Leap%20Year%20Rules%3A%20How%20to%20Calculate%20Leap%20Years).
 2. Write a program with two integer variables a = 5 and b = 8. Swap the values of the two numbers by using a temporary variable such that the value of a is now 8 and the value of b is now 5.
-3. Do problem 1 without using a temporary variable.
-4. Finish [last day's tasks](../2022_01_29_CClass-3/README.md#Tasks).
+3. Do problem 2 without using a temporary variable.
 
 #### Switch-case
 
@@ -50,8 +49,8 @@ January 30th, 2022
 8. WAP to accept a number from user and display the **sum of digits** in that number.
 9. WAP to accept a number from user and display the **product of digits** in that number.
 10. WAP to accept a number from user and display the **reverse** of that number.
-11. WAP to accept a number from user and display whether it is a **palindrome** or not.
-12. WAP to accept a number from user and display whether it is a **prime number** or not.
+11. WAP to accept a number from user and display whether it is a **[palindrome](https://en.wikipedia.org/wiki/Palindrome)** or not.
+12. WAP to accept a number from user and display whether it is a **[prime number](https://en.wikipedia.org/wiki/Prime_number)** or not.
 13. WAP to display all **prime numbers** between 1 to 100.
 14. WAP to accept two numbers from user and display the **[Greatest Common Divisor (GCD)](https://en.wikipedia.org/wiki/Greatest_common_divisor)** (or the Highest Common Factor (HCF)) of those two numbers.
 15. WAP to accept two numbers from user and display the **[Least common multiple (LCM)](https://en.wikipedia.org/wiki/Least_common_multiple)**  of those two numbers.
@@ -61,7 +60,7 @@ January 30th, 2022
 
 #### Operator precedence
 
-1. Learn operator precedence (click on image to enlarge):
+1. Learn operator precedence in C (click on image to enlarge):
 
     <a href="./C_Operator_Precedence_and_Associativity.png" target="_blank"><img src="./C_Operator_Precedence_and_Associativity.png" alt="C Operator precedence and associativity" height=150/></a>
     
@@ -78,3 +77,5 @@ January 30th, 2022
 
 1. [If Else Statement Quiz in C](https://www.knowprogram.com/c-quiz/if-else-statement-quiz-c/)
 2. [Quiz on Increment and Decrement Operators in C](https://www.knowprogram.com/c-quiz/increment-decrement-quiz-c/)
+
+_Happy Learning!_
