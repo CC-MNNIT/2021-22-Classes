@@ -7,6 +7,7 @@
 - [Class 2: held on January 23, 2022](2022_01_23_CClass-2)
 - [Class 3: held on January 29, 2022](2022_01_29_CClass-3)
 - [Class 4: held on January 30, 2022](2022_01_30_CClass-4)
+- [Class 5: held on February 06, 2022](2022_02_06_CClass-5)
 
 
 ## Reading material
