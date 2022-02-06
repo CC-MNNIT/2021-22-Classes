@@ -12,3 +12,5 @@ February 06th, 2022
 ## Tasks
 
 ... coming soon ...
+
+{% include disqus.html %}
