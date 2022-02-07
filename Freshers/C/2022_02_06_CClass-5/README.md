@@ -70,11 +70,11 @@ Write separate programs using nested loops to print the following patterns:
 
 4. 
     ```
-        *
-       * *
-      * * *
-     * * * *
-    * * * * *
+        #
+       # #
+      # # #
+     # # # #
+    # # # # #
     ```
 
 5. 
