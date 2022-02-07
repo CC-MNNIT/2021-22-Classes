@@ -1,10 +1,31 @@
-title: MNNIT Computer Club
+title: MNNIT CC 2021-22 Classes
 description: This repository contains the codes, support links and other relevant materials for every class under Computer Club, MNNIT Allahabad.
 image: sample_image.png
 type: website
 
-url: https://cc-mnnit.github.io
+url: https://cc-mnnit.github.io/2021-22-Classes/
 
 disqus_shortname: computer-club
 
-theme: jekyll-theme-hacker
+remote_theme: nisiddharth/moonwalk
+
+author: computer.club@mnnit.ac.in
+favicon: "./cclogo_favicon.jpeg" # relative path to site's favicon
+
+theme_config:
+  appearance: "dark" # can be "light", "dark" or "auto"
+  appearance_toggle: true # if appearance can be switched by user
+  back_home_text: "back.." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description
+  show_navbar: true # show horizontal navbar
+  show_copyright: true # show copyright notice in footer
+
+highlighter: rouge
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
