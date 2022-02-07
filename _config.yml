@@ -18,7 +18,7 @@ theme_config:
   back_home_text: "back.." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: false # show blog description
-  show_navbar: true # show horizontal navbar
+  show_navbar: false # show horizontal navbar
   show_copyright: true # show copyright notice in footer
 
 highlighter: rouge
