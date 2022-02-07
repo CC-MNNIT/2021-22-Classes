@@ -4,6 +4,6 @@ image: sample_image.png
 type: website
 author: computer.club@mnnit.ac.in
 favicon: "./cclogo_favicon.jpeg"
-url: https://cc-mnnit.github.io/2021-22-Classes/
+url: https://cc-mnnit.github.io
 
 disqus_shortname: computer-club
