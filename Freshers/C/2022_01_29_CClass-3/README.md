@@ -1,5 +1,6 @@
 # C Class 3
 
+[.. Previous Page](..)
 
 ## Class recording: [Here](https://drive.google.com/file/d/1pK8AVP69T15QHOodXI3Cqn0eCOJh5yI_/view?usp=sharing)
 ## PPT: [Here](CC_FirstYe_Class3.pdf)
@@ -48,3 +49,5 @@ January 29th, 2022
 1. [Sum and Difference of Two Numbers](https://www.hackerrank.com/challenges/sum-numbers-c/problem?isFullScreen=true)
 2. [Playing with Characters](https://www.hackerrank.com/challenges/playing-with-characters/problem?isFullScreen=true)
 3. [Conditional Statements in C](https://www.hackerrank.com/challenges/conditional-statements-in-c/problem?isFullScreen=true)
+
+{% include disqus.html %}

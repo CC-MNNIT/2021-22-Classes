@@ -1,5 +1,6 @@
 # C Class 1
 
+[.. Previous Page](..)
 
 ## Class recording: [Here](https://drive.google.com/file/d/15rwLV5ERzSOyuZzJekt9vegCO8awYcLu/view?usp=sharing)
 ## PPT: [Here](CC_FirstYe_Class1.pdf)
@@ -23,3 +24,5 @@ January 22nd, 2022
 1. Google the problem and see if it is already solved by someone else.
 2. Ask your friend to help you, this helps foster a community of programmers.
 3. If still not solved, ask any instructor/ CC member to help you. You can use Teams/ Facebook Messenger for this.
+
+{% include disqus.html %}

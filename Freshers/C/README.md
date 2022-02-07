@@ -1,4 +1,7 @@
 # Freshers' C classes resources
+
+[.. Previous Page](..)
+
 <div align="center"><img src="C_logo.png" height="150"/></div>
 
 ## Classes held
@@ -22,3 +25,5 @@
 -   [Aakanksha Khetan](https://teams.microsoft.com/l/chat/0/0?users=aakansha.khetan@mnnit.ac.in)
 -   [Ashutosh Chitranshi](https://teams.microsoft.com/l/chat/0/0?users=ashutosh.chitranshi@mnnit.ac.in)
 -   [Nishchal Siddharth Pandey](https://teams.microsoft.com/l/chat/0/0?users=nishchal.siddharth@mnnit.ac.in)
+
+{% include disqus.html %}

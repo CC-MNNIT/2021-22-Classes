@@ -1,5 +1,7 @@
 # C Class 4
 
+[.. Previous Page](..)
+
 ## Class recording: [Here](https://drive.google.com/file/d/1lkecY1mCdsprEkdE5mJNpRUkZAetPmny/view?usp=sharing)
 ## PPT: [Here](CC_FirstYe_Class4.pdf)
 
@@ -79,3 +81,5 @@ January 30th, 2022
 2. [Quiz on Increment and Decrement Operators in C](https://www.knowprogram.com/c-quiz/increment-decrement-quiz-c/)
 
 _Happy Learning!_
+
+{% include disqus.html %}

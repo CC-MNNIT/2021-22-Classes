@@ -1,5 +1,6 @@
 # C Class 2
 
+[.. Previous Page](..)
 
 ## Class recording: [Here](https://drive.google.com/file/d/1N3nF13g1sxA5fUlv447jJMVmfwpc6YbW/view?usp=sharing)
 ## PPT: [Part 1](../2022_01_22_CClass-1/CC_FirstYe_Class1.pdf) and [Part 2](CC_FirstYe_Class2.pdf)
@@ -17,3 +18,5 @@ January 23rd, 2022
 3. Revise keywords and operators from the PPT.
 4. Write a program to input 2 numbers and print their sum, difference, product, quotient and remainder.
 5. Try to solve this problem on HackerRank: [https://www.hackerrank.com/challenges/solve-me-first/problem](https://www.hackerrank.com/challenges/solve-me-first/problem).
+
+{% include disqus.html %}

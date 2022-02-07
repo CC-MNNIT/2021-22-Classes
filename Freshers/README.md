@@ -1,4 +1,7 @@
 # Freshers' classes resources
+
+[.. Previous Page](..)
+
 <div align="center"><img src="../cclogo.png" height="150"/></div>
 
 ## Classes held
