@@ -6,3 +6,5 @@ type: website
 url: https://cc-mnnit.github.io
 
 disqus_shortname: computer-club
+
+theme: jekyll-theme-hacker
