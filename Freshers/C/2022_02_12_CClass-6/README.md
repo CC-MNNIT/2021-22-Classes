@@ -30,7 +30,7 @@ February 12th, 2022
 
 - Find the output of the following code:
 
-    ```C
+    ```C++
     #include <stdio.h>
     int main()
     {
@@ -57,13 +57,16 @@ February 12th, 2022
         x = 10, y = 20.000000, z = 3
         x = 1, y = 2, z = 100
         ```
+
     2) 
         ```
         x = 1, y = 2, z = 3
         x = 10, y = 20.000000, z = 3
         x = 10, y = 20.000000, z = 100 
         ```
+
     3) Compilation Error
+
     4)
         ```
         x = 1, y = 2, z = 3
@@ -71,7 +74,7 @@ February 12th, 2022
         x = 1, y = 2, z = 3
         ```
 
-    <details><summary>Click here for answer</summary>Answer: (B). For explanation, <a href="https://www.geeksforgeeks.org/scope-rules-in-c/" target="_blank">read this article</a>.</details>
+    <details><summary>Click here for answer</summary>Answer: (2). For explanation, <a href="https://www.geeksforgeeks.org/scope-rules-in-c/" target="_blank">read this article</a>.</details>
 
 - Attempt [this worksheet](https://www.sanfoundry.com/c-programming-quiz-scope-variable/) on variable scoping. You should read about `extern` keyword (see below) before attempting this.
 
