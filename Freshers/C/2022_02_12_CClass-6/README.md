@@ -51,23 +51,26 @@ February 12th, 2022
 
     Options:
 
-    1)
+    1. Output:
+
         ```
         x = 1, y = 2, z = 3
         x = 10, y = 20.000000, z = 3
         x = 1, y = 2, z = 100
         ```
 
-    2) 
+    2. Output:
+        
         ```
         x = 1, y = 2, z = 3
         x = 10, y = 20.000000, z = 3
         x = 10, y = 20.000000, z = 100 
         ```
 
-    3) Compilation Error
+    3. Compilation Error
 
-    4)
+    4. Output:
+        
         ```
         x = 1, y = 2, z = 3
         x = 1, y = 2, z = 3
