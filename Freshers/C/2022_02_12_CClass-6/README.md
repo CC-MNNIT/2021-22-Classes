@@ -30,7 +30,7 @@ February 12th, 2022
 
 - Find the output of the following code:
 
-    ```C++
+    ```cpp
     #include <stdio.h>
     int main()
     {
