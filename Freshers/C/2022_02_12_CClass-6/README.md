@@ -1,4 +1,4 @@
-# C Class 5
+# C Class 6
 
 [.. Previous Page](..)
 
