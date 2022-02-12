@@ -11,7 +11,7 @@ February 12th, 2022
 
 <hr>
 
-**[Scroll to the bottom of this page to discuss stuff].**
+**[Scroll to the bottom of [this page](https://cc-mnnit.github.io/2021-22-Classes/Freshers/C/2022_02_12_CClass-6/) to discuss stuff].**
 
 ## Tasks
 
