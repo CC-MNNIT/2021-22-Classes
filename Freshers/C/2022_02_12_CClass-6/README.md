@@ -24,7 +24,7 @@ February 12th, 2022
 
 ## Header file
 
-1. Write the 3rd program above by creating a header file `utility.h containing the required table printing function.
+1. Write the 3rd program above by creating a header file `utility.h` containing the required table printing function.
 
 ## Variable scope
 
