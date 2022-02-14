@@ -70,8 +70,8 @@ int main()
 Output:
 
 <code>
-Count1 = 1, Count2 = 1
-Count1 = 2, Count2 = 1
+Count1 = 1, Count2 = 1<br>
+Count1 = 2, Count2 = 1<br>
 Count1 = 3, Count2 = 1
 </code>
 
