@@ -14,6 +14,7 @@
     - [C Class 4](C/2022_01_30_CClass-4)
     - [C Class 5](C/2022_02_06_CClass-5)
     - [C Class 6](C/2022_02_12_CClass-6)
+    - [C Class 7](C/2022_02_13_CClass-7)
 
 ## Get all class recordings:
 [Here](https://drive.google.com/drive/folders/1v2kw3r9IcaHw8eIsZJgJvS6TqFnLNaaH?usp=sharing)
