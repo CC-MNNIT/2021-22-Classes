@@ -67,6 +67,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
         - [C Class-6](Freshers/C/2022_02_12_CClass-6)
         - [C Class-7](Freshers/C/2022_02_13_CClass-7)
         - [C Class-8](Freshers/C/2022_02_19_CClass-8)
+        - [C Class-9](Freshers/C/2022_02_20_CClass-9)
 
 - [Git/GitHub classes](Git-GitHub)
     - [Git Class-1](Git-GitHub/2021_04_20_GitClass-1)
