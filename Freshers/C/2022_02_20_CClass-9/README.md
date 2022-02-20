@@ -16,7 +16,7 @@ February 19th, 2022
 
 ## Tasks:
 
-*[First complete [last class'](https://cc-mnnit.github.io/2021-22-Classes/Freshers/C/2022_02_19_CClass-8/) tasks.*
+*[First complete [last class'](../2022_02_19_CClass-8) tasks.*
 
 *Do the following tasks, for more questions you can refer to the book "C in Depth"*.
 
@@ -24,13 +24,19 @@ February 19th, 2022
 
 2. As we talked that arrays are a pointer to the first element of the array, write a program to find the sum of the elements of an array using pointers.
 
-3. Write a program to verify that the following ways of accessing 3rd element of an array are the same:
+3. WAP (write a program) to verify that the following ways of accessing 3rd element of an array are the same:
 
     - array[2]
     - *(array+2)
     - 2[array]
 
-4. What is the output of the following code?
+4. WAP to take an array in input and pass it to a function which reverses the array (without the use of any other array). Then print the reversed array in the `main` function.
+    
+    Since array is passed by reference, the changes made in the function will be reflected in the original array.
+
+5. WAP to take a number as input and print the cube of that number. This program must use a function with `void` return type which must take a single parameter of type `int *`. The value at the passed address must be changed.
+
+6. What is the output of the following code?
 
     ```cpp
     #include <stdio.h>
@@ -57,22 +63,22 @@ February 19th, 2022
     
     Hint: it is combination of call by value and call by reference. The value in variable `x` in function `f` is not at same address as that of variable `x` in function `main`.</details>
 
-5. Find the output of the following code snippet:
+7. Find the output of the following code snippet:
 
     ```cpp
     #include<stdio.h>
     int main() {
         int arr[4]={10,20,30,40};   // Assume base address of arr is 5000
         int x=100,*ptr=arr;
-        printf("%u%d    %d\n", ptr, *ptr, x);
+        printf("%u %d %d\n", ptr, *ptr, x);
         x=*ptr++;
-        printf("%u%d    %d\n", ptr, *ptr, x);
+        printf("%u %d %d\n", ptr, *ptr, x);
         x=*++ptr;
-        printf ("%u %d  %d\n", ptr, *ptr, x);
+        printf("%u %d %d\n", ptr, *ptr, x);
         x=++*ptr;
-        printf ("%u%d   %d\n" ,ptr, *ptr, x);
+        printf("%u %d %d\n" ,ptr, *ptr, x);
         x=(*ptr)++;
-        printf("%u%d    %d\n", ptr, *ptr, x);
+        printf("%u %d %d\n", ptr, *ptr, x);
     }
     ```
 
@@ -85,10 +91,10 @@ February 19th, 2022
     5004 31 31
     5004 32 31
     ```
-    
+
     </details>
 
-6. What is the output of the following C code? Assume that the address of x is 2000 (in decimal) and an integer requires four bytes of memory.
+8. What is the output of the following C code? Assume that the address of x is 2000 (in decimal) and an integer requires four bytes of memory.
 
     ```cpp
     #include <stdio.h>
@@ -106,20 +112,20 @@ February 19th, 2022
     
     **Explanation:**
     
-    Given x = 2000
+    Given `x = 2000`
 
-    Since x is considered as a pointer to an array of 3 integers and an integer takes 4 bytes, value of x + 3 = 2000 + 3*3*4 = 2036
+    Since `x` is considered as a pointer to an array of 3 integers and an integer takes 4 bytes, value of `x + 3 = 2000 + 3*3*4 = 2036`
 
-    The expression, *(x + 3) also prints same address as x is 2D array.
+    The expression, `*(x + 3)` also prints same address as x is 2D array.
 
-    The expression *(x + 2) + 3 = 2000 + 2*3*4 + 3*4 = 2036
+    The expression `*(x + 2) + 3 = 2000 + 2*3*4 + 3*4 = 2036`
     </details>
 
-7. Read about [dynamic memory allocation](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/) and [file handling in C](https://www.geeksforgeeks.org/basics-file-handling-c/).
+9. Read about [dynamic memory allocation](https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/) and [file handling in C](https://www.geeksforgeeks.org/basics-file-handling-c/).
 
 <hr>
 
-This is a reminder to keep practicing questions from CodeForces/CodeChef/HackerRank/HackerEarth.
+This is a reminder to keep practicing questions from CodeForces/ CodeChef/ HackerRank/ HackerEarth.
 
 <hr>
 
