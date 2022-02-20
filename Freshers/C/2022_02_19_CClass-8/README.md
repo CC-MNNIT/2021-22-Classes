@@ -25,7 +25,7 @@ February 19th, 2022
 4. WAP to accept N numbers into array A and M numbers into array B. Now combine the two arrays into one array C and print it.
 5. WAP to accept N numbers into array A and M numbers into array B. Now combine the two arrays into one array C such that the elements at odd positions are from array A and even positions are from array B.
 
-## 2D-Arrays
+### 2D-Arrays
 
 1. WAP to input a 2D array of size 3x3 and print it.
 2. WAP to input a 2D array of size NxM (input N and M from user) and then print the sum of the border elements of the array.
@@ -62,7 +62,7 @@ February 19th, 2022
     ```
 
 
-## Strings
+### Strings
 
 1. WAP to accept full name (or a sentence) from user and print it 20 times.
 2. WAP to accept a sentence from user and print the number of words in the sentence.

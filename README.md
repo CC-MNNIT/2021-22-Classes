@@ -132,7 +132,7 @@ If you are a part of MNNIT join us on Microsoft Team [MNNIT CC Queries Official]
 
 ## Announcements
 
-- ***Hold your horses and wait for [Hack36](https://www.hack36.com).***
+- ***Hold your horses and wait for [Hack36](https://www.hack36.com).** Sponsors are invited, contact at hackathon@mnnit.ac.in.*
 
 ## Previous Years Resources
 
