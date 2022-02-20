@@ -1,4 +1,4 @@
-# C Class 8
+# C Class 9
 
 [.. Previous Page](..)
 
@@ -6,13 +6,13 @@
 
 ## PPT: [Here](./CC_FirstYe_Class9.pdf)
 
-February 19th, 2022
+February 20th, 2022
 
 <div align="center"><img src="../C_logo.png" alt="C language logo" height=150/></div>
 
 <hr>
 
-**[Scroll to the bottom of [this page](https://cc-mnnit.github.io/2021-22-Classes/Freshers/C/2022_02_19_CClass-8/) to discuss stuff].**
+**[Scroll to the bottom of [this page](https://cc-mnnit.github.io/2021-22-Classes/Freshers/C/2022_02_20_CClass-9/) to discuss stuff].**
 
 ## Tasks:
 
