@@ -16,7 +16,7 @@ February 20th, 2022
 
 ## Tasks:
 
-*[First complete [last class'](../2022_02_19_CClass-8) tasks.*
+*First complete [last class'](../2022_02_19_CClass-8) tasks.*
 
 *Do the following tasks, for more questions you can refer to the book "C in Depth"*.
 
