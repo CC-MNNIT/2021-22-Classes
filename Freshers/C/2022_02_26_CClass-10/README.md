@@ -16,7 +16,28 @@ February 26th, 2022
 
 ## Tasks:
 
-... coming soon ...
+1. Write a program (WAP) to input a number from user and make a dynamic array of that size. Assign that array with random numbers. Now ask user to enter a number and resize the array to that size using realloc function. Now again ask user to enter a number and print the array elements which are greater than that number.
+2. WAP to accept roll no, name, class, section and percentage of 15 students in a structure array. Now print the students who got more than 50% marks.
+3. WAP to accept first name, middle name, last name, age, address, phone number, email id of 10 students in a **Nested** structure array (make separate structure for storing name). Now print the students who are older than 19 years.
+4. *(This is an extension of [Q6 from 2D-Arrays in C-Class-7](https://github.com/CC-MNNIT/2021-22-Classes/tree/main/Freshers/C/2022_02_19_CClass-8#2d-arrays))*.
+
+    There are 5 subjects and each subject can have any number of students in it.
+
+    WAP to input the marks of each student in each subject. Now print the average marks of each subject.
+    
+    *Hint:* you should use [jagged arrays](https://www.geeksforgeeks.org/jagged-array-or-array-of-arrays-in-c-with-examples/).
+
+    Basically it's a 2D array with a variable number of rows and columns. You must use dynamic memory allocation to create such data structure.
+    eg.,
+
+    ```
+    { {12, 56, 86},
+    {23, 45, 67, 56},
+    {34, 56},
+    {45, 67, 89},
+    {56, 78, 90} }
+    ```
+5. Implement a store which sells books and clothes using union in C. You can take help of [this article](https://www.javatpoint.com/c-union).
 
 ## Learning:
 

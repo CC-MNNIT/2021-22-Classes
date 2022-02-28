@@ -40,11 +40,11 @@ February 19th, 2022
     then the sum of the border elements are: 1 + 2 + 3 + 6 + 9 + 8 + 7 + 4 = 40
 3. WAP to accept a 2D array of size NxM (input N and M from user) and then print the sum of the elements of the array present at the main diagonal (from top left to bottom right).
 4. WAP to accept a 2D array of size NxM (input N and M from user) and another 2D-array of size MxT (input T from user) and then print the matrix multiplication of the two matrices.
-6. There are 4 schools with 5 subjects each and each subject has 20 students.
+5. There are 4 schools with 5 subjects each and each subject has 20 students.
     WAP to input the marks of each student in each subject of each school. Now print the average marks of each school.
 
     *Hint:* You need to use a 3D array here.
-7. There are 5 subjects and each subject can have any number of students in it.
+6. There are 5 subjects and each subject can have any number of students in it.
 
     WAP to input the marks of each student in each subject. Now print the average marks of each subject.
     
