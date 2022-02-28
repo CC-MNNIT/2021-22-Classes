@@ -21,10 +21,14 @@ February 26th, 2022
 ## Learning:
 
 - [GeeksforGeeks Structure](https://www.geeksforgeeks.org/structures-c/)
-- [GeeksforGeeks Union](https://www.geeksforgeeks.org/union-c/)
+- [Javatpoint Union](https://www.javatpoint.com/c-union), good example present here.
 - [Javatpoint Structure padding](https://www.javatpoint.com/structure-padding-in-c)
 - [Designated Inits](https://gcc.gnu.org/onlinedocs/gcc/Designated-Inits.html)
 - [File Handling](https://www.javatpoint.com/file-handling-in-c)
+- [Enum](https://www.geeksforgeeks.org/enumeration-enum-c/)
+
+- ### [GeeksforGeeks collection of everything C](https://www.geeksforgeeks.org/c-programming-language/)
+    - good for interview preparation.
 
 <hr>
 
