@@ -18,6 +18,8 @@
     - [C Class 8](C/2022_02_19_CClass-8)
     - [C Class 9](C/2022_02_20_CClass-9)
     - [C Class 10](C/2022_02_26_CClass-10)
+- [Competitive Programming](CompetitiveProgramming)
+    - [Class 1](CompetitiveProgramming/2022_03_05_CPClass-1): Time & Space complexity, Modular arithmetic, Hashing
 
 ## Get all class recordings:
 [Here](https://drive.google.com/drive/folders/1v2kw3r9IcaHw8eIsZJgJvS6TqFnLNaaH?usp=sharing)
