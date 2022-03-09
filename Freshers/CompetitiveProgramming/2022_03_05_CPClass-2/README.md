@@ -2,7 +2,7 @@
 
 [.. Previous Page](..)
 
-## Class recording: [Here](https://mnnitedu.sharepoint.com/sites/MNNITCCQueriesOfficial/Shared%20Documents/Freshers%202021%20Panel%201/Recordings/Freshers%202021-20220306_170712-Meeting%20Recording.mp4?web=1)
+## Class recording: [Here](https://drive.google.com/file/d/1zyVEDe4RnJ8fvtfCgEnQ5KF-Rclc7gw-/view?usp=sharing)
 
 ## PPT: [Here](Finding%20Primes.pptx)
 
