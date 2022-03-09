@@ -7,6 +7,7 @@
 ## Classes held
 
 - [Class 1: held on March 05, 2022](2022_03_05_CPClass-1)
+- [Class 2: held on March 06, 2022](2022_03_06_CPClass-2)
 
 ## Books
 - *(Not a book)*: [cp-algorithms.com](https://cp-algorithms.com/)

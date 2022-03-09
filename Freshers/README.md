@@ -20,6 +20,7 @@
     - [C Class 10](C/2022_02_26_CClass-10)
 - [Competitive Programming](CompetitiveProgramming)
     - [Class 1](CompetitiveProgramming/2022_03_05_CPClass-1): Time & Space complexity, Modular arithmetic, Hashing
+    - [Class 2](CompetitiveProgramming/2022_03_12_CPClass-2): Sieve of Eratosthenes, Sieve of Eratosthenes (Segmented), Smallest Prime Factor, GCD, Binary Exponentiation.
 
 ## Get all class recordings:
 [Here](https://drive.google.com/drive/folders/1v2kw3r9IcaHw8eIsZJgJvS6TqFnLNaaH?usp=sharing)
