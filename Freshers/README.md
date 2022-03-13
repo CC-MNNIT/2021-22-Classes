@@ -21,6 +21,9 @@
 - [Competitive Programming](CompetitiveProgramming)
     - [Class 1](CompetitiveProgramming/2022_03_05_CPClass-1): Time & Space complexity, Modular arithmetic, Hashing
     - [Class 2](CompetitiveProgramming/2022_03_12_CPClass-2): Sieve of Eratosthenes, Sieve of Eratosthenes (Segmented), Smallest Prime Factor, GCD, Binary Exponentiation.
+    - [Class 3](CompetitiveProgramming/2022_03_12_CPClass-3): Binary Search
+    - [Class 4](CompetitiveProgramming/2022_03_13_CPClass-4): Advanced Binary Search
 
 ## Get all class recordings:
+
 [Here](https://drive.google.com/drive/folders/1v2kw3r9IcaHw8eIsZJgJvS6TqFnLNaaH?usp=sharing)

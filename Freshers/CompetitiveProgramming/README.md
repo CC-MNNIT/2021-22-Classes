@@ -8,9 +8,12 @@
 
 - [Class 1: held on March 05, 2022](2022_03_05_CPClass-1)
 - [Class 2: held on March 06, 2022](2022_03_06_CPClass-2)
+- [Class 3: held on March 12, 2022](2022_03_12_CPClass-3)
+- [Class 4: held on March 13, 2022](2022_03_13_CPClass-4)
 
 ## Books
-- *(Not a book)*: [cp-algorithms.com](https://cp-algorithms.com/)
+
+- _(Not a book)_: [cp-algorithms.com](https://cp-algorithms.com/)
 - [HANDBOOK FOR ICPC by HALIM](https://drive.google.com/file/d/1--c6A6D3hB8QKShEdvAVnj0rkLC5wlt_/view?usp=sharing)
 - [CP HANBOOK by Laaksonen](https://cses.fi/book/book.pdf)
 - [STANFORD ICPC TEAM NOTEBOOK](https://cs.stanford.edu/group/acm/oldsite/SLPC/notebook.pdf)
@@ -44,13 +47,13 @@
 
 ## Coordinator contacts (click to chat)
 
--   [Aditya Bansal](https://teams.microsoft.com/l/chat/0/0?users=aditya.bansal@mnnit.ac.in)
--   [Ankit Raj](https://teams.microsoft.com/l/chat/0/0?users=ankit.r@mnnit.ac.in)
--   [Nikhil Kumar Singh](https://teams.microsoft.com/l/chat/0/0?users=nikhil.k@mnnit.ac.in)
--   [Ishu Raj](https://teams.microsoft.com/l/chat/0/0?users=ishu.raj@mnnit.ac.in)
--   [Aakanksha Khetan](https://teams.microsoft.com/l/chat/0/0?users=aakansha.khetan@mnnit.ac.in)
--   [Ashutosh Chitranshi](https://teams.microsoft.com/l/chat/0/0?users=ashutosh.chitranshi@mnnit.ac.in)
--   [Nishchal Siddharth Pandey](https://teams.microsoft.com/l/chat/0/0?users=nishchal.siddharth@mnnit.ac.in)
+- [Aditya Bansal](https://teams.microsoft.com/l/chat/0/0?users=aditya.bansal@mnnit.ac.in)
+- [Ankit Raj](https://teams.microsoft.com/l/chat/0/0?users=ankit.r@mnnit.ac.in)
+- [Nikhil Kumar Singh](https://teams.microsoft.com/l/chat/0/0?users=nikhil.k@mnnit.ac.in)
+- [Ishu Raj](https://teams.microsoft.com/l/chat/0/0?users=ishu.raj@mnnit.ac.in)
+- [Aakanksha Khetan](https://teams.microsoft.com/l/chat/0/0?users=aakansha.khetan@mnnit.ac.in)
+- [Ashutosh Chitranshi](https://teams.microsoft.com/l/chat/0/0?users=ashutosh.chitranshi@mnnit.ac.in)
+- [Nishchal Siddharth Pandey](https://teams.microsoft.com/l/chat/0/0?users=nishchal.siddharth@mnnit.ac.in)
 
 <hr>
 
