@@ -47,6 +47,7 @@ February 26th, 2022
 - [Designated Inits](https://gcc.gnu.org/onlinedocs/gcc/Designated-Inits.html)
 - [File Handling](https://www.javatpoint.com/file-handling-in-c)
 - [Enum](https://www.geeksforgeeks.org/enumeration-enum-c/)
+- [Scaler Topics Structures in C](https://www.scaler.com/topics/c/structures-c/)
 
 - ### [GeeksforGeeks collection of everything C](https://www.geeksforgeeks.org/c-programming-language/)
     - good for interview preparation.
